@@ -1,0 +1,10 @@
+-XDignore.symbol.file=true -quiet -use -keywords -Xdocrootparent http://docs.oracle.com/javase/7/docs
+-sourcepath '../../src/share/classes:/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/impsrc:/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/gensrc:../../src/share/../solaris/classes:../../src/share/../windows/classes:../../src/share/doc/stub'
+-encoding 'ascii'
+-overview '/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/impsrc/com/sun/mirror/overview.html'
+-doctitle 'Mirror API'
+-windowtitle 'Mirror API b00'
+-header '<strong>Mirror API</strong><br><strong>DRAFT&nbsp;internal-b00</strong>'
+-bottom '<font size="-1"><br> Copyright &#x00a9; 2004, 2012, Oracle and/or its affiliates.  All rights reserved.</font><br><strong>DRAFT&nbsp;internal-b00</strong>'
+-group 'Packages' 'com.sun.mirror.*'
+-linkoffline '../../../../api' '/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/docs/api'

@@ -1,0 +1,176 @@
+------- Ant diagnostics report -------
+Apache Ant(TM) version 1.8.2 compiled on May 16 2012
+
+-------------------------------------------
+ Implementation Version
+-------------------------------------------
+core tasks     : 1.8.2 in file:/usr/share/ant/lib/ant.jar
+
+-------------------------------------------
+ ANT PROPERTIES
+-------------------------------------------
+ant.version: Apache Ant(TM) version 1.8.2 compiled on May 16 2012
+ant.java.version: 1.7
+Is this the Apache Harmony VM? no
+Is this the Kaffe VM? no
+Is this gij/gcj? no
+ant.core.lib: /usr/share/ant/lib/ant.jar
+ant.home: /usr/share/ant
+
+-------------------------------------------
+ ANT_HOME/lib jar listing
+-------------------------------------------
+ant.home: /usr/share/ant
+ant-antlr.jar (5757 bytes)
+ant-jmf.jar (6746 bytes)
+ant-junit.jar (102351 bytes)
+ant-junit4.jar (7127 bytes)
+ant-launcher.jar (12323 bytes)
+ant-swing.jar (7564 bytes)
+ant-testutil.jar (15199 bytes)
+ant.jar (1937100 bytes)
+
+-------------------------------------------
+ USER_HOME/.ant/lib jar listing
+-------------------------------------------
+user.home: /Users/shannah
+No such directory.
+
+-------------------------------------------
+ Tasks availability
+-------------------------------------------
+p4reopen : Not Available (the implementation class is not present)
+image : Not Available (the implementation class is not present)
+sshexec : Not Available (the implementation class is not present)
+wlrun : Not Available (the implementation class is not present)
+p4label : Not Available (the implementation class is not present)
+p4revert : Not Available (the implementation class is not present)
+p4submit : Not Available (the implementation class is not present)
+scp : Not Available (the implementation class is not present)
+p4change : Not Available (the implementation class is not present)
+p4delete : Not Available (the implementation class is not present)
+p4integrate : Not Available (the implementation class is not present)
+rexec : Not Available (the implementation class is not present)
+stlist : Not Available (the implementation class is not present)
+sshsession : Not Available (the implementation class is not present)
+telnet : Not Available (the implementation class is not present)
+p4sync : Not Available (the implementation class is not present)
+p4edit : Not Available (the implementation class is not present)
+netrexxc : Not Available (the implementation class is not present)
+ftp : Not Available (the implementation class is not present)
+p4resolve : Not Available (the implementation class is not present)
+starteam : Not Available (the implementation class is not present)
+stlabel : Not Available (the implementation class is not present)
+p4have : Not Available (the implementation class is not present)
+jdepend : Not Available (the implementation class is not present)
+stcheckin : Not Available (the implementation class is not present)
+stcheckout : Not Available (the implementation class is not present)
+p4labelsync : Not Available (the implementation class is not present)
+ejbc : Not Available (the implementation class is not present)
+p4fstat : Not Available (the implementation class is not present)
+wlstop : Not Available (the implementation class is not present)
+p4counter : Not Available (the implementation class is not present)
+p4add : Not Available (the implementation class is not present)
+ddcreator : Not Available (the implementation class is not present)
+A task being missing/unavailable should only matter if you are trying to use it
+
+-------------------------------------------
+ org.apache.env.Which diagnostics
+-------------------------------------------
+Not available.
+Download it at http://xml.apache.org/commons/
+
+-------------------------------------------
+ XML Parser information
+-------------------------------------------
+XML Parser : com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl
+XML Parser Location: unknown
+Namespace-aware parser : com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser
+Namespace-aware parser Location: unknown
+
+-------------------------------------------
+ XSLT Processor information
+-------------------------------------------
+XSLT Processor : com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl
+XSLT Processor Location: unknown
+
+-------------------------------------------
+ System properties
+-------------------------------------------
+java.runtime.name : Java(TM) SE Runtime Environment
+sun.boot.library.path : /Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib
+java.vm.version : 23.2-b09
+ant.library.dir : /usr/share/ant/lib
+user.country.format : CA
+gopherProxySet : false
+java.vm.vendor : Oracle Corporation
+java.vendor.url : http://java.oracle.com/
+path.separator : :
+java.vm.name : Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg : sun.io
+user.country : US
+sun.java.launcher : SUN_STANDARD
+sun.os.patch.level : unknown
+java.vm.specification.name : Java Virtual Machine Specification
+user.dir : /Users/shannah/src/jdk7u-dev/langtools/make
+java.runtime.version : 1.7.0_06-b24
+java.awt.graphicsenv : sun.awt.CGraphicsEnvironment
+java.endorsed.dirs : /Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/endorsed
+os.arch : x86_64
+java.io.tmpdir : /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/langtools/build/ant-tmp
+line.separator : 
+
+java.vm.specification.vendor : Oracle Corporation
+os.name : Mac OS X
+ant.home : /usr/share/ant
+sun.jnu.encoding : US-ASCII
+java.library.path : /Users/shannah/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+java.specification.name : Java Platform API Specification
+java.class.version : 51.0
+sun.management.compiler : HotSpot 64-Bit Tiered Compilers
+os.version : 10.8.2
+user.home : /Users/shannah
+user.timezone : 
+java.awt.printerjob : sun.lwawt.macosx.CPrinterJob
+java.specification.version : 1.7
+file.encoding : US-ASCII
+user.name : shannah
+java.class.path : /usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/lib/tools.jar
+java.vm.specification.version : 1.7
+sun.arch.data.model : 64
+java.home : /Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre
+sun.java.command : org.apache.tools.ant.launch.Launcher -cp  -diagnostics
+java.specification.vendor : Oracle Corporation
+user.language : en
+awt.toolkit : sun.lwawt.macosx.LWCToolkit
+java.vm.info : mixed mode
+java.version : 1.7.0_06
+java.ext.dirs : /Users/shannah/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+sun.boot.class.path : /Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/classes
+java.vendor : Oracle Corporation
+file.separator : /
+java.vendor.url.bug : http://bugreport.sun.com/bugreport/
+sun.cpu.endian : little
+sun.io.unicode.encoding : UnicodeBig
+sun.cpu.isalist : 
+
+-------------------------------------------
+ Temp dir
+-------------------------------------------
+Temp dir is /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/langtools/build/ant-tmp
+Temp dir is writeable
+Temp dir alignment with system clock is -797 ms
+
+-------------------------------------------
+ Locale information
+-------------------------------------------
+Timezone Pacific Standard Time offset=-28800000
+
+-------------------------------------------
+ Proxy information
+-------------------------------------------
+Java1.5+ proxy settings:
+Direct connection
+
+
+Apache Ant(TM) version 1.8.2 compiled on May 16 2012

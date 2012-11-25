@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<project name="CodenameOneAvianApplication" default="dist" basedir=".">
+    <description>
+        simple example build file
+    </description>
+  <!-- set global properties for this build -->
+  <property name="rootdir" location="."/>
+  <property name="src" location="src"/>
+  <property name="hello" location="hello"/>
+  <property name="native-src" location="${hello}/hello"/>
+  <property name="build" location="build"/>
+  <property name="templates" location="templates"/>
+  <property name="dist"  location="dist"/>
+  <property name="avian" location="../avian"/>
+  <property name="openjdk" location="/Users/shannah/src/jdk7u-dev"/>
+  <property name="openjdk-image" location="${openjdk}/build/macosx-x86_64/j2sdk-image"/>
+  <property name="openjdk-src" location="${openjdk}/jdk/src"/>
+  <property name="cn1" location="../codenameone-read-only"/>
+  <property name="cn1-avian-port" location="../iOSPortAvian"/>
+  <property name="application-class" value="com.mycompany.myapp.MyApplication"/>
+  <property name="avian-port-files-group" value="AvianPortFiles"/>
+  <property name="app-resources-group" value="AppResources"/>
+  <property name="app-src" location="/Users/shannah/NetBeansProjects/TabbedApplication/src"/>
+  
+  <target name="copy-src" depends="init">
+  	<mkdir dir="${src}"/>
+  	<copy todir="${src}">
+  		<fileset dir="${cn1}/CodenameOne/src"/>
+  		<fileset dir="${cn1}/Factory/src"/>
+  		<fileset dir="${cn1-avian-port}/src"/>
+  		<fileset dir="${app-src}"/>
+  	</copy>
+  	<mkdir dir="${src}/ca/weblite/codename1/app"/>
+  	<copy todir="${src}/ca/weblite/codename1/app">
+  		<fileset dir="${templates}"/>
+  	</copy>
+  	
+  	<replace file="${src}/ca/weblite/codename1/app/Main.java" token="APPLICATION_CLASS" value="${application-class}" />
+
+  	
+  	<!--
+  	<copy todir="${native-src}">
+  		<fileset dir="${cn1-avian-port}/nativeSources"/>
+  	</copy
+  	-->
+  </target>
+  
+  <target name="add-files-to-xcode">
+  	<exec executable="thor" dir="${hello}">
+  		<arg value="xcs:mkgroup"/>
+  		<arg value="${avian-port-files-group}"/>
+  	</exec>
+  	<apply executable="thor" dir="${hello}" parallel="true">
+  		
+  		<arg value="xcs:add"/>
+  		<srcfile/>
+  		<arg value="${avian-port-files-group}"/>
+  		<fileset dir="${cn1-avian-port}/nativeSources">
+  			<include name="**/*.h"/>
+  			<include name="**/*.m"/>
+  			<include name="**/*.xib"/>
+  			<include name="**/*.c"/>
+  			<include name="**/*.cc"/>
+  		</fileset>
+  	</apply>
+  	
+  	
+  	
+  </target>
+  
+  <target name="remove-files-from-xcode">
+  
+  	<exec executable="thor" dir="${hello}">
+  		<arg value="xcs:rmgroup"/>
+  		<arg value="${avian-port-files-group}"/>
+  	</exec>
+  </target>
+
+
+  <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build}"/>
+  </target>
+
+  <target name="compile" depends="copy-src,add-files-to-xcode"
+        description="compile the source " >
+    <!-- Compile the java code from ${src} into ${build} -->
+    	<exec executable="make" dir="${rootdir}">
+    		<arg value="openjdk=${openjdk-image}"/>
+    		<arg value="openjdk-src=${openjdk-src}"/>
+    		<arg value="sim=true"/>
+    		
+    	</exec>
+  </target>
+
+  <target name="dist" depends="compile"
+        description="generate the distribution" >
+   
+  </target>
+
+  <target name="clean"
+        description="clean up"
+        depends="remove-files-from-xcode" >
+    <!-- Delete the ${build} and ${dist} directory trees -->
+    <delete dir="${build}"/>
+    <delete dir="${hello}/build"/>
+    <delete dir="${avian}/build"/>
+    <delete dir="${src}"/>
+    <exec executable="make" dir="${rootdir}">
+		<arg value="clean"/>
+		
+	</exec>
+  </target>
+</project>

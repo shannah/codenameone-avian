@@ -1,0 +1,3 @@
+/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/democlasses/demo/jfc/CodePointIM/src/CodePointIM.java
+/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/democlasses/demo/jfc/CodePointIM/src/CodePointInputMethod.java
+/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/democlasses/demo/jfc/CodePointIM/src/CodePointInputMethodDescriptor.java

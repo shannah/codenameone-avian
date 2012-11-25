@@ -1,0 +1,18 @@
+-XDignore.symbol.file=true -quiet -use -keywords -Xdocrootparent http://docs.oracle.com/javase/7/docs
+-sourcepath '../../src/share/classes:/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/impsrc:/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/gensrc:../../src/share/../solaris/classes:../../src/share/../windows/classes:../../src/share/doc/stub'
+-encoding 'ISO-8859-1'
+-tag 'beaninfo:X'
+-tag 'revised:X'
+-tag 'since.unbundled:X'
+-tag 'spec:X'
+-tag 'specdefault:X'
+-tag 'Note:X'
+-tag 'ToDo:X'
+-tag 'jls:a:See <cite> The Java&trade; Language Specification</cite>:'
+-splitIndex
+-overview '../../src/share/classes/overview-core.html'
+-doctitle 'Java&trade; Platform, Standard Edition 7<br>API Specification'
+-windowtitle 'Java Platform SE 7 b00'
+-header '<strong>Java&trade;&nbsp;Platform<br>Standard&nbsp;Ed.&nbsp;7</strong><br><strong>DRAFT&nbsp;internal-b00</strong>'
+-bottom '<font size="-1"> <a href="http://bugreport.sun.com/bugreport/">Submit a bug or feature</a> <br>For further API reference and developer documentation, see <a href="http://docs.oracle.com/javase/7/docs/index.html" target="_blank">Java SE Documentation</a>. That documentation contains more detailed, developer-targeted descriptions, with conceptual overviews, definitions of terms, workarounds, and working code examples.<br> <a href="{@docroot}/../legal/cpyr.html">Copyright</a> &#x00a9; 1993, 2012, Oracle and/or its affiliates.  All rights reserved. </font><br><strong>DRAFT&nbsp;internal-b00</strong>'
+-top '<div style="background-color: #EEEEEE"> <div style="padding: 6px; margin-top: 2px; margin-bottom: 6px; margin-left: 6px; margin-right: 6px; text-align: justify; font-size: 80%; font-family: Helvetica, Arial, sans-serif; font-weight: normal;"> Please note that the specifications and other information contained herein are not final and are subject to change. The information is being made available to you solely for purpose of evaluation. </div> </div>'

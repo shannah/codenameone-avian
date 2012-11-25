@@ -1,0 +1,467 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/4217/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/4217/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/main.m
+END
+CodenameOne_GLViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/CodenameOne_GLViewController.xib
+END
+CodenameOne_GLAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/CodenameOne_GLAppDelegate.h
+END
+ResetAffine.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/ResetAffine.h
+END
+Rotate.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/Rotate.h
+END
+CodenameOne_GLAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/4217/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/CodenameOne_GLAppDelegate.m
+END
+ResetAffine.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/ResetAffine.m
+END
+TileImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/TileImage.h
+END
+Rotate.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/Rotate.m
+END
+FillRect.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/FillRect.h
+END
+DrawLine.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/DrawLine.h
+END
+ClipRect.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/ClipRect.h
+END
+TileImage.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/TileImage.m
+END
+com_codename1_impl_ios_IOSNative.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/4221/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/com_codename1_impl_ios_IOSNative.h
+END
+Video.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/Video.h
+END
+iPhoneTheme.res
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/iPhoneTheme.res
+END
+FillRect.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/FillRect.m
+END
+ClipRect.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/ClipRect.m
+END
+DrawLine.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/DrawLine.m
+END
+ZBarHelpController.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/ZBarHelpController.h
+END
+com_codename1_impl_ios_IOSNative.m
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/4221/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/com_codename1_impl_ios_IOSNative.m
+END
+ZBarReaderController.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/ZBarReaderController.h
+END
+Scale.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/Scale.h
+END
+Scanner.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/Scanner.h
+END
+NetworkConnectionImpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/NetworkConnectionImpl.h
+END
+Scale.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/Scale.m
+END
+zbar.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/zbar.h
+END
+NetworkConnectionImpl.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/NetworkConnectionImpl.m
+END
+ZBarSDK.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/ZBarSDK.h
+END
+EAGLView.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/EAGLView.h
+END
+ZBarCameraSimulator.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/ZBarCameraSimulator.h
+END
+EAGLView.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/EAGLView.m
+END
+AudioPlayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/AudioPlayer.h
+END
+Processor.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/Processor.h
+END
+DrawGradientTextureCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/DrawGradientTextureCache.h
+END
+AudioPlayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/AudioPlayer.m
+END
+ZBarSymbol.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/ZBarSymbol.h
+END
+DrawGradientTextureCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/DrawGradientTextureCache.m
+END
+DrawStringTextureCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/DrawStringTextureCache.h
+END
+DrawStringTextureCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/DrawStringTextureCache.m
+END
+CodenameOne_GLViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/4217/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/CodenameOne_GLViewController.h
+END
+hello-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/4217/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/hello-Info.plist
+END
+GLUIImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/GLUIImage.h
+END
+CodenameOne_GLViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/4217/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/CodenameOne_GLViewController.m
+END
+theme.res
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/4221/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/theme.res
+END
+ZBarCaptureReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/ZBarCaptureReader.h
+END
+MainWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/MainWindow.xib
+END
+OpenUDID.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/OpenUDID.h
+END
+Window.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/Window.h
+END
+GLUIImage.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/GLUIImage.m
+END
+DrawGradient.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/DrawGradient.h
+END
+OpenUDID.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/OpenUDID.m
+END
+ZBarReaderViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/ZBarReaderViewController.h
+END
+DrawGradient.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/DrawGradient.m
+END
+hello-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/hello-Prefix.pch
+END
+DrawString.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/DrawString.h
+END
+DrawString.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/DrawString.m
+END
+ImageScanner.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/ImageScanner.h
+END
+helloAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/helloAppDelegate.h
+END
+DrawImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/DrawImage.h
+END
+ScanCodeImpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/4217/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/ScanCodeImpl.h
+END
+ZBarImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/ZBarImage.h
+END
+UIWebViewEventDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/UIWebViewEventDelegate.h
+END
+helloAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/helloAppDelegate.m
+END
+Symbol.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/Symbol.h
+END
+DrawImage.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/DrawImage.m
+END
+Decoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/Decoder.h
+END
+ScanCodeImpl.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/4217/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/ScanCodeImpl.m
+END
+UIWebViewEventDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/UIWebViewEventDelegate.m
+END
+ZBarImageScanner.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/ZBarImageScanner.h
+END
+DrawRect.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/DrawRect.h
+END
+ZBarReaderView.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/ZBarReaderView.h
+END
+ZBARException.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/ZBARException.h
+END
+DrawRect.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/DrawRect.m
+END
+ExecutableOp.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/ExecutableOp.h
+END
+Image.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/Image.h
+END
+ExecutableOp.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/4213/codenameone/Ports/iOSPortAvian/hello-codename1-avian/trunk/hello/hello/ExecutableOp.m
+END

@@ -1,0 +1,936 @@
+Tbuild-core-native
+v5
+r1
+cCheck dependencies
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Invoke.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Invoke.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Subclassing.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Subclassing.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/CIF.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/CIF.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Coder.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Coder.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/ID.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/ID.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Function.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Function.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/JObjCRuntime.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/JObjCRuntime.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/MacOSXFramework.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/MacOSXFramework.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NSClass.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NSClass.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeBuffer.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeBuffer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeObjectLifecycleManager.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeObjectLifecycleManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/SEL.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/SEL.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeNumber.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeNumber.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeThread.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeThread.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeString.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeString.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/FFIType.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/FFIType.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Invoke.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Invoke.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Subclassing.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Subclassing.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/CIF.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/CIF.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Coder.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Coder.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Function.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Function.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/ID.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/ID.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/JObjCRuntime.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/JObjCRuntime.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeBuffer.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeBuffer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/MacOSXFramework.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/MacOSXFramework.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeObjectLifecycleManager.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeObjectLifecycleManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/SEL.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/SEL.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeString.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeString.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NSClass.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NSClass.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeNumber.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeNumber.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeThread.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeThread.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/FFIType.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/FFIType.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/libJObjC.dylib normal i386
+cLd /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/libJObjC.dylib normal x86_64
+cCreateUniversalBinary /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/libJObjC.dylib normal "i386 x86_64"
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000506BF6530000000000A1B0F0
+t1349252691
+s10596592
+
+N/System/Library/Frameworks/JavaVM.framework/JavaVM
+c00000000505179DF0000000000019430
+t1347516895
+s103472
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFAssert.h
+c0000000050255DA90000000000000796
+t1344626089
+s1942
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFAutoreleasePool.h
+c0000000050255DA900000000000002CA
+t1344626089
+s714
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFDate.h
+c0000000050255DA9000000000000044E
+t1344626089
+s1102
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFException.h
+c0000000050255DA900000000000008BE
+t1344626089
+s2238
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFJNI.h
+c0000000050255DA90000000000003344
+t1344626089
+s13124
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFJObjectWrapper.h
+c0000000050255DA900000000000005D9
+t1344626089
+s1497
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFNumber.h
+c0000000050255DA90000000000000400
+t1344626089
+s1024
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFObject.h
+c0000000050255DA9000000000000027B
+t1344626089
+s635
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFPath.h
+c0000000050255DA90000000000000302
+t1344626089
+s770
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFRunLoop.h
+c0000000050255DA90000000000000248
+t1344626089
+s584
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFRunnable.h
+c0000000050255DA900000000000001CC
+t1344626089
+s460
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFString.h
+c0000000050255DA900000000000005F6
+t1344626089
+s1526
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFThread.h
+c0000000050255DA900000000000005BE
+t1344626089
+s1470
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFTypeCoercion.h
+c0000000050255DA90000000000000B6C
+t1344626089
+s2924
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JavaNativeFoundation.h
+c0000000050255DA90000000000000336
+t1344626089
+s822
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/JavaNativeFoundation
+c00000000505179DF0000000000026DF0
+t1347516895
+s159216
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers/jni.h
+c0000000050255DAA0000000000010B44
+t1344626090
+s68420
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers/jni_md.h
+c0000000050255DAA00000000000001FB
+t1344626090
+s507
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/additions/com_apple_jobjc_Utils_Numbers.h
+c0000000050AEFE7A000000000000032D
+t1353645690
+s813
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/additions/com_apple_jobjc_Utils_Strings.h
+c0000000050AEFE7A000000000000032D
+t1353645690
+s813
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/additions/com_apple_jobjc_Utils_Threads.h
+c0000000050AEFE7A000000000000034D
+t1353645690
+s845
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core/com_apple_jobjc_CIF.h
+c0000000050AEFE5C0000000000000276
+t1353645660
+s630
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core/com_apple_jobjc_Coder.h
+c0000000050AEFE5C0000000000000620
+t1353645660
+s1568
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core/com_apple_jobjc_FFIType.h
+c0000000050AEFE5C000000000000028F
+t1353645660
+s655
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core/com_apple_jobjc_Function.h
+c0000000050AEFE5C00000000000002FC
+t1353645660
+s764
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core/com_apple_jobjc_ID.h
+c0000000050AEFE5C00000000000001DA
+t1353645660
+s474
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core/com_apple_jobjc_Invoke_FunCall.h
+c0000000050AEFE5C0000000000000203
+t1353645660
+s515
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core/com_apple_jobjc_Invoke_MsgSend.h
+c0000000050AEFE5C000000000000012A
+t1353645660
+s298
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core/com_apple_jobjc_Invoke_MsgSendSuper.h
+c0000000050AEFE5C0000000000000139
+t1353645660
+s313
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core/com_apple_jobjc_JObjCRuntime.h
+c0000000050AEFE5C0000000000000124
+t1353645660
+s292
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core/com_apple_jobjc_MacOSXFramework.h
+c0000000050AEFE5C00000000000003D5
+t1353645660
+s981
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core/com_apple_jobjc_NSClass.h
+c0000000050AEFE5C000000000000044D
+t1353645660
+s1101
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core/com_apple_jobjc_NativeBuffer.h
+c0000000050AEFE5C0000000000000203
+t1353645660
+s515
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core/com_apple_jobjc_NativeObjectLifecycleManager.h
+c0000000050AEFE5C0000000000000422
+t1353645660
+s1058
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core/com_apple_jobjc_SEL.h
+c0000000050AEFE5C000000000000029F
+t1353645660
+s671
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core/com_apple_jobjc_Subclassing.h
+c0000000050AEFE5C000000000000076D
+t1353645660
+s1901
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/libJObjC.dylib
+t1353722955
+s68236
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/CIF.o
+t1353645664
+s23020
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Coder.o
+t1353645665
+s22304
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/FFIType.o
+t1353645666
+s22232
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Function.o
+t1353645665
+s22260
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/ID.o
+t1353645665
+s24200
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Invoke.o
+t1353645664
+s22664
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/JObjC.LinkFileList
+c0000000050B02C6A00000000000005BB
+t1353722986
+s1467
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/JObjCRuntime.o
+t1353645665
+s1996
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/MacOSXFramework.o
+t1353645665
+s23628
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NSClass.o
+t1353645666
+s23316
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeBuffer.o
+t1353645666
+s21448
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeNumber.o
+t1353645698
+s21860
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeObjectLifecycleManager.o
+t1353645666
+s22192
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeString.o
+t1353645698
+s21860
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeThread.o
+t1353645698
+s33520
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/SEL.o
+t1353645666
+s22032
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Subclassing.o
+t1353645665
+s36128
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/libJObjC.dylib
+t1353722955
+s29988
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/CIF.o
+t1353645666
+s24148
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Coder.o
+t1353645667
+s22644
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/FFIType.o
+t1353645668
+s23108
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Function.o
+t1353645667
+s23492
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/ID.o
+t1353645667
+s25144
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Invoke.o
+t1353645666
+s23508
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/JObjC.LinkFileList
+c0000000050B02C6A00000000000005DB
+t1353722986
+s1499
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/JObjCRuntime.o
+t1353645667
+s2060
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/MacOSXFramework.o
+t1353645667
+s25460
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NSClass.o
+t1353645667
+s25004
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeBuffer.o
+t1353645667
+s22036
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeNumber.o
+t1353645698
+s22824
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeObjectLifecycleManager.o
+t1353645667
+s23492
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeString.o
+t1353645698
+s22824
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeThread.o
+t1353645698
+s38040
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/SEL.o
+t1353645668
+s23024
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Subclassing.o
+t1353645666
+s42224
+
+N/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/libJObjC.dylib
+t1353722955
+s31372
+
+N/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/CIF.m
+c0000000050AEF93300000000000007DE
+t1353644339
+s2014
+
+N/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Coder.m
+c0000000050AEF9330000000000000B29
+t1353644339
+s2857
+
+N/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/FFIType.m
+c0000000050AEF9330000000000000700
+t1353644339
+s1792
+
+N/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Function.m
+c0000000050AEF9330000000000000856
+t1353644339
+s2134
+
+N/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/ID.m
+c0000000050AEF93300000000000006E8
+t1353644339
+s1768
+
+N/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Invoke.m
+c0000000050AEF933000000000000071A
+t1353644339
+s1818
+i"com_apple_jobjc_Invoke_FunCall.h"
+i"com_apple_jobjc_Invoke_MsgSend.h"
+i"com_apple_jobjc_Invoke_MsgSendSuper.h"
+i<ffi/ffi.h>
+i<objc/message.h>
+i<JavaNativeFoundation/JavaNativeFoundation.h>
+
+N/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/JObjCRuntime.m
+c0000000050AEF93300000000000004FC
+t1353644339
+s1276
+
+N/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/MacOSXFramework.m
+c0000000050AEF9330000000000000AEA
+t1353644339
+s2794
+
+N/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NSClass.m
+c0000000050AEF9330000000000000B19
+t1353644339
+s2841
+
+N/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeBuffer.h
+c0000000050AEF933000000000000076C
+t1353644339
+s1900
+
+N/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeBuffer.m
+c0000000050AEF933000000000000062E
+t1353644339
+s1582
+
+N/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeObjectLifecycleManager.m
+c0000000050AEF93300000000000008D4
+t1353644339
+s2260
+
+N/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/SEL.m
+c0000000050AEF9330000000000000744
+t1353644339
+s1860
+
+N/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Subclassing.m
+c0000000050AEF9330000000000002608
+t1353644339
+s9736
+
+N/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeNumber.m
+c0000000050AEF93300000000000007D5
+t1353644339
+s2005
+
+N/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeString.m
+c0000000050AEF93300000000000007D5
+t1353644339
+s2005
+
+N/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeThread.m
+c0000000050AEF9330000000000000F25
+t1353644339
+s3877
+
+N/usr/include/ffi/ffi.h
+c0000000050255D2E00000000000024FE
+t1344625966
+s9470
+
+N/usr/include/objc/message.h
+c0000000050255D2F00000000000023DB
+t1344625967
+s9179
+
+N/usr/lib/libffi.dylib
+c00000000501EF2560000000000009AB0
+t1344205398
+s39600
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4ca50fea6360b641^a9f80fea6360b641^---0#1#0#--18"Check dependencies36"7601E0A9-F7FB-4A10-B2C4-A755FBC5CBF9-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/CIF.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/CIF.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338464.369618
+e375338464.986128
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/CIF.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/CIF.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/CIF.m45da5ee0355fb641^05a5fce0355fb641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/CIF.m0000000000000000^2527"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/CIF.o src/core/native/CIF.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/i386 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/CIF.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/CIF.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/CIF.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/CIF.o36"49A7D3CB-CD89-4A15-925B-31768F70482E-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Coder.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Coder.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338464.369635
+e375338465.053964
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Coder.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Coder.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Coder.m8cd95ee0355fb641^90dd0de1355fb641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Coder.m0000000000000000^2539"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Coder.o src/core/native/Coder.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/i386 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Coder.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Coder.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Coder.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Coder.o36"CADFF697-FF94-4E67-9E98-D55E151EC6CC-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/FFIType.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/FFIType.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338466.020178
+e375338466.536276
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/FFIType.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/FFIType.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/FFIType.mbe6605e2355fb641^304989e2355fb641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/FFIType.m0000000000000000^2551"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/FFIType.o src/core/native/FFIType.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/i386 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/FFIType.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/FFIType.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/FFIType.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/FFIType.o36"1AE8B688-8EF3-41EA-84D5-BE610D059C75-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Function.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Function.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338464.987344
+e375338465.508798
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Function.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Function.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Function.m51f8fce0355fb641^394282e1355fb641^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Function.m0000000000000000^2557"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Function.o src/core/native/Function.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/i386 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Function.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Function.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Function.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Function.o36"710A545D-568A-4B92-A392-648BE7EF7D93-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/ID.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/ID.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338464.987378
+e375338465.517238
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/ID.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/ID.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/ID.mbaf7fce0355fb641^797784e1355fb641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/ID.m0000000000000000^2521"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/ID.o src/core/native/ID.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/i386 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/ID.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/ID.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/ID.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/ID.o36"D7D187A4-6585-4B21-A651-10982697F517-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Invoke.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Invoke.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338464.369572
+e375338464.987128
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Invoke.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Invoke.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Invoke.mbada5ee0355fb641^13b5fce0355fb641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Invoke.m0000000000000000^2545"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Invoke.o src/core/native/Invoke.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/i386 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Invoke.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Invoke.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Invoke.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Invoke.o36"07E26D53-5E03-48FD-AA93-3724CE1C49EB-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/JObjCRuntime.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/JObjCRuntime.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338465.009029
+e375338465.668365
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/JObjCRuntime.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/JObjCRuntime.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/JObjCRuntime.mb58a02e1355fb641^e126abe1355fb641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/JObjCRuntime.m0000000000000000^2581"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/JObjCRuntime.o src/core/native/JObjCRuntime.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/i386 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/JObjCRuntime.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/JObjCRuntime.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/JObjCRuntime.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/JObjCRuntime.o36"E5E23830-476F-4EF9-BF7E-E7FBA77B2171-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/MacOSXFramework.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/MacOSXFramework.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338465.055267
+e375338465.557373
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/MacOSXFramework.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/MacOSXFramework.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/MacOSXFramework.m9e610ee1355fb641^64b08ee1355fb641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/MacOSXFramework.m0000000000000000^2599"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/MacOSXFramework.o src/core/native/MacOSXFramework.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/i386 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/MacOSXFramework.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/MacOSXFramework.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/MacOSXFramework.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/MacOSXFramework.o36"2CE0D1E4-E08E-4DDD-812A-F595EA4C3276-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NSClass.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NSClass.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338465.558704
+e375338466.102637
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NSClass.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NSClass.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NSClass.mf2418fe1355fb641^5d511ae2355fb641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NSClass.m0000000000000000^2551"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NSClass.o src/core/native/NSClass.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/i386 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NSClass.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NSClass.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NSClass.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NSClass.o36"687D06B4-EC85-45E4-9BB6-6D004CAF7559-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeBuffer.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeBuffer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338465.510118
+e375338466.018754
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeBuffer.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeBuffer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeBuffer.m6fd882e1355fb641^21cd04e2355fb641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeBuffer.m0000000000000000^2581"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeBuffer.o src/core/native/NativeBuffer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/i386 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeBuffer.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeBuffer.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeBuffer.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeBuffer.o36"D6A7A0E3-82C5-401F-AEBE-219F7DA3D716-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeNumber.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeNumber.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338497.510546
+e375338498.011222
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeNumber.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeNumber.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeNumber.mb8568301365fb641^5de00202365fb641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeNumber.m0000000000000000^2781"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeNumber.o src/runtime-additions/native/NativeNumber.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/additions -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/additions -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/i386 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeNumber.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeNumber.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeNumber.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeNumber.o36"A414B6FA-B23E-4098-BCFA-132D409EC718-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeObjectLifecycleManager.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeObjectLifecycleManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338465.518530
+e375338466.025625
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeObjectLifecycleManager.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeObjectLifecycleManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeObjectLifecycleManager.m2a1c85e1355fb641^4b9306e2355fb641^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeObjectLifecycleManager.m0000000000000000^2677"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeObjectLifecycleManager.o src/core/native/NativeObjectLifecycleManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/i386 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeObjectLifecycleManager.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeObjectLifecycleManager.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeObjectLifecycleManager.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeObjectLifecycleManager.o36"D189FFF4-303D-4164-9540-F5C1C6AAC6F5-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeString.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeString.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338497.510535
+e375338498.014835
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeString.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeString.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeString.m4f5b8301365fb641^34d50302365fb641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeString.m0000000000000000^2781"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeString.o src/runtime-additions/native/NativeString.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/additions -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/additions -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/i386 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeString.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeString.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeString.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeString.o36"337D675B-8CD4-4F3C-A6A3-E1403972FCF1-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeThread.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeThread.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338497.512767
+e375338498.203649
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeThread.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeThread.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeThread.m68d08401365fb641^35263402365fb641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeThread.m0000000000000000^2781"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeThread.o src/runtime-additions/native/NativeThread.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/additions -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/additions -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/i386 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeThread.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeThread.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeThread.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/NativeThread.o36"63878B44-598C-4C2C-9BA1-1700A92CC2AB-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/SEL.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/SEL.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338465.669659
+e375338466.205418
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/SEL.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/SEL.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/SEL.m5da9abe1355fb641^579634e2355fb641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/SEL.m0000000000000000^2527"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/SEL.o src/core/native/SEL.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/i386 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/SEL.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/SEL.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/SEL.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/SEL.o36"B1CFCD61-6451-412E-8DAC-6876F13FD118-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Subclassing.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Subclassing.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338464.369641
+e375338465.007704
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Subclassing.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Subclassing.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Subclassing.mf1d95ee0355fb641^f60702e1355fb641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Subclassing.m0000000000000000^2575"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Subclassing.o src/core/native/Subclassing.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/i386 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Subclassing.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Subclassing.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Subclassing.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/Subclassing.o36"CB86ABD3-24E4-4C12-8A97-F4FBC8F182AB-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/CIF.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/CIF.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338466.206732
+e375338466.695433
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/CIF.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/CIF.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/CIF.m022935e2355fb641^3752b2e2355fb641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/CIF.m0000000000000000^2541"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/CIF.o src/core/native/CIF.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/x86_64 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/CIF.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/CIF.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/CIF.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/CIF.o36"48394E07-48F5-4B9C-8FE3-71A50BBBDAA2-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Coder.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Coder.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338466.537644
+e375338467.147269
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Coder.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Coder.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Coder.m94dc89e2355fb641^0aba25e3355fb641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Coder.m0000000000000000^2553"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Coder.o src/core/native/Coder.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/x86_64 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Coder.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Coder.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Coder.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Coder.o36"BC73268B-6B55-446A-995C-4B678B7046DF-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/FFIType.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/FFIType.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338467.688460
+e375338468.052759
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/FFIType.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/FFIType.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/FFIType.m9e7ab0e3355fb641^02820de4355fb641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/FFIType.m0000000000000000^2565"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/FFIType.o src/core/native/FFIType.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/x86_64 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/FFIType.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/FFIType.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/FFIType.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/FFIType.o36"FDA107A5-4443-4691-8626-3B9198F4E9F5-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Function.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Function.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338466.641157
+e375338467.139548
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Function.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Function.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Function.m425da4e2355fb641^39b923e3355fb641^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Function.m0000000000000000^2571"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Function.o src/core/native/Function.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/x86_64 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Function.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Function.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Function.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Function.o36"80AAAFB0-7A2B-4936-B177-627D2EFCE745-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/ID.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/ID.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338466.697257
+e375338467.190810
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/ID.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/ID.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/ID.mc7b8b2e2355fb641^1ced30e3355fb641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/ID.m0000000000000000^2535"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/ID.o src/core/native/ID.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/x86_64 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/ID.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/ID.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/ID.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/ID.o36"8667500E-FB19-467A-AEEE-CC1B2973DE79-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Invoke.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Invoke.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338466.026940
+e375338466.552085
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Invoke.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Invoke.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Invoke.md12207e2355fb641^67638de2355fb641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Invoke.m0000000000000000^2559"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Invoke.o src/core/native/Invoke.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/x86_64 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Invoke.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Invoke.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Invoke.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Invoke.o36"672A57BB-056A-47B4-9500-2FE5AD7CA812-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/JObjCRuntime.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/JObjCRuntime.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338466.753150
+e375338467.415975
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/JObjCRuntime.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/JObjCRuntime.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/JObjCRuntime.m4702c1e2355fb641^467d6ae3355fb641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/JObjCRuntime.m0000000000000000^2595"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/JObjCRuntime.o src/core/native/JObjCRuntime.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/x86_64 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/JObjCRuntime.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/JObjCRuntime.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/JObjCRuntime.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/JObjCRuntime.o36"2A85C36A-D656-42B3-A662-E86B599A899A-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/MacOSXFramework.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/MacOSXFramework.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338467.140886
+e375338467.687163
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/MacOSXFramework.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/MacOSXFramework.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/MacOSXFramework.m014d24e3355fb641^7bf7afe3355fb641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/MacOSXFramework.m0000000000000000^2613"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/MacOSXFramework.o src/core/native/MacOSXFramework.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/x86_64 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/MacOSXFramework.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/MacOSXFramework.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/MacOSXFramework.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/MacOSXFramework.o36"FB2A419D-DA12-45B4-9371-9A1AF4640176-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NSClass.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NSClass.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338467.417295
+e375338467.886992
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NSClass.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NSClass.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NSClass.m5a0f6be3355fb641^0a12e3e3355fb641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NSClass.m0000000000000000^2565"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NSClass.o src/core/native/NSClass.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/x86_64 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NSClass.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NSClass.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NSClass.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NSClass.o36"852A2574-62FC-48F0-93CD-1ED62E5BE000-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeBuffer.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeBuffer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338467.148617
+e375338467.665263
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeBuffer.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeBuffer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeBuffer.m7c4626e3355fb641^8b4eaae3355fb641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeBuffer.m0000000000000000^2595"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeBuffer.o src/core/native/NativeBuffer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/x86_64 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeBuffer.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeBuffer.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeBuffer.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeBuffer.o36"27F79C39-1D49-46B2-8766-89758718301F-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeNumber.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeNumber.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338498.012553
+e375338498.390626
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeNumber.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeNumber.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeNumber.mfd690302365fb641^3f016402365fb641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeNumber.m0000000000000000^2795"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeNumber.o src/runtime-additions/native/NativeNumber.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/additions -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/additions -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/x86_64 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeNumber.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeNumber.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeNumber.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeNumber.o36"45B54973-6F83-4A52-9720-42BF569BFFF0-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeObjectLifecycleManager.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeObjectLifecycleManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338467.192093
+e375338467.723011
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeObjectLifecycleManager.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeObjectLifecycleManager.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeObjectLifecycleManager.m6e6d31e3355fb641^2425b9e3355fb641^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeObjectLifecycleManager.m0000000000000000^2691"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeObjectLifecycleManager.o src/core/native/NativeObjectLifecycleManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/x86_64 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeObjectLifecycleManager.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeObjectLifecycleManager.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/NativeObjectLifecycleManager.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeObjectLifecycleManager.o36"DBF707D1-6477-4F5C-8A53-4EC016A8DF15-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeString.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeString.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338497.535886
+e375338498.017524
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeString.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeString.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeString.me36d8901365fb641^e9800402365fb641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeString.m0000000000000000^2795"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeString.o src/runtime-additions/native/NativeString.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/additions -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/additions -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/x86_64 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeString.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeString.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeString.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeString.o36"3844AFC5-B7A7-4A17-874F-30C8E0F2369E-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeThread.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeThread.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338498.016012
+e375338498.480341
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeThread.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeThread.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeThread.mfc510402365fb641^87f97a02365fb641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeThread.m0000000000000000^2795"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeThread.o src/runtime-additions/native/NativeThread.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/additions -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/additions -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/x86_64 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeThread.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeThread.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeThread.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/NativeThread.o36"AD44A6B8-64C0-422B-9D6E-D0CEC6FE94B3-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/SEL.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/SEL.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338467.666619
+e375338468.045819
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/SEL.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/SEL.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/SEL.mefe1aae3355fb641^a5bb0be4355fb641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/SEL.m0000000000000000^2541"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/SEL.o src/core/native/SEL.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/x86_64 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/SEL.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/SEL.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/SEL.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/SEL.o36"6A90B2CA-3AA1-4888-850C-A712D4880AD7-
+
+CCompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Subclassing.o /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Subclassing.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375338466.103974
+e375338466.639760
+r1
+xCompileC
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Subclassing.o
+x/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Subclassing.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Subclassing.m8cd91ae2355fb641^bad9a3e2355fb641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Subclassing.m0000000000000000^2589"CompileC /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Subclassing.o src/core/native/Subclassing.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fobjc-gc -Wno-trigraphs -fpascal-strings -Os -Werror -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wunknown-pragmas -Wshadow -Wfour-char-constants -Wno-conversion -Wsign-compare -Wshorten-64-to-32 -Wpointer-sign -Wnewline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JObjC.hmap -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/include -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/src/jni_headers/core -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core -I/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources/x86_64 -I/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wformat -Wformat-security -Wcast-align -Wwrite-strings -Wuninitialized -Wshadow -Wshorten-64-to-32 -Wsign-compare -Wpointer-arith -Wall -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -MMD -MT dependencies -MF /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Subclassing.d --serialize-diagnostics /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Subclassing.dia -c /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/native/Subclassing.m -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/Subclassing.o36"2A6816BF-9F54-44B0-A0C2-499A3E4DB5D3-
+
+CCreateUniversalBinary /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/libJObjC.dylib normal "i386 x86_64"
+s375415786.120229
+e375415786.128004
+r1
+xCreateUniversalBinary
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/libJObjC.dylib
+xnormal
+xi386 x86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Create universal binary /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/libJObjC.dylib9ae91eea6360b641^8fc320ea6360b641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/libJObjC.dylib0000000000000000^482"CreateUniversalBinary /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/libJObjC.dylib normal "i386 x86_64"    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    lipo -create /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/libJObjC.dylib /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/libJObjC.dylib -output /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/libJObjC.dylib36"3786A1BF-03AA-4251-8C78-153423017D9A-
+
+CLd /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/libJObjC.dylib normal i386
+s375415786.081599
+e375415786.108116
+r1
+xLd
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/libJObjC.dylib
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Link /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/libJObjC.dylib4b2015ea6360b641^9fad1bea6360b641^---0#0#0#--972"Ld /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/libJObjC.dylib normal i386    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -dynamiclib -L/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -L/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Libraries -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -filelist /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/JObjC.LinkFileList -install_name /usr/local/lib/libJObjC.dylib -fobjc-link-runtime -framework Foundation -framework JavaVM -framework JavaNativeFoundation -lffi -single_module -compatibility_version 1 -current_version 1 -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/i386/libJObjC.dylib36"702ED972-2F24-4EA0-981B-0069D1EBE58D-
+
+CLd /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/libJObjC.dylib normal x86_64
+s375415786.088065
+e375415786.113751
+r1
+xLd
+x/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/libJObjC.dylib
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Link /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/libJObjC.dylib47ab16ea6360b641^0c1f1dea6360b641^---0#0#0#--982"Ld /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/libJObjC.dylib normal x86_64    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -dynamiclib -L/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -L/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Libraries -F/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -filelist /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/JObjC.LinkFileList -install_name /usr/local/lib/libJObjC.dylib -fobjc-link-runtime -framework Foundation -framework JavaVM -framework JavaNativeFoundation -lffi -single_module -compatibility_version 1 -current_version 1 -o /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-normal/x86_64/libJObjC.dylib36"9E3D1B94-57C5-4474-874B-AD9CD572E6E4-
+

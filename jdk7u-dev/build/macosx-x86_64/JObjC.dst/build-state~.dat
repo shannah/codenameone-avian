@@ -1,0 +1,1117 @@
+Tbuild-core-java
+v5
+r1
+cCheck dependencies
+cExternalBuildToolExecution build-core-java
+
+N/usr/bin/ant
+c0000000050255DA800000000000026F5
+t1344626088
+s9973
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf9dc75dd355fb641^9b7077dd355fb641^---0#1#0#--18"Check dependencies36"0CFE603E-F14A-4B48-A964-7C710C6F6581-
+
+CExternalBuildToolExecution build-core-java
+s375338461.471303
+e375338464.339547
+r1
+xExternalBuildToolExecution
+xbuild-core-java
+oApache Ant(TM) version 1.8.2 compiled on May 16 2012
+oTrying the default build file: build.xml
+oBuildfile: /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xml
+oDetected Java version: 1.7 in: /Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre
+oDetected OS: Mac OS X
+oparsing buildfile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xml with URI = file:/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xml
+oProject base dir set to: /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc
+oparsing buildfile jar:file:/usr/share/ant/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/usr/share/ant/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip file
+oLoading Environment env.
+oProperty "-*-command-variables-*-" has not been set
+o#Ant properties
+o#Thu Nov 22 20:41:02 PST 2012
+oant.core.lib=/usr/share/ant/lib/ant.jar
+oant.file=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xml
+oant.file.JObjC=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xml
+oant.file.type=file
+oant.file.type.JObjC=file
+oant.home=/usr/share/ant
+oant.java.version=1.7
+oant.library.dir=/usr/share/ant/lib
+oant.project.default-target=install
+oant.project.name=JObjC
+oant.version=Apache Ant(TM) version 1.8.2 compiled on May 16 2012
+oawt.toolkit=sun.lwawt.macosx.LWCToolkit
+obasedir=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc
+oenv.ACTION=
+oenv.ALLOW_DOWNLOADS=true
+oenv.ALTERNATE_GROUP=staff
+oenv.ALTERNATE_MODE=u+w,go-w,a+rX
+oenv.ALTERNATE_OWNER=shannah
+oenv.ALT_BOOTDIR=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home
+oenv.ALT_CORBA_DIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/corba/dist
+oenv.ALT_HOTSPOT_IMPORT_PATH=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/hotspot/import
+oenv.ALT_JAXP_DIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/jaxp/dist
+oenv.ALT_JAXWS_DIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/jaxws/dist
+oenv.ALT_LANGTOOLS_DIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/langtools/dist
+oenv.ALT_OUTPUTDIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64
+oenv.ALWAYS_SEARCH_USER_PATHS=YES
+oenv.APPLE_INTERNAL_DEVELOPER_DIR=/AppleInternal/Developer
+oenv.APPLE_INTERNAL_DIR=/AppleInternal
+oenv.APPLE_INTERNAL_DOCUMENTATION_DIR=/AppleInternal/Documentation
+oenv.APPLE_INTERNAL_LIBRARY_DIR=/AppleInternal/Library
+oenv.APPLE_INTERNAL_TOOLS=/AppleInternal/Developer/Tools
+oenv.APPLY_RULES_IN_COPY_FILES=NO
+oenv.ARCHS=i386 x86_64
+oenv.ARCH_DATA_MODEL=64
+oenv.AVAILABLE_PLATFORMS=iphonesimulator macosx iphoneos
+oenv.Apple_PubSub_Socket_Render=/tmp/launch-7Vo6Mc/Render
+oenv.Apple_Ubiquity_Message=/tmp/launch-RjNzNy/Apple_Ubiquity_Message
+oenv.BOOTDIR=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home
+oenv.BUILD_COMPONENTS=headers build
+oenv.BUILD_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst
+oenv.BUILD_HOTSPOT=true
+oenv.BUILD_NUMBER=b00
+oenv.BUILD_ROOT=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build
+oenv.BUILD_STYLE=
+oenv.BUILD_VARIANTS=normal
+oenv.BUILT_PRODUCTS_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug
+oenv.CACHE_ROOT=/var/folders/ff/drb1fgks39z7k1y31dm8yjv00000gn/C/com.apple.Xcode.501
+oenv.CC=
+oenv.CLASS_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JavaClasses
+oenv.CLONE_HEADERS=NO
+oenv.COMMAND_MODE=unix2003
+oenv.CONFIGURATION=Debug
+oenv.CONFIGURATION_BUILD_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug
+oenv.CONFIGURATION_TEMP_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug
+oenv.COOKED_BUILD_NUMBER=0
+oenv.COPYING_PRESERVES_HFS_DATA=NO
+oenv.COPY_PHASE_STRIP=NO
+oenv.CPATH=/usr/X11/include
+oenv.CXX=
+oenv.DEAD_CODE_STRIPPING=NO
+oenv.DEBUGGING_SYMBOLS=YES
+oenv.DEPLOYMENT_LOCATION=NO
+oenv.DEPLOYMENT_POSTPROCESSING=NO
+oenv.DERIVED_FILES_DIR=
+oenv.DERIVED_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources
+oenv.DERIVED_SOURCES_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources
+oenv.DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applications
+oenv.DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin
+oenv.DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+oenv.DEVELOPER_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Library/Frameworks
+oenv.DEVELOPER_FRAMEWORKS_DIR_QUOTED="/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+oenv.DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/Library
+oenv.DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs
+oenv.DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Tools
+oenv.DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr
+oenv.DEVELOPMENT_LANGUAGE=English
+oenv.DEV_NULL=/dev/null
+oenv.DO_HEADER_SCANNING_IN_JAM=NO
+oenv.DSTROOT=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug
+oenv.DT_TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+oenv.DWARF_DSYM_FILE_NAME=.dSYM
+oenv.DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NO
+oenv.DWARF_DSYM_FOLDER_PATH=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug
+oenv.ENABLE_HEADER_DEPENDENCIES=YES
+oenv.ERROR_FILE=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/sanityCheckErrors.txt
+oenv.EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS=.DS_Store .svn .git .hg CVS
+oenv.EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES=*.nib *.lproj *.framework *.gch *.xcode* (*) .DS_Store CVS .svn .git .hg
+oenv.EXTERNALSANITYCONTROL=true
+oenv.FILE_LIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects/LinkFileList
+oenv.FRAMEWORK_VERSION=A
+oenv.FULL_VERSION=1.7.0-internal-shannah_2012_11_22_20_32-b00
+oenv.GCC3_VERSION=3.3
+oenv.GCC_DYNAMIC_NO_PIC=NO
+oenv.GCC_ENABLE_OBJC_GC=supported
+oenv.GCC_GENERATE_DEBUGGING_SYMBOLS=YES
+oenv.GCC_OPTIMIZATION_LEVEL=0
+oenv.GENERATE_MASTER_OBJECT_FILE=NO
+oenv.GENERATE_PKGINFO_FILE=NO
+oenv.GID=20
+oenv.GROUP=staff
+oenv.HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT=YES
+oenv.HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES=YES
+oenv.HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS=YES
+oenv.HEADERMAP_INCLUDES_PROJECT_HEADERS=YES
+oenv.HEADER_SEARCH_PATHS=\ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+oenv.HOME=/Users/shannah
+oenv.HOTSPOT_BUILD_JOBS=4
+oenv.INFOPLIST_EXPAND_BUILD_SETTINGS=YES
+oenv.INFOPLIST_OUTPUT_FORMAT=same-as-input
+oenv.INFOPLIST_PREPROCESS=NO
+oenv.INSTALL_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug
+oenv.INSTALL_GROUP=staff
+oenv.INSTALL_MODE_FLAG=u+w,go-w,a+rX
+oenv.INSTALL_OWNER=shannah
+oenv.INSTALL_ROOT=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug
+oenv.JAVA_APP_STUB=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub
+oenv.JAVA_ARCHIVE_CLASSES=YES
+oenv.JAVA_ARCHIVE_TYPE=JAR
+oenv.JAVA_COMPILER=/usr/bin/javac
+oenv.JAVA_FRAMEWORK_RESOURCES_DIRS=Resources
+oenv.JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home
+oenv.JAVA_JAR_FLAGS=cv
+oenv.JAVA_MAIN_CLASS_21709=org.apache.tools.ant.launch.Launcher
+oenv.JAVA_MAIN_CLASS_21730=org.apache.tools.ant.launch.Launcher
+oenv.JAVA_SOURCE_SUBDIR=.
+oenv.JAVA_USE_DEPENDENCIES=YES
+oenv.JAVA_ZIP_FLAGS=-urg
+oenv.JDK_BUILD_NUMBER=b00
+oenv.JDK_HAS_MEM_INFO=true
+oenv.JDK_MAJOR_VERSION=1
+oenv.JDK_MAKE_SHARED_DIR=/Users/shannah/src/jdk7u-dev/jdk/make/common/shared
+oenv.JDK_MICRO_VERSION=0
+oenv.JDK_MINOR_VERSION=7
+oenv.JDK_MKTG_VERSION=7
+oenv.JDK_TOPDIR=/Users/shannah/src/jdk7u-dev/jdk
+oenv.JDK_VERSION=1.7.0
+oenv.KEEP_PRIVATE_EXTERNS=NO
+oenv.LANG=C
+oenv.LD_GENERATE_MAP_FILE=NO
+oenv.LD_MAP_FILE_PATH=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/build-core-LinkMap--.txt
+oenv.LD_NO_PIE=NO
+oenv.LEGACY_DEVELOPER_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer
+oenv.LINKER_DISPLAYS_MANGLED_NAMES=NO
+oenv.LINK_WITH_STANDARD_LIBRARIES=YES
+oenv.LOCAL_ADMIN_APPS_DIR=/Applications/Utilities
+oenv.LOCAL_APPS_DIR=/Applications
+oenv.LOCAL_DEVELOPER_DIR=/Library/Developer
+oenv.LOCAL_LIBRARY_DIR=/Library
+oenv.LOGNAME=shannah
+oenv.LOW_MEMORY_MACHINE=false
+oenv.MAC_OS_X_PRODUCT_BUILD_VERSION=12C60
+oenv.MAC_OS_X_VERSION_ACTUAL=1082
+oenv.MAC_OS_X_VERSION_MAJOR=1080
+oenv.MAC_OS_X_VERSION_MINOR=0802
+oenv.MAKEFLAGS=BUILD_HOTSPOT\=true ALT_HOTSPOT_IMPORT_PATH\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/hotspot/import ALT_JAXWS_DIST\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/jaxws/dist ALT_JAXP_DIST\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/jaxp/dist ALT_CORBA_DIST\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/corba/dist ALT_LANGTOOLS_DIST\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/langtools/dist ALT_OUTPUTDIR\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64 COOKED_BUILD_NUMBER\=0 ARCH_DATA_MODEL\=64 PREVIOUS_MICRO_VERSION\=0 PREVIOUS_MINOR_VERSION\=6 PREVIOUS_MAJOR_VERSION\=1 JDK_MICRO_VERSION\=0 JDK_MINOR_VERSION\=7 JDK_MAJOR_VERSION\=1 JDK_MKTG_VERSION\=7 JDK_VERSION\=1.7.0 PREVIOUS_JDK_VERSION\=1.6.0 FULL_VERSION\=1.7.0-internal-shannah_2012_11_22_20_32-b00 JDK_BUILD_NUMBER\=b00 BUILD_NUMBER\=b00 MILESTONE\=internal TARGET_CLASS_VERSION\=7 SOURCE_LANGUAGE_VERSION\=7 EXTERNALSANITYCONTROL\=true JDK_MAKE_SHARED_DIR\=/Users/shannah/src/jdk7u-dev/jdk/make/common/shared JDK_TOPDIR\=/Users/shannah/src/jdk7u-dev/jdk HOTSPOT_BUILD_JOBS\=4 ALT_BOOTDIR\=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home ALLOW_DOWNLOADS\=true SKIP_FASTDEBUG_BUILD\=true SKIP_DEBUG_BUILD\=true RELEASE\=1.7.0-internal
+oenv.MAKELEVEL=5
+oenv.MAKEOVERRIDES=${-*-command-variables-*-}
+oenv.MAX_VM_MEMORY=512
+oenv.MB_OF_MEMORY=8192
+oenv.MESSAGE_FILE=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/sanityCheckMessages.txt
+oenv.MFLAGS=
+oenv.MILESTONE=internal
+oenv.MIN_VM_MEMORY=512
+oenv.OBJECT_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects
+oenv.OBJROOT=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build
+oenv.ONLY_ACTIVE_ARCH=NO
+oenv.OPTIMIZATION_LEVEL=0
+oenv.ORIG_OUTPUTDIR_BASENAME=macosx-x86_64
+oenv.OS=MACOS
+oenv.PATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec\:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin\:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/local/bin\:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/bin\:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/local/bin\:/Applications/Xcode.app/Contents/Developer/usr/bin\:/Applications/Xcode.app/Contents/Developer/usr/local/bin\:/Applications/Xcode.app/Contents/Developer/Tools\:/usr/bin\:/bin\:/usr/sbin\:/sbin\:/usr/local/bin\:/Users/shannah/Documents/Shared/bin
+oenv.PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES=/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms
+oenv.PLATFORM=macosx
+oenv.PLIST_FILE_OUTPUT_FORMAT=same-as-input
+oenv.PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR=YES
+oenv.PRECOMP_DESTINATION_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/PrefixHeaders
+oenv.PRESERVE_DEAD_CODE_INITS_AND_TERMS=NO
+oenv.PREVIOUS_JDK_VERSION=1.6.0
+oenv.PREVIOUS_MAJOR_VERSION=1
+oenv.PREVIOUS_MICRO_VERSION=0
+oenv.PREVIOUS_MINOR_VERSION=6
+oenv.PRODUCT_NAME=build-core
+oenv.PROFILING_CODE=NO
+oenv.PROJECT=JObjC
+oenv.PROJECT_DERIVED_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/JObjC.build/DerivedSources
+oenv.PROJECT_DIR=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc
+oenv.PROJECT_FILE_PATH=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/JObjC.xcodeproj
+oenv.PROJECT_NAME=JObjC
+oenv.PROJECT_TEMP_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst
+oenv.PWD=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc
+oenv.RELEASE=1.7.0-internal
+oenv.REMOVE_CVS_FROM_RESOURCES=YES
+oenv.REMOVE_GIT_FROM_RESOURCES=YES
+oenv.REMOVE_HG_FROM_RESOURCES=YES
+oenv.REMOVE_SVN_FROM_RESOURCES=YES
+oenv.RUN_CLANG_STATIC_ANALYZER=NO
+oenv.SCAN_ALL_SOURCE_FILES_FOR_INCLUDES=NO
+oenv.SDKROOT=
+oenv.SEPARATE_STRIP=NO
+oenv.SEPARATE_SYMBOL_EDIT=NO
+oenv.SHARED_DERIVED_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/DerivedSources
+oenv.SHARED_PRECOMPS_DIR=/var/folders/ff/drb1fgks39z7k1y31dm8yjv00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders
+oenv.SHELL=/bin/bash
+oenv.SHLVL=5
+oenv.SKIP_DEBUG_BUILD=true
+oenv.SKIP_FASTDEBUG_BUILD=true
+oenv.SKIP_INSTALL=YES
+oenv.SOURCE_LANGUAGE_VERSION=7
+oenv.SOURCE_ROOT=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/.
+oenv.SRCROOT=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/.
+oenv.SSH_AUTH_SOCK=/tmp/launch-Lk1TSx/Listeners
+oenv.STABLE_GEN_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/stable_bridge_metadata
+oenv.STRINGS_FILE_OUTPUT_ENCODING=UTF-16
+oenv.STRIP_INSTALLED_PRODUCT=YES
+oenv.STRIP_STYLE=all
+oenv.SUPPORTED_PLATFORMS=macosx
+oenv.SYMROOT=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build
+oenv.SYSTEM_ADMIN_APPS_DIR=/Applications/Utilities
+oenv.SYSTEM_APPS_DIR=/Applications
+oenv.SYSTEM_CORE_SERVICES_DIR=/System/Library/CoreServices
+oenv.SYSTEM_DEMOS_DIR=/Applications/Extras
+oenv.SYSTEM_DEVELOPER_APPS_DIR=/Applications/Xcode.app/Contents/Developer/Applications
+oenv.SYSTEM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin
+oenv.SYSTEM_DEVELOPER_DEMOS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples
+oenv.SYSTEM_DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+oenv.SYSTEM_DEVELOPER_DOC_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library
+oenv.SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools
+oenv.SYSTEM_DEVELOPER_JAVA_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Java Tools
+oenv.SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools
+oenv.SYSTEM_DEVELOPER_RELEASENOTES_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes
+oenv.SYSTEM_DEVELOPER_TOOLS=/Applications/Xcode.app/Contents/Developer/Tools
+oenv.SYSTEM_DEVELOPER_TOOLS_DOC_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools
+oenv.SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools
+oenv.SYSTEM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr
+oenv.SYSTEM_DEVELOPER_UTILITIES_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities
+oenv.SYSTEM_DOCUMENTATION_DIR=/Library/Documentation
+oenv.SYSTEM_LIBRARY_DIR=/System/Library
+oenv.SYSTEM_UNAME=Darwin
+oenv.TARGETNAME=build-core-java
+oenv.TARGET_BUILD_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug
+oenv.TARGET_CLASS_VERSION=7
+oenv.TARGET_NAME=build-core-java
+oenv.TARGET_TEMP_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst
+oenv.TEMP_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst
+oenv.TEMP_FILES_DIR=
+oenv.TEMP_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst
+oenv.TEMP_ROOT=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build
+oenv.TERM=xterm-256color
+oenv.TERM_PROGRAM=Apple_Terminal
+oenv.TERM_PROGRAM_VERSION=309
+oenv.TERM_SESSION_ID=7389D380-3952-4925-A339-AA9C3EE6AF55
+oenv.TEST_AFTER_BUILD=NO
+oenv.TMPDIR=/var/folders/ff/drb1fgks39z7k1y31dm8yjv00000gn/T/
+oenv.UID=501
+oenv.USER=shannah
+oenv.USER_APPS_DIR=/Users/shannah/Applications
+oenv.USER_LIBRARY_DIR=/Users/shannah/Library
+oenv.USER_RELEASE_SUFFIX=shannah_2012_11_22_20_32
+oenv.WARNING_FILE=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/sanityCheckWarnings.txt
+oenv.XCODE_APP_SUPPORT_DIR=/Applications/Xcode.app/Contents/Developer/Library/Xcode
+oenv.XCODE_PRODUCT_BUILD_VERSION=4G1004
+oenv.XCODE_VERSION_ACTUAL=0451
+oenv.XCODE_VERSION_MAJOR=0400
+oenv.XCODE_VERSION_MINOR=0450
+oenv.__CF_USER_TEXT_ENCODING=0x1F5\:0\:0
+ofile.encoding=US-ASCII
+ofile.encoding.pkg=sun.io
+ofile.separator=/
+ogopherProxySet=false
+ojava.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+ojava.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+ojava.class.path=/usr/share/ant/lib/ant-launcher.jar\:/usr/share/ant/lib/ant-antlr.jar\:/usr/share/ant/lib/ant-jmf.jar\:/usr/share/ant/lib/ant-junit.jar\:/usr/share/ant/lib/ant-junit4.jar\:/usr/share/ant/lib/ant-launcher.jar\:/usr/share/ant/lib/ant-swing.jar\:/usr/share/ant/lib/ant-testutil.jar\:/usr/share/ant/lib/ant.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/lib/tools.jar
+ojava.class.version=51.0
+ojava.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/endorsed
+ojava.ext.dirs=/Users/shannah/Library/Java/Extensions\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext\:/Library/Java/Extensions\:/Network/Library/Java/Extensions\:/System/Library/Java/Extensions\:/usr/lib/java
+ojava.home=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre
+ojava.io.tmpdir=/var/folders/ff/drb1fgks39z7k1y31dm8yjv00000gn/T/
+ojava.library.path=/Users/shannah/Library/Java/Extensions\:/Library/Java/Extensions\:/Network/Library/Java/Extensions\:/System/Library/Java/Extensions\:/usr/lib/java\:.
+ojava.runtime.name=Java(TM) SE Runtime Environment
+ojava.runtime.version=1.7.0_06-b24
+ojava.specification.name=Java Platform API Specification
+ojava.specification.vendor=Oracle Corporation
+ojava.specification.version=1.7
+ojava.vendor=Oracle Corporation
+ojava.vendor.url=http\://java.oracle.com/
+ojava.vendor.url.bug=http\://bugreport.sun.com/bugreport/
+ojava.version=1.7.0_06
+ojava.vm.info=mixed mode
+ojava.vm.name=Java HotSpot(TM) 64-Bit Server VM
+ojava.vm.specification.name=Java Virtual Machine Specification
+ojava.vm.specification.vendor=Oracle Corporation
+ojava.vm.specification.version=1.7
+ojava.vm.vendor=Oracle Corporation
+ojava.vm.version=23.2-b09
+oline.separator=\n
+oos.arch=x86_64
+oos.name=Mac OS X
+oos.version=10.8.2
+opath.separator=\:
+osun.arch.data.model=64
+osun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/resources.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/rt.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/sunrsasign.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jsse.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jce.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/charsets.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jfr.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/JObjC.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/classes
+osun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib
+osun.cpu.endian=little
+osun.cpu.isalist=
+osun.io.unicode.encoding=UnicodeBig
+osun.java.command=org.apache.tools.ant.launch.Launcher -cp  -verbose -emacs
+osun.java.launcher=SUN_STANDARD
+osun.jnu.encoding=US-ASCII
+osun.management.compiler=HotSpot 64-Bit Tiered Compilers
+osun.os.patch.level=unknown
+ouser.country=US
+ouser.country.format=CA
+ouser.dir=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc
+ouser.home=/Users/shannah
+ouser.language=en
+ouser.name=shannah
+ouser.timezone=
+oProperty "env.RC_ARCHS" has not been set
+oProperty "env.INSTALL_PATH" has not been set
+o(Settings :src '/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/.' :cfg 'Debug' :obj '/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build' :dst '/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/Debug')
+oProperty "env.BENCH_MATCH" has not been set
+oBuild sequence for target(s) `install' is [install]
+oComplete build sequence is [install, clean, gen-pcoder, build-core, build-core-native, build-generator, run-generator, build-generated, build-additions, build-additions-native, assemble-product, clean-all, build-test-installed, build-test-native-installed, bench-installed, all, test-installed, all-but-gen, run-generator-old, all-test, build-test, build-test-native, installsrc, installhdrs, test, bench, clean-all-test, doc-core, ]
+o
+oinstall:
+o--- Redirecting to target "build-core"
+oProject base dir set to: /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc
+ocalling target(s) [build-core] in build file /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xml
+oparsing buildfile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xml with URI = file:/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xml
+oProject base dir set to: /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc
+oLoading Environment env.
+oOverride ignored for property "env.LOCAL_DEVELOPER_DIR"
+oOverride ignored for property "env.BUILD_STYLE"
+oOverride ignored for property "env.BUILD_HOTSPOT"
+oOverride ignored for property "env.SYSTEM_DEVELOPER_TOOLS"
+oOverride ignored for property "env.LEGACY_DEVELOPER_DIR"
+oOverride ignored for property "env.WARNING_FILE"
+oOverride ignored for property "env.ARCH_DATA_MODEL"
+oOverride ignored for property "env.PLATFORM"
+oOverride ignored for property "env.USER_RELEASE_SUFFIX"
+oOverride ignored for property "env.PREVIOUS_MINOR_VERSION"
+oOverride ignored for property "env.SYSTEM_ADMIN_APPS_DIR"
+oOverride ignored for property "env.FRAMEWORK_VERSION"
+oOverride ignored for property "env.CONFIGURATION"
+oOverride ignored for property "env.INFOPLIST_EXPAND_BUILD_SETTINGS"
+oOverride ignored for property "env.JAVA_HOME"
+oOverride ignored for property "env.BUILD_VARIANTS"
+oOverride ignored for property "env.SHARED_PRECOMPS_DIR"
+oOverride ignored for property "env.DEVELOPER_APPLICATIONS_DIR"
+oOverride ignored for property "env.OPTIMIZATION_LEVEL"
+oOverride ignored for property "env.KEEP_PRIVATE_EXTERNS"
+oOverride ignored for property "env.STABLE_GEN_DIR"
+oOverride ignored for property "env.INSTALL_OWNER"
+oOverride ignored for property "env.PREVIOUS_MAJOR_VERSION"
+oOverride ignored for property "env.SYSTEM_DEVELOPER_JAVA_TOOLS_DIR"
+oOverride ignored for property "env.SOURCE_ROOT"
+oOverride ignored for property "env.SYSTEM_DOCUMENTATION_DIR"
+oOverride ignored for property "env.MB_OF_MEMORY"
+oOverride ignored for property "env.CPATH"
+oOverride ignored for property "env.PROJECT"
+oOverride ignored for property "env.TEST_AFTER_BUILD"
+oOverride ignored for property "env.DEPLOYMENT_LOCATION"
+oOverride ignored for property "env.JAVA_APP_STUB"
+oOverride ignored for property "env.SEPARATE_STRIP"
+oOverride ignored for property "env.JAVA_MAIN_CLASS_21709"
+oOverride ignored for property "env.__CF_USER_TEXT_ENCODING"
+oOverride ignored for property "env.LOGNAME"
+oOverride ignored for property "env.PROJECT_NAME"
+oOverride ignored for property "env.JDK_TOPDIR"
+oOverride ignored for property "env.DEVELOPER_LIBRARY_DIR"
+oOverride ignored for property "env.RUN_CLANG_STATIC_ANALYZER"
+oOverride ignored for property "env.ALTERNATE_MODE"
+oOverride ignored for property "env.PROJECT_DIR"
+oOverride ignored for property "env.COOKED_BUILD_NUMBER"
+oOverride ignored for property "env.MESSAGE_FILE"
+oOverride ignored for property "env.SKIP_FASTDEBUG_BUILD"
+oOverride ignored for property "env.ALT_JAXP_DIST"
+oOverride ignored for property "env.XCODE_VERSION_ACTUAL"
+oOverride ignored for property "env.SYSTEM_DEVELOPER_DEMOS_DIR"
+oOverride ignored for property "env.TEMP_ROOT"
+oOverride ignored for property "env.DO_HEADER_SCANNING_IN_JAM"
+oOverride ignored for property "env.XCODE_APP_SUPPORT_DIR"
+oOverride ignored for property "env.SYSTEM_DEVELOPER_TOOLS_DOC_DIR"
+oOverride ignored for property "env.FULL_VERSION"
+oOverride ignored for property "env.MAC_OS_X_VERSION_MAJOR"
+oOverride ignored for property "env.DEVELOPER_USR_DIR"
+oOverride ignored for property "env.ALT_LANGTOOLS_DIST"
+oOverride ignored for property "env.JDK_MAJOR_VERSION"
+oOverride ignored for property "env.FILE_LIST"
+oOverride ignored for property "env.SHARED_DERIVED_FILE_DIR"
+oOverride ignored for property "env.DT_TOOLCHAIN_DIR"
+oOverride ignored for property "env.DEVELOPER_SDK_DIR"
+oOverride ignored for property "env.PRESERVE_DEAD_CODE_INITS_AND_TERMS"
+oOverride ignored for property "env.DSTROOT"
+oOverride ignored for property "env.SSH_AUTH_SOCK"
+oOverride ignored for property "env.INSTALL_MODE_FLAG"
+oOverride ignored for property "env.MAC_OS_X_PRODUCT_BUILD_VERSION"
+oOverride ignored for property "env.SRCROOT"
+oOverride ignored for property "env.TERM_PROGRAM_VERSION"
+oOverride ignored for property "env.JAVA_SOURCE_SUBDIR"
+oOverride ignored for property "env.UID"
+oOverride ignored for property "env.MIN_VM_MEMORY"
+oOverride ignored for property "env.PWD"
+oOverride ignored for property "env.GCC_ENABLE_OBJC_GC"
+oOverride ignored for property "env.HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES"
+oOverride ignored for property "env.ARCHS"
+oOverride ignored for property "env.SYSTEM_APPS_DIR"
+oOverride ignored for property "env.STRIP_INSTALLED_PRODUCT"
+oOverride ignored for property "env.DEVELOPMENT_LANGUAGE"
+oOverride ignored for property "env.SHLVL"
+oOverride ignored for property "env.CONFIGURATION_TEMP_DIR"
+oOverride ignored for property "env.JDK_BUILD_NUMBER"
+oOverride ignored for property "env.ALTERNATE_GROUP"
+oOverride ignored for property "env.SHELL"
+oOverride ignored for property "env.CACHE_ROOT"
+oOverride ignored for property "env.TERM_SESSION_ID"
+oOverride ignored for property "env.DEAD_CODE_STRIPPING"
+oOverride ignored for property "env.OBJECT_FILE_DIR"
+oOverride ignored for property "env.CONFIGURATION_BUILD_DIR"
+oOverride ignored for property "env.SYSTEM_DEVELOPER_DOC_DIR"
+oOverride ignored for property "env.COMMAND_MODE"
+oOverride ignored for property "env.TARGETNAME"
+oOverride ignored for property "env.ALLOW_DOWNLOADS"
+oOverride ignored for property "env.INFOPLIST_OUTPUT_FORMAT"
+oOverride ignored for property "env.GENERATE_PKGINFO_FILE"
+oOverride ignored for property "env.COPY_PHASE_STRIP"
+oOverride ignored for property "env.OBJROOT"
+oOverride ignored for property "env.DEV_NULL"
+oOverride ignored for property "env.MAKEFLAGS"
+oOverride ignored for property "env.TEMP_FILE_DIR"
+oOverride ignored for property "env.BUILD_ROOT"
+oOverride ignored for property "env.EXTERNALSANITYCONTROL"
+oOverride ignored for property "env.STRINGS_FILE_OUTPUT_ENCODING"
+oOverride ignored for property "env.PATH"
+oOverride ignored for property "env.SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR"
+oOverride ignored for property "env.JDK_VERSION"
+oOverride ignored for property "env.PRECOMP_DESTINATION_DIR"
+oOverride ignored for property "env.GCC_DYNAMIC_NO_PIC"
+oOverride ignored for property "env.PRODUCT_NAME"
+oOverride ignored for property "env.ALT_CORBA_DIST"
+oOverride ignored for property "env.DEBUGGING_SYMBOLS"
+oOverride ignored for property "env.HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS"
+oOverride ignored for property "env.USER_LIBRARY_DIR"
+oOverride ignored for property "env.PREVIOUS_JDK_VERSION"
+oOverride ignored for property "env.SYSTEM_UNAME"
+oOverride ignored for property "env.CC"
+oOverride ignored for property "env.ALWAYS_SEARCH_USER_PATHS"
+oOverride ignored for property "env.SYSTEM_DEVELOPER_RELEASENOTES_DIR"
+oOverride ignored for property "env.DEVELOPER_FRAMEWORKS_DIR"
+oOverride ignored for property "env.SYSTEM_DEVELOPER_BIN_DIR"
+oOverride ignored for property "env.ACTION"
+oOverride ignored for property "env.REMOVE_GIT_FROM_RESOURCES"
+oOverride ignored for property "env.PROJECT_TEMP_DIR"
+oOverride ignored for property "env.DEVELOPER_FRAMEWORKS_DIR_QUOTED"
+oOverride ignored for property "env.JAVA_ARCHIVE_TYPE"
+oOverride ignored for property "env.LOCAL_LIBRARY_DIR"
+oOverride ignored for property "env.PLIST_FILE_OUTPUT_FORMAT"
+oOverride ignored for property "env.SYSTEM_CORE_SERVICES_DIR"
+oOverride ignored for property "env.GCC3_VERSION"
+oOverride ignored for property "env.APPLE_INTERNAL_DEVELOPER_DIR"
+oOverride ignored for property "env.DEPLOYMENT_POSTPROCESSING"
+oOverride ignored for property "env.DERIVED_FILES_DIR"
+oOverride ignored for property "env.PROFILING_CODE"
+oOverride ignored for property "env.HOME"
+oOverride ignored for property "env.SYMROOT"
+oOverride ignored for property "env.DWARF_DSYM_FILE_NAME"
+oOverride ignored for property "env.XCODE_VERSION_MAJOR"
+oOverride ignored for property "env.JAVA_JAR_FLAGS"
+oOverride ignored for property "env.HEADERMAP_INCLUDES_PROJECT_HEADERS"
+oOverride ignored for property "env.ENABLE_HEADER_DEPENDENCIES"
+oOverride ignored for property "env.XCODE_VERSION_MINOR"
+oOverride ignored for property "env.INSTALL_DIR"
+oOverride ignored for property "env.LOCAL_APPS_DIR"
+oOverride ignored for property "env.SCAN_ALL_SOURCE_FILES_FOR_INCLUDES"
+oOverride ignored for property "env.APPLE_INTERNAL_LIBRARY_DIR"
+oOverride ignored for property "env.ERROR_FILE"
+oOverride ignored for property "env.USER_APPS_DIR"
+oOverride ignored for property "env.TERM_PROGRAM"
+oOverride ignored for property "env.SOURCE_LANGUAGE_VERSION"
+oOverride ignored for property "env.SYSTEM_DEVELOPER_APPS_DIR"
+oOverride ignored for property "env.MAC_OS_X_VERSION_MINOR"
+oOverride ignored for property "env.ALT_OUTPUTDIR"
+oOverride ignored for property "env.LD_GENERATE_MAP_FILE"
+oOverride ignored for property "env.MAKELEVEL"
+oOverride ignored for property "env.REMOVE_CVS_FROM_RESOURCES"
+oOverride ignored for property "env.TEMP_FILES_DIR"
+oOverride ignored for property "env.LANG"
+oOverride ignored for property "env.GCC_OPTIMIZATION_LEVEL"
+oOverride ignored for property "env.DEVELOPER_TOOLS_DIR"
+oOverride ignored for property "env.DWARF_DSYM_FOLDER_PATH"
+oOverride ignored for property "env.BUILT_PRODUCTS_DIR"
+oOverride ignored for property "env.SDKROOT"
+oOverride ignored for property "env.DEVELOPER_BIN_DIR"
+oOverride ignored for property "env.Apple_Ubiquity_Message"
+oOverride ignored for property "env.STRIP_STYLE"
+oOverride ignored for property "env.REMOVE_HG_FROM_RESOURCES"
+oOverride ignored for property "env.ALTERNATE_OWNER"
+oOverride ignored for property "env.ALT_BOOTDIR"
+oOverride ignored for property "env.USER"
+oOverride ignored for property "env.BUILD_NUMBER"
+oOverride ignored for property "env.COPYING_PRESERVES_HFS_DATA"
+oOverride ignored for property "env.JDK_MINOR_VERSION"
+oOverride ignored for property "env.JAVA_ARCHIVE_CLASSES"
+oOverride ignored for property "env.LOW_MEMORY_MACHINE"
+oOverride ignored for property "env.OS"
+oOverride ignored for property "env.LD_NO_PIE"
+oOverride ignored for property "env.PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES"
+oOverride ignored for property "env.TARGET_TEMP_DIR"
+oOverride ignored for property "env.CLONE_HEADERS"
+oOverride ignored for property "env.TMPDIR"
+oOverride ignored for property "env.SYSTEM_DEVELOPER_DIR"
+oOverride ignored for property "env.JDK_MKTG_VERSION"
+oOverride ignored for property "env.TERM"
+oOverride ignored for property "env.LOCAL_ADMIN_APPS_DIR"
+oOverride ignored for property "env.AVAILABLE_PLATFORMS"
+oOverride ignored for property "env.TEMP_DIR"
+oOverride ignored for property "env.DERIVED_FILE_DIR"
+oOverride ignored for property "env.Apple_PubSub_Socket_Render"
+oOverride ignored for property "env.XCODE_PRODUCT_BUILD_VERSION"
+oOverride ignored for property "env.INFOPLIST_PREPROCESS"
+oOverride ignored for property "env.MAC_OS_X_VERSION_ACTUAL"
+oOverride ignored for property "env.HOTSPOT_BUILD_JOBS"
+oOverride ignored for property "env.SYSTEM_DEVELOPER_UTILITIES_DIR"
+oOverride ignored for property "env.GCC_GENERATE_DEBUGGING_SYMBOLS"
+oOverride ignored for property "env.INSTALL_ROOT"
+oOverride ignored for property "env.JDK_HAS_MEM_INFO"
+oOverride ignored for property "env.RELEASE"
+oOverride ignored for property "env.GROUP"
+oOverride ignored for property "env.APPLE_INTERNAL_DOCUMENTATION_DIR"
+oOverride ignored for property "env.MFLAGS"
+oOverride ignored for property "env.PROJECT_DERIVED_FILE_DIR"
+oOverride ignored for property "env.ORIG_OUTPUTDIR_BASENAME"
+oOverride ignored for property "env.JDK_MICRO_VERSION"
+oOverride ignored for property "env.ALT_JAXWS_DIST"
+oOverride ignored for property "env.ALT_HOTSPOT_IMPORT_PATH"
+oOverride ignored for property "env.BUILD_DIR"
+oOverride ignored for property "env.PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR"
+oOverride ignored for property "env.SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR"
+oOverride ignored for property "env.BUILD_COMPONENTS"
+oOverride ignored for property "env.GID"
+oOverride ignored for property "env.APPLE_INTERNAL_DIR"
+oOverride ignored for property "env.EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS"
+oOverride ignored for property "env.DERIVED_SOURCES_DIR"
+oOverride ignored for property "env.DEVELOPER_DIR"
+oOverride ignored for property "env.MAX_VM_MEMORY"
+oOverride ignored for property "env.SKIP_INSTALL"
+oOverride ignored for property "env.MAKEOVERRIDES"
+oOverride ignored for property "env.SKIP_DEBUG_BUILD"
+oOverride ignored for property "env.DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT"
+oOverride ignored for property "env.CXX"
+oOverride ignored for property "env.JDK_MAKE_SHARED_DIR"
+oOverride ignored for property "env.LD_MAP_FILE_PATH"
+oOverride ignored for property "env.JAVA_COMPILER"
+oOverride ignored for property "env.LINK_WITH_STANDARD_LIBRARIES"
+oOverride ignored for property "env.REMOVE_SVN_FROM_RESOURCES"
+oOverride ignored for property "env.SUPPORTED_PLATFORMS"
+oOverride ignored for property "env.SYSTEM_DEVELOPER_USR_DIR"
+oOverride ignored for property "env.SYSTEM_DEMOS_DIR"
+oOverride ignored for property "env.TARGET_BUILD_DIR"
+oOverride ignored for property "env.SYSTEM_LIBRARY_DIR"
+oOverride ignored for property "env.LINKER_DISPLAYS_MANGLED_NAMES"
+oOverride ignored for property "env.ONLY_ACTIVE_ARCH"
+oOverride ignored for property "env.INSTALL_GROUP"
+oOverride ignored for property "env.JAVA_FRAMEWORK_RESOURCES_DIRS"
+oOverride ignored for property "env.EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES"
+oOverride ignored for property "env.SEPARATE_SYMBOL_EDIT"
+oOverride ignored for property "env.PROJECT_FILE_PATH"
+oOverride ignored for property "env.TARGET_NAME"
+oOverride ignored for property "env.APPLE_INTERNAL_TOOLS"
+oOverride ignored for property "env.PREVIOUS_MICRO_VERSION"
+oOverride ignored for property "env.JAVA_USE_DEPENDENCIES"
+oOverride ignored for property "env.GENERATE_MASTER_OBJECT_FILE"
+oOverride ignored for property "env.CLASS_FILE_DIR"
+oOverride ignored for property "env.JAVA_MAIN_CLASS_21730"
+oOverride ignored for property "env.JAVA_ZIP_FLAGS"
+oOverride ignored for property "env.HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT"
+oOverride ignored for property "env.HEADER_SEARCH_PATHS"
+oOverride ignored for property "env.SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR"
+oOverride ignored for property "env.MILESTONE"
+oOverride ignored for property "env.BOOTDIR"
+oOverride ignored for property "env.TARGET_CLASS_VERSION"
+oOverride ignored for property "env.APPLY_RULES_IN_COPY_FILES"
+o#Ant properties
+o#Thu Nov 22 20:41:02 PST 2012
+oARCHS=ppc i386 x86_64
+oadditions.bin=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/additions
+oadditions.jniheaders=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/additions
+oadditions.nativelib.dir=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug
+oadditions.src=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions
+oant.core.lib=/usr/share/ant/lib/ant.jar
+oant.file=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xml
+oant.file.JObjC=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xml
+oant.file.type=file
+oant.file.type.JObjC=file
+oant.home=/usr/share/ant
+oant.java.version=1.7
+oant.library.dir=/usr/share/ant/lib
+oant.project.default-target=install
+oant.project.invoked-targets=install
+oant.project.name=JObjC
+oant.version=Apache Ant(TM) version 1.8.2 compiled on May 16 2012
+oawt.toolkit=sun.lwawt.macosx.LWCToolkit
+obasedir=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc
+obench_match=*
+obin=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin
+ocfg=Debug
+ocompile.debug=true
+ocore.bin=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core
+ocore.jniheaders=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core
+ocore.nativelib.dir=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug
+ocore.src=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/java
+odst=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/Debug
+oenv.ACTION=
+oenv.ALLOW_DOWNLOADS=true
+oenv.ALTERNATE_GROUP=staff
+oenv.ALTERNATE_MODE=u+w,go-w,a+rX
+oenv.ALTERNATE_OWNER=shannah
+oenv.ALT_BOOTDIR=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home
+oenv.ALT_CORBA_DIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/corba/dist
+oenv.ALT_HOTSPOT_IMPORT_PATH=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/hotspot/import
+oenv.ALT_JAXP_DIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/jaxp/dist
+oenv.ALT_JAXWS_DIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/jaxws/dist
+oenv.ALT_LANGTOOLS_DIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/langtools/dist
+oenv.ALT_OUTPUTDIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64
+oenv.ALWAYS_SEARCH_USER_PATHS=YES
+oenv.APPLE_INTERNAL_DEVELOPER_DIR=/AppleInternal/Developer
+oenv.APPLE_INTERNAL_DIR=/AppleInternal
+oenv.APPLE_INTERNAL_DOCUMENTATION_DIR=/AppleInternal/Documentation
+oenv.APPLE_INTERNAL_LIBRARY_DIR=/AppleInternal/Library
+oenv.APPLE_INTERNAL_TOOLS=/AppleInternal/Developer/Tools
+oenv.APPLY_RULES_IN_COPY_FILES=NO
+oenv.ARCHS=i386 x86_64
+oenv.ARCH_DATA_MODEL=64
+oenv.AVAILABLE_PLATFORMS=iphonesimulator macosx iphoneos
+oenv.Apple_PubSub_Socket_Render=/tmp/launch-7Vo6Mc/Render
+oenv.Apple_Ubiquity_Message=/tmp/launch-RjNzNy/Apple_Ubiquity_Message
+oenv.BOOTDIR=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home
+oenv.BUILD_COMPONENTS=headers build
+oenv.BUILD_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst
+oenv.BUILD_HOTSPOT=true
+oenv.BUILD_NUMBER=b00
+oenv.BUILD_ROOT=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build
+oenv.BUILD_STYLE=
+oenv.BUILD_VARIANTS=normal
+oenv.BUILT_PRODUCTS_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug
+oenv.CACHE_ROOT=/var/folders/ff/drb1fgks39z7k1y31dm8yjv00000gn/C/com.apple.Xcode.501
+oenv.CC=
+oenv.CLASS_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JavaClasses
+oenv.CLONE_HEADERS=NO
+oenv.COMMAND_MODE=unix2003
+oenv.CONFIGURATION=Debug
+oenv.CONFIGURATION_BUILD_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug
+oenv.CONFIGURATION_TEMP_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug
+oenv.COOKED_BUILD_NUMBER=0
+oenv.COPYING_PRESERVES_HFS_DATA=NO
+oenv.COPY_PHASE_STRIP=NO
+oenv.CPATH=/usr/X11/include
+oenv.CXX=
+oenv.DEAD_CODE_STRIPPING=NO
+oenv.DEBUGGING_SYMBOLS=YES
+oenv.DEPLOYMENT_LOCATION=NO
+oenv.DEPLOYMENT_POSTPROCESSING=NO
+oenv.DERIVED_FILES_DIR=
+oenv.DERIVED_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources
+oenv.DERIVED_SOURCES_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources
+oenv.DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applications
+oenv.DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin
+oenv.DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+oenv.DEVELOPER_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Library/Frameworks
+oenv.DEVELOPER_FRAMEWORKS_DIR_QUOTED="/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+oenv.DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/Library
+oenv.DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs
+oenv.DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Tools
+oenv.DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr
+oenv.DEVELOPMENT_LANGUAGE=English
+oenv.DEV_NULL=/dev/null
+oenv.DO_HEADER_SCANNING_IN_JAM=NO
+oenv.DSTROOT=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug
+oenv.DT_TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+oenv.DWARF_DSYM_FILE_NAME=.dSYM
+oenv.DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NO
+oenv.DWARF_DSYM_FOLDER_PATH=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug
+oenv.ENABLE_HEADER_DEPENDENCIES=YES
+oenv.ERROR_FILE=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/sanityCheckErrors.txt
+oenv.EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS=.DS_Store .svn .git .hg CVS
+oenv.EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES=*.nib *.lproj *.framework *.gch *.xcode* (*) .DS_Store CVS .svn .git .hg
+oenv.EXTERNALSANITYCONTROL=true
+oenv.FILE_LIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects/LinkFileList
+oenv.FRAMEWORK_VERSION=A
+oenv.FULL_VERSION=1.7.0-internal-shannah_2012_11_22_20_32-b00
+oenv.GCC3_VERSION=3.3
+oenv.GCC_DYNAMIC_NO_PIC=NO
+oenv.GCC_ENABLE_OBJC_GC=supported
+oenv.GCC_GENERATE_DEBUGGING_SYMBOLS=YES
+oenv.GCC_OPTIMIZATION_LEVEL=0
+oenv.GENERATE_MASTER_OBJECT_FILE=NO
+oenv.GENERATE_PKGINFO_FILE=NO
+oenv.GID=20
+oenv.GROUP=staff
+oenv.HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT=YES
+oenv.HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES=YES
+oenv.HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS=YES
+oenv.HEADERMAP_INCLUDES_PROJECT_HEADERS=YES
+oenv.HEADER_SEARCH_PATHS=\ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+oenv.HOME=/Users/shannah
+oenv.HOTSPOT_BUILD_JOBS=4
+oenv.INFOPLIST_EXPAND_BUILD_SETTINGS=YES
+oenv.INFOPLIST_OUTPUT_FORMAT=same-as-input
+oenv.INFOPLIST_PREPROCESS=NO
+oenv.INSTALL_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug
+oenv.INSTALL_GROUP=staff
+oenv.INSTALL_MODE_FLAG=u+w,go-w,a+rX
+oenv.INSTALL_OWNER=shannah
+oenv.INSTALL_ROOT=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug
+oenv.JAVA_APP_STUB=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub
+oenv.JAVA_ARCHIVE_CLASSES=YES
+oenv.JAVA_ARCHIVE_TYPE=JAR
+oenv.JAVA_COMPILER=/usr/bin/javac
+oenv.JAVA_FRAMEWORK_RESOURCES_DIRS=Resources
+oenv.JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home
+oenv.JAVA_JAR_FLAGS=cv
+oenv.JAVA_MAIN_CLASS_21709=org.apache.tools.ant.launch.Launcher
+oenv.JAVA_MAIN_CLASS_21730=org.apache.tools.ant.launch.Launcher
+oenv.JAVA_SOURCE_SUBDIR=.
+oenv.JAVA_USE_DEPENDENCIES=YES
+oenv.JAVA_ZIP_FLAGS=-urg
+oenv.JDK_BUILD_NUMBER=b00
+oenv.JDK_HAS_MEM_INFO=true
+oenv.JDK_MAJOR_VERSION=1
+oenv.JDK_MAKE_SHARED_DIR=/Users/shannah/src/jdk7u-dev/jdk/make/common/shared
+oenv.JDK_MICRO_VERSION=0
+oenv.JDK_MINOR_VERSION=7
+oenv.JDK_MKTG_VERSION=7
+oenv.JDK_TOPDIR=/Users/shannah/src/jdk7u-dev/jdk
+oenv.JDK_VERSION=1.7.0
+oenv.KEEP_PRIVATE_EXTERNS=NO
+oenv.LANG=C
+oenv.LD_GENERATE_MAP_FILE=NO
+oenv.LD_MAP_FILE_PATH=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/build-core-LinkMap--.txt
+oenv.LD_NO_PIE=NO
+oenv.LEGACY_DEVELOPER_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer
+oenv.LINKER_DISPLAYS_MANGLED_NAMES=NO
+oenv.LINK_WITH_STANDARD_LIBRARIES=YES
+oenv.LOCAL_ADMIN_APPS_DIR=/Applications/Utilities
+oenv.LOCAL_APPS_DIR=/Applications
+oenv.LOCAL_DEVELOPER_DIR=/Library/Developer
+oenv.LOCAL_LIBRARY_DIR=/Library
+oenv.LOGNAME=shannah
+oenv.LOW_MEMORY_MACHINE=false
+oenv.MAC_OS_X_PRODUCT_BUILD_VERSION=12C60
+oenv.MAC_OS_X_VERSION_ACTUAL=1082
+oenv.MAC_OS_X_VERSION_MAJOR=1080
+oenv.MAC_OS_X_VERSION_MINOR=0802
+oenv.MAKEFLAGS=BUILD_HOTSPOT\=true ALT_HOTSPOT_IMPORT_PATH\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/hotspot/import ALT_JAXWS_DIST\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/jaxws/dist ALT_JAXP_DIST\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/jaxp/dist ALT_CORBA_DIST\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/corba/dist ALT_LANGTOOLS_DIST\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/langtools/dist ALT_OUTPUTDIR\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64 COOKED_BUILD_NUMBER\=0 ARCH_DATA_MODEL\=64 PREVIOUS_MICRO_VERSION\=0 PREVIOUS_MINOR_VERSION\=6 PREVIOUS_MAJOR_VERSION\=1 JDK_MICRO_VERSION\=0 JDK_MINOR_VERSION\=7 JDK_MAJOR_VERSION\=1 JDK_MKTG_VERSION\=7 JDK_VERSION\=1.7.0 PREVIOUS_JDK_VERSION\=1.6.0 FULL_VERSION\=1.7.0-internal-shannah_2012_11_22_20_32-b00 JDK_BUILD_NUMBER\=b00 BUILD_NUMBER\=b00 MILESTONE\=internal TARGET_CLASS_VERSION\=7 SOURCE_LANGUAGE_VERSION\=7 EXTERNALSANITYCONTROL\=true JDK_MAKE_SHARED_DIR\=/Users/shannah/src/jdk7u-dev/jdk/make/common/shared JDK_TOPDIR\=/Users/shannah/src/jdk7u-dev/jdk HOTSPOT_BUILD_JOBS\=4 ALT_BOOTDIR\=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home ALLOW_DOWNLOADS\=true SKIP_FASTDEBUG_BUILD\=true SKIP_DEBUG_BUILD\=true RELEASE\=1.7.0-internal
+oenv.MAKELEVEL=5
+oenv.MAKEOVERRIDES=${-*-command-variables-*-}
+oenv.MAX_VM_MEMORY=512
+oenv.MB_OF_MEMORY=8192
+oenv.MESSAGE_FILE=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/sanityCheckMessages.txt
+oenv.MFLAGS=
+oenv.MILESTONE=internal
+oenv.MIN_VM_MEMORY=512
+oenv.OBJECT_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects
+oenv.OBJROOT=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build
+oenv.ONLY_ACTIVE_ARCH=NO
+oenv.OPTIMIZATION_LEVEL=0
+oenv.ORIG_OUTPUTDIR_BASENAME=macosx-x86_64
+oenv.OS=MACOS
+oenv.PATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec\:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin\:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/local/bin\:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/bin\:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/local/bin\:/Applications/Xcode.app/Contents/Developer/usr/bin\:/Applications/Xcode.app/Contents/Developer/usr/local/bin\:/Applications/Xcode.app/Contents/Developer/Tools\:/usr/bin\:/bin\:/usr/sbin\:/sbin\:/usr/local/bin\:/Users/shannah/Documents/Shared/bin
+oenv.PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES=/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms
+oenv.PLATFORM=macosx
+oenv.PLIST_FILE_OUTPUT_FORMAT=same-as-input
+oenv.PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR=YES
+oenv.PRECOMP_DESTINATION_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/PrefixHeaders
+oenv.PRESERVE_DEAD_CODE_INITS_AND_TERMS=NO
+oenv.PREVIOUS_JDK_VERSION=1.6.0
+oenv.PREVIOUS_MAJOR_VERSION=1
+oenv.PREVIOUS_MICRO_VERSION=0
+oenv.PREVIOUS_MINOR_VERSION=6
+oenv.PRODUCT_NAME=build-core
+oenv.PROFILING_CODE=NO
+oenv.PROJECT=JObjC
+oenv.PROJECT_DERIVED_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/JObjC.build/DerivedSources
+oenv.PROJECT_DIR=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc
+oenv.PROJECT_FILE_PATH=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/JObjC.xcodeproj
+oenv.PROJECT_NAME=JObjC
+oenv.PROJECT_TEMP_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst
+oenv.PWD=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc
+oenv.RELEASE=1.7.0-internal
+oenv.REMOVE_CVS_FROM_RESOURCES=YES
+oenv.REMOVE_GIT_FROM_RESOURCES=YES
+oenv.REMOVE_HG_FROM_RESOURCES=YES
+oenv.REMOVE_SVN_FROM_RESOURCES=YES
+oenv.RUN_CLANG_STATIC_ANALYZER=NO
+oenv.SCAN_ALL_SOURCE_FILES_FOR_INCLUDES=NO
+oenv.SDKROOT=
+oenv.SEPARATE_STRIP=NO
+oenv.SEPARATE_SYMBOL_EDIT=NO
+oenv.SHARED_DERIVED_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/DerivedSources
+oenv.SHARED_PRECOMPS_DIR=/var/folders/ff/drb1fgks39z7k1y31dm8yjv00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders
+oenv.SHELL=/bin/bash
+oenv.SHLVL=5
+oenv.SKIP_DEBUG_BUILD=true
+oenv.SKIP_FASTDEBUG_BUILD=true
+oenv.SKIP_INSTALL=YES
+oenv.SOURCE_LANGUAGE_VERSION=7
+oenv.SOURCE_ROOT=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/.
+oenv.SRCROOT=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/.
+oenv.SSH_AUTH_SOCK=/tmp/launch-Lk1TSx/Listeners
+oenv.STABLE_GEN_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/stable_bridge_metadata
+oenv.STRINGS_FILE_OUTPUT_ENCODING=UTF-16
+oenv.STRIP_INSTALLED_PRODUCT=YES
+oenv.STRIP_STYLE=all
+oenv.SUPPORTED_PLATFORMS=macosx
+oenv.SYMROOT=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build
+oenv.SYSTEM_ADMIN_APPS_DIR=/Applications/Utilities
+oenv.SYSTEM_APPS_DIR=/Applications
+oenv.SYSTEM_CORE_SERVICES_DIR=/System/Library/CoreServices
+oenv.SYSTEM_DEMOS_DIR=/Applications/Extras
+oenv.SYSTEM_DEVELOPER_APPS_DIR=/Applications/Xcode.app/Contents/Developer/Applications
+oenv.SYSTEM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin
+oenv.SYSTEM_DEVELOPER_DEMOS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples
+oenv.SYSTEM_DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+oenv.SYSTEM_DEVELOPER_DOC_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library
+oenv.SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools
+oenv.SYSTEM_DEVELOPER_JAVA_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Java Tools
+oenv.SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools
+oenv.SYSTEM_DEVELOPER_RELEASENOTES_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes
+oenv.SYSTEM_DEVELOPER_TOOLS=/Applications/Xcode.app/Contents/Developer/Tools
+oenv.SYSTEM_DEVELOPER_TOOLS_DOC_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools
+oenv.SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools
+oenv.SYSTEM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr
+oenv.SYSTEM_DEVELOPER_UTILITIES_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities
+oenv.SYSTEM_DOCUMENTATION_DIR=/Library/Documentation
+oenv.SYSTEM_LIBRARY_DIR=/System/Library
+oenv.SYSTEM_UNAME=Darwin
+oenv.TARGETNAME=build-core-java
+oenv.TARGET_BUILD_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug
+oenv.TARGET_CLASS_VERSION=7
+oenv.TARGET_NAME=build-core-java
+oenv.TARGET_TEMP_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst
+oenv.TEMP_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst
+oenv.TEMP_FILES_DIR=
+oenv.TEMP_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst
+oenv.TEMP_ROOT=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build
+oenv.TERM=xterm-256color
+oenv.TERM_PROGRAM=Apple_Terminal
+oenv.TERM_PROGRAM_VERSION=309
+oenv.TERM_SESSION_ID=7389D380-3952-4925-A339-AA9C3EE6AF55
+oenv.TEST_AFTER_BUILD=NO
+oenv.TMPDIR=/var/folders/ff/drb1fgks39z7k1y31dm8yjv00000gn/T/
+oenv.UID=501
+oenv.USER=shannah
+oenv.USER_APPS_DIR=/Users/shannah/Applications
+oenv.USER_LIBRARY_DIR=/Users/shannah/Library
+oenv.USER_RELEASE_SUFFIX=shannah_2012_11_22_20_32
+oenv.WARNING_FILE=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/sanityCheckWarnings.txt
+oenv.XCODE_APP_SUPPORT_DIR=/Applications/Xcode.app/Contents/Developer/Library/Xcode
+oenv.XCODE_PRODUCT_BUILD_VERSION=4G1004
+oenv.XCODE_VERSION_ACTUAL=0451
+oenv.XCODE_VERSION_MAJOR=0400
+oenv.XCODE_VERSION_MINOR=0450
+oenv.__CF_USER_TEXT_ENCODING=0x1F5\:0\:0
+ofile.encoding=US-ASCII
+ofile.encoding.pkg=sun.io
+ofile.separator=/
+ogendoc=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/doc
+ogenerated.bin=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/generated
+ogenerated.src=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jobjc
+ogenerator.bin=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/generator
+ogenerator.src=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/generator/java
+ogopherProxySet=false
+ojava.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+ojava.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+ojava.class.path=/usr/share/ant/lib/ant-launcher.jar\:/usr/share/ant/lib/ant-antlr.jar\:/usr/share/ant/lib/ant-jmf.jar\:/usr/share/ant/lib/ant-junit.jar\:/usr/share/ant/lib/ant-junit4.jar\:/usr/share/ant/lib/ant-launcher.jar\:/usr/share/ant/lib/ant-swing.jar\:/usr/share/ant/lib/ant-testutil.jar\:/usr/share/ant/lib/ant.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/lib/tools.jar
+ojava.class.version=51.0
+ojava.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/endorsed
+ojava.ext.dirs=/Users/shannah/Library/Java/Extensions\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext\:/Library/Java/Extensions\:/Network/Library/Java/Extensions\:/System/Library/Java/Extensions\:/usr/lib/java
+ojava.home=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre
+ojava.io.tmpdir=/var/folders/ff/drb1fgks39z7k1y31dm8yjv00000gn/T/
+ojava.library.path=/Users/shannah/Library/Java/Extensions\:/Library/Java/Extensions\:/Network/Library/Java/Extensions\:/System/Library/Java/Extensions\:/usr/lib/java\:.
+ojava.runtime.name=Java(TM) SE Runtime Environment
+ojava.runtime.version=1.7.0_06-b24
+ojava.specification.name=Java Platform API Specification
+ojava.specification.vendor=Oracle Corporation
+ojava.specification.version=1.7
+ojava.vendor=Oracle Corporation
+ojava.vendor.url=http\://java.oracle.com/
+ojava.vendor.url.bug=http\://bugreport.sun.com/bugreport/
+ojava.version=1.7.0_06
+ojava.vm.info=mixed mode
+ojava.vm.name=Java HotSpot(TM) 64-Bit Server VM
+ojava.vm.specification.name=Java Virtual Machine Specification
+ojava.vm.specification.vendor=Oracle Corporation
+ojava.vm.specification.version=1.7
+ojava.vm.vendor=Oracle Corporation
+ojava.vm.version=23.2-b09
+ojniheaders=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers
+oline.separator=\n
+onativelib.dir=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug
+onativelib.file=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/libJObjC.dylib
+oobj=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build
+oos.arch=x86_64
+oos.name=Mac OS X
+oos.version=10.8.2
+opath.separator=\:
+oproduct.jarfile=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/JObjC.jar
+oproduct.jarfile.dir=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build
+oproduct.jarfile.name=JObjC.jar
+oproduct.target_path=/System/Library/Java/Extensions
+oredirection-target-defined=build-core
+osrc=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/.
+osun.arch.data.model=64
+osun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/resources.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/rt.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/sunrsasign.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jsse.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jce.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/charsets.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jfr.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/JObjC.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/classes
+osun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib
+osun.cpu.endian=little
+osun.cpu.isalist=
+osun.io.unicode.encoding=UnicodeBig
+osun.java.command=org.apache.tools.ant.launch.Launcher -cp  -verbose -emacs
+osun.java.launcher=SUN_STANDARD
+osun.jnu.encoding=US-ASCII
+osun.management.compiler=HotSpot 64-Bit Tiered Compilers
+osun.os.patch.level=unknown
+otest.bin=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/test
+otest.jniheaders=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/test
+otest.reports=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/test-reports
+otest.src=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/tests/java
+ouser.country=US
+ouser.country.format=CA
+ouser.dir=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc
+ouser.home=/Users/shannah
+ouser.language=en
+ouser.name=shannah
+ouser.timezone=
+oOverride ignored for property "redirection-target-defined"
+oOverride ignored for property "compile.debug"
+oOverride ignored for property "src"
+oOverride ignored for property "cfg"
+oOverride ignored for property "obj"
+oOverride ignored for property "dst"
+oProperty "env.RC_ARCHS" has not been set
+oOverride ignored for property "ARCHS"
+oOverride ignored for property "bin"
+oOverride ignored for property "gendoc"
+oOverride ignored for property "nativelib.dir"
+oOverride ignored for property "nativelib.file"
+oOverride ignored for property "jniheaders"
+oOverride ignored for property "core.src"
+oOverride ignored for property "core.bin"
+oOverride ignored for property "core.jniheaders"
+oOverride ignored for property "core.nativelib.dir"
+oOverride ignored for property "generator.src"
+oOverride ignored for property "generator.bin"
+oOverride ignored for property "generated.src"
+oOverride ignored for property "generated.bin"
+oOverride ignored for property "additions.src"
+oOverride ignored for property "additions.bin"
+oOverride ignored for property "additions.jniheaders"
+oOverride ignored for property "additions.nativelib.dir"
+oOverride ignored for property "test.src"
+oOverride ignored for property "test.bin"
+oOverride ignored for property "test.jniheaders"
+oOverride ignored for property "test.reports"
+oProperty "env.INSTALL_PATH" has not been set
+oOverride ignored for property "product.target_path"
+o(Settings :src '/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/.' :cfg 'Debug' :obj '/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build' :dst '/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/Debug')
+oOverride ignored for property "product.jarfile.dir"
+oOverride ignored for property "product.jarfile.name"
+oOverride ignored for property "product.jarfile"
+oProperty "env.BENCH_MATCH" has not been set
+oOverride ignored for property "bench_match"
+oBuild sequence for target(s) `build-core' is [gen-pcoder, build-core]
+oComplete build sequence is [gen-pcoder, build-core, clean, build-core-native, build-generator, run-generator, build-generated, build-additions, build-additions-native, assemble-product, clean-all, build-test-installed, build-test-native-installed, bench-installed, all, test-installed, all-but-gen, run-generator-old, all-test, build-test, build-test-native, install, installsrc, installhdrs, test, bench, clean-all-test, doc-core, ]
+oEntering /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xml...
+oBuild sequence for target(s) `build-core' is [gen-pcoder, build-core]
+oComplete build sequence is [gen-pcoder, build-core, clean, build-core-native, build-generator, run-generator, build-generated, build-additions, build-additions-native, assemble-product, clean-all, build-test-installed, build-test-native-installed, bench-installed, all, test-installed, all-but-gen, run-generator-old, all-test, build-test, build-test-native, install, installsrc, installhdrs, test, bench, clean-all-test, doc-core, ]
+o
+ogen-pcoder:
+oCurrent OS is Mac OS X
+oExecuting 'ruby' with arguments:
+o'/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/./run-and-write-if-okay'
+o'/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/./src/core/PrimitiveCoder.hs'
+o'/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/./src/core/java/com/apple/jobjc/PrimitiveCoder.java'
+o
+oThe ' characters around the executable and arguments are
+onot part of the command.
+o
+o/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/./src/core/PrimitiveCoder.hs failed to run trial. Ignoring.
+o/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/./run-and-write-if-okay:48: command not found: /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/./src/core/PrimitiveCoder.hs
+o
+obuild-core:
+oSkipping /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core because it already exists.
+ocom/apple/jobjc/PrimitiveCoder.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/PrimitiveCoder.class is up to date.
+ocom/apple/jobjc/CFType.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/CFType.class is up to date.
+ocom/apple/jobjc/CIF.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/CIF.class is up to date.
+ocom/apple/jobjc/Coder.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/Coder.class is up to date.
+ocom/apple/jobjc/FFIType.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/FFIType.class is up to date.
+ocom/apple/jobjc/Function.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/Function.class is up to date.
+ocom/apple/jobjc/ID.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/ID.class is up to date.
+ocom/apple/jobjc/Invoke.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/Invoke.class is up to date.
+ocom/apple/jobjc/JObjCRuntime.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/JObjCRuntime.class is up to date.
+ocom/apple/jobjc/MacOSXFramework.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/MacOSXFramework.class is up to date.
+ocom/apple/jobjc/NSClass.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/NSClass.class is up to date.
+ocom/apple/jobjc/NativeArgumentBuffer.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/NativeArgumentBuffer.class is up to date.
+ocom/apple/jobjc/NativeBuffer.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/NativeBuffer.class is up to date.
+ocom/apple/jobjc/NativeObjectLifecycleManager.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/NativeObjectLifecycleManager.class is up to date.
+ocom/apple/jobjc/Opaque.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/Opaque.class is up to date.
+ocom/apple/jobjc/Pointer.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/Pointer.class is up to date.
+ocom/apple/jobjc/PrimitiveCoder.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/PrimitiveCoder.class is up to date.
+ocom/apple/jobjc/SEL.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/SEL.class is up to date.
+ocom/apple/jobjc/Struct.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/Struct.class is up to date.
+ocom/apple/jobjc/Subclassing.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/Subclassing.class is up to date.
+oCurrent OS is Mac OS X
+oOutput redirected to property: core.classes
+oExecuting '/usr/bin/perl' with arguments:
+o'/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/./extract_classes.pl'
+o'/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core'
+o
+oThe ' characters around the executable and arguments are
+onot part of the command.
+oSkipping /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core because it already exists.
+oCompilation arguments:
+o'-d'
+o'/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core'
+o'-classpath'
+o'/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core'
+o
+oThe ' characters around the executable and arguments are
+onot part of the command.
+oClasses to be compiled:
+o    com.apple.jobjc.CFType
+o    com.apple.jobjc.CIF
+o    com.apple.jobjc.Coder$IDCoder
+o    com.apple.jobjc.Coder$NSClassCoder
+o    com.apple.jobjc.Coder$PointerCoder
+o    com.apple.jobjc.Coder$PrimitivePointerCoder
+o    com.apple.jobjc.Coder$SELCoder
+o    com.apple.jobjc.Coder$StructCoder
+o    com.apple.jobjc.Coder$UnknownCoder
+o    com.apple.jobjc.Coder$VoidCoder
+o    com.apple.jobjc.Coder
+o    com.apple.jobjc.FFIType
+o    com.apple.jobjc.Function
+o    com.apple.jobjc.ID
+o    com.apple.jobjc.Invoke$FunCall
+o    com.apple.jobjc.Invoke$MsgSend
+o    com.apple.jobjc.Invoke$MsgSendSuper
+o    com.apple.jobjc.Invoke
+o    com.apple.jobjc.JObjCRuntime$Arch
+o    com.apple.jobjc.JObjCRuntime$Width
+o    com.apple.jobjc.JObjCRuntime
+o    com.apple.jobjc.MacOSXFramework
+o    com.apple.jobjc.NativeArgumentBuffer
+o    com.apple.jobjc.NativeBuffer
+o    com.apple.jobjc.NativeObjectLifecycleManager$CFRetainRelease
+o    com.apple.jobjc.NativeObjectLifecycleManager$Free
+o    com.apple.jobjc.NativeObjectLifecycleManager$Nothing
+o    com.apple.jobjc.NativeObjectLifecycleManager
+o    com.apple.jobjc.NSClass$NSClassNotFoundException
+o    com.apple.jobjc.NSClass
+o    com.apple.jobjc.Opaque
+o    com.apple.jobjc.Pointer
+o    com.apple.jobjc.PrimitiveCoder$BoolCoder
+o    com.apple.jobjc.PrimitiveCoder$DoubleCoder
+o    com.apple.jobjc.PrimitiveCoder$FloatCoder
+o    com.apple.jobjc.PrimitiveCoder$SCharCoder
+o    com.apple.jobjc.PrimitiveCoder$SIntCoder
+o    com.apple.jobjc.PrimitiveCoder$SLongCoder
+o    com.apple.jobjc.PrimitiveCoder$SLongLongCoder
+o    com.apple.jobjc.PrimitiveCoder$SShortCoder
+o    com.apple.jobjc.PrimitiveCoder$UCharCoder
+o    com.apple.jobjc.PrimitiveCoder$UIntCoder
+o    com.apple.jobjc.PrimitiveCoder$ULongCoder
+o    com.apple.jobjc.PrimitiveCoder$ULongLongCoder
+o    com.apple.jobjc.PrimitiveCoder$UShortCoder
+o    com.apple.jobjc.PrimitiveCoder
+o    com.apple.jobjc.SEL
+o    com.apple.jobjc.Struct
+o    com.apple.jobjc.Subclassing
+oExiting /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xml.
+o
+oBUILD SUCCESSFUL
+oTotal time: 2 seconds
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection23"Run external build tool854179dd355fb641^4eef56e0355fb641^-65882"Apache Ant(TM) version 1.8.2 compiled on May 16 2012Trying the default build file: build.xmlBuildfile: /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xmlDetected Java version: 1.7 in: /Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jreDetected OS: Mac OS Xparsing buildfile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xml with URI = file:/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xmlProject base dir set to: /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjcparsing buildfile jar:file:/usr/share/ant/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/usr/share/ant/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip fileLoading Environment env.Property "-*-command-variables-*-" has not been set#Ant properties#Thu Nov 22 20:41:02 PST 2012ant.core.lib=/usr/share/ant/lib/ant.jarant.file=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xmlant.file.JObjC=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xmlant.file.type=fileant.file.type.JObjC=fileant.home=/usr/share/antant.java.version=1.7ant.library.dir=/usr/share/ant/libant.project.default-target=installant.project.name=JObjCant.version=Apache Ant(TM) version 1.8.2 compiled on May 16 2012awt.toolkit=sun.lwawt.macosx.LWCToolkitbasedir=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjcenv.ACTION=env.ALLOW_DOWNLOADS=trueenv.ALTERNATE_GROUP=staffenv.ALTERNATE_MODE=u+w,go-w,a+rXenv.ALTERNATE_OWNER=shannahenv.ALT_BOOTDIR=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Homeenv.ALT_CORBA_DIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/corba/distenv.ALT_HOTSPOT_IMPORT_PATH=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/hotspot/importenv.ALT_JAXP_DIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/jaxp/distenv.ALT_JAXWS_DIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/jaxws/distenv.ALT_LANGTOOLS_DIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/langtools/distenv.ALT_OUTPUTDIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64env.ALWAYS_SEARCH_USER_PATHS=YESenv.APPLE_INTERNAL_DEVELOPER_DIR=/AppleInternal/Developerenv.APPLE_INTERNAL_DIR=/AppleInternalenv.APPLE_INTERNAL_DOCUMENTATION_DIR=/AppleInternal/Documentationenv.APPLE_INTERNAL_LIBRARY_DIR=/AppleInternal/Libraryenv.APPLE_INTERNAL_TOOLS=/AppleInternal/Developer/Toolsenv.APPLY_RULES_IN_COPY_FILES=NOenv.ARCHS=i386 x86_64env.ARCH_DATA_MODEL=64env.AVAILABLE_PLATFORMS=iphonesimulator macosx iphoneosenv.Apple_PubSub_Socket_Render=/tmp/launch-7Vo6Mc/Renderenv.Apple_Ubiquity_Message=/tmp/launch-RjNzNy/Apple_Ubiquity_Messageenv.BOOTDIR=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Homeenv.BUILD_COMPONENTS=headers buildenv.BUILD_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dstenv.BUILD_HOTSPOT=trueenv.BUILD_NUMBER=b00env.BUILD_ROOT=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/buildenv.BUILD_STYLE=env.BUILD_VARIANTS=normalenv.BUILT_PRODUCTS_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debugenv.CACHE_ROOT=/var/folders/ff/drb1fgks39z7k1y31dm8yjv00000gn/C/com.apple.Xcode.501env.CC=env.CLASS_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JavaClassesenv.CLONE_HEADERS=NOenv.COMMAND_MODE=unix2003env.CONFIGURATION=Debugenv.CONFIGURATION_BUILD_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debugenv.CONFIGURATION_TEMP_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debugenv.COOKED_BUILD_NUMBER=0env.COPYING_PRESERVES_HFS_DATA=NOenv.COPY_PHASE_STRIP=NOenv.CPATH=/usr/X11/includeenv.CXX=env.DEAD_CODE_STRIPPING=NOenv.DEBUGGING_SYMBOLS=YESenv.DEPLOYMENT_LOCATION=NOenv.DEPLOYMENT_POSTPROCESSING=NOenv.DERIVED_FILES_DIR=env.DERIVED_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSourcesenv.DERIVED_SOURCES_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSourcesenv.DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applicationsenv.DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/binenv.DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developerenv.DEVELOPER_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Library/Frameworksenv.DEVELOPER_FRAMEWORKS_DIR_QUOTED="/Applications/Xcode.app/Contents/Developer/Library/Frameworks"env.DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/Libraryenv.DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKsenv.DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Toolsenv.DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usrenv.DEVELOPMENT_LANGUAGE=Englishenv.DEV_NULL=/dev/nullenv.DO_HEADER_SCANNING_IN_JAM=NOenv.DSTROOT=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debugenv.DT_TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchainenv.DWARF_DSYM_FILE_NAME=.dSYMenv.DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NOenv.DWARF_DSYM_FOLDER_PATH=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debugenv.ENABLE_HEADER_DEPENDENCIES=YESenv.ERROR_FILE=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/sanityCheckErrors.txtenv.EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS=.DS_Store .svn .git .hg CVSenv.EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES=*.nib *.lproj *.framework *.gch *.xcode* (*) .DS_Store CVS .svn .git .hgenv.EXTERNALSANITYCONTROL=trueenv.FILE_LIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects/LinkFileListenv.FRAMEWORK_VERSION=Aenv.FULL_VERSION=1.7.0-internal-shannah_2012_11_22_20_32-b00env.GCC3_VERSION=3.3env.GCC_DYNAMIC_NO_PIC=NOenv.GCC_ENABLE_OBJC_GC=supportedenv.GCC_GENERATE_DEBUGGING_SYMBOLS=YESenv.GCC_OPTIMIZATION_LEVEL=0env.GENERATE_MASTER_OBJECT_FILE=NOenv.GENERATE_PKGINFO_FILE=NOenv.GID=20env.GROUP=staffenv.HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT=YESenv.HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES=YESenv.HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS=YESenv.HEADERMAP_INCLUDES_PROJECT_HEADERS=YESenv.HEADER_SEARCH_PATHS=\ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/includeenv.HOME=/Users/shannahenv.HOTSPOT_BUILD_JOBS=4env.INFOPLIST_EXPAND_BUILD_SETTINGS=YESenv.INFOPLIST_OUTPUT_FORMAT=same-as-inputenv.INFOPLIST_PREPROCESS=NOenv.INSTALL_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debugenv.INSTALL_GROUP=staffenv.INSTALL_MODE_FLAG=u+w,go-w,a+rXenv.INSTALL_OWNER=shannahenv.INSTALL_ROOT=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debugenv.JAVA_APP_STUB=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStubenv.JAVA_ARCHIVE_CLASSES=YESenv.JAVA_ARCHIVE_TYPE=JARenv.JAVA_COMPILER=/usr/bin/javacenv.JAVA_FRAMEWORK_RESOURCES_DIRS=Resourcesenv.JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Homeenv.JAVA_JAR_FLAGS=cvenv.JAVA_MAIN_CLASS_21709=org.apache.tools.ant.launch.Launcherenv.JAVA_MAIN_CLASS_21730=org.apache.tools.ant.launch.Launcherenv.JAVA_SOURCE_SUBDIR=.env.JAVA_USE_DEPENDENCIES=YESenv.JAVA_ZIP_FLAGS=-urgenv.JDK_BUILD_NUMBER=b00env.JDK_HAS_MEM_INFO=trueenv.JDK_MAJOR_VERSION=1env.JDK_MAKE_SHARED_DIR=/Users/shannah/src/jdk7u-dev/jdk/make/common/sharedenv.JDK_MICRO_VERSION=0env.JDK_MINOR_VERSION=7env.JDK_MKTG_VERSION=7env.JDK_TOPDIR=/Users/shannah/src/jdk7u-dev/jdkenv.JDK_VERSION=1.7.0env.KEEP_PRIVATE_EXTERNS=NOenv.LANG=Cenv.LD_GENERATE_MAP_FILE=NOenv.LD_MAP_FILE_PATH=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/build-core-LinkMap--.txtenv.LD_NO_PIE=NOenv.LEGACY_DEVELOPER_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developerenv.LINKER_DISPLAYS_MANGLED_NAMES=NOenv.LINK_WITH_STANDARD_LIBRARIES=YESenv.LOCAL_ADMIN_APPS_DIR=/Applications/Utilitiesenv.LOCAL_APPS_DIR=/Applicationsenv.LOCAL_DEVELOPER_DIR=/Library/Developerenv.LOCAL_LIBRARY_DIR=/Libraryenv.LOGNAME=shannahenv.LOW_MEMORY_MACHINE=falseenv.MAC_OS_X_PRODUCT_BUILD_VERSION=12C60env.MAC_OS_X_VERSION_ACTUAL=1082env.MAC_OS_X_VERSION_MAJOR=1080env.MAC_OS_X_VERSION_MINOR=0802env.MAKEFLAGS=BUILD_HOTSPOT\=true ALT_HOTSPOT_IMPORT_PATH\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/hotspot/import ALT_JAXWS_DIST\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/jaxws/dist ALT_JAXP_DIST\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/jaxp/dist ALT_CORBA_DIST\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/corba/dist ALT_LANGTOOLS_DIST\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/langtools/dist ALT_OUTPUTDIR\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64 COOKED_BUILD_NUMBER\=0 ARCH_DATA_MODEL\=64 PREVIOUS_MICRO_VERSION\=0 PREVIOUS_MINOR_VERSION\=6 PREVIOUS_MAJOR_VERSION\=1 JDK_MICRO_VERSION\=0 JDK_MINOR_VERSION\=7 JDK_MAJOR_VERSION\=1 JDK_MKTG_VERSION\=7 JDK_VERSION\=1.7.0 PREVIOUS_JDK_VERSION\=1.6.0 FULL_VERSION\=1.7.0-internal-shannah_2012_11_22_20_32-b00 JDK_BUILD_NUMBER\=b00 BUILD_NUMBER\=b00 MILESTONE\=internal TARGET_CLASS_VERSION\=7 SOURCE_LANGUAGE_VERSION\=7 EXTERNALSANITYCONTROL\=true JDK_MAKE_SHARED_DIR\=/Users/shannah/src/jdk7u-dev/jdk/make/common/shared JDK_TOPDIR\=/Users/shannah/src/jdk7u-dev/jdk HOTSPOT_BUILD_JOBS\=4 ALT_BOOTDIR\=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home ALLOW_DOWNLOADS\=true SKIP_FASTDEBUG_BUILD\=true SKIP_DEBUG_BUILD\=true RELEASE\=1.7.0-internalenv.MAKELEVEL=5env.MAKEOVERRIDES=${-*-command-variables-*-}env.MAX_VM_MEMORY=512env.MB_OF_MEMORY=8192env.MESSAGE_FILE=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/sanityCheckMessages.txtenv.MFLAGS=env.MILESTONE=internalenv.MIN_VM_MEMORY=512env.OBJECT_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objectsenv.OBJROOT=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.buildenv.ONLY_ACTIVE_ARCH=NOenv.OPTIMIZATION_LEVEL=0env.ORIG_OUTPUTDIR_BASENAME=macosx-x86_64env.OS=MACOSenv.PATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec\:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin\:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/local/bin\:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/bin\:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/local/bin\:/Applications/Xcode.app/Contents/Developer/usr/bin\:/Applications/Xcode.app/Contents/Developer/usr/local/bin\:/Applications/Xcode.app/Contents/Developer/Tools\:/usr/bin\:/bin\:/usr/sbin\:/sbin\:/usr/local/bin\:/Users/shannah/Documents/Shared/binenv.PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES=/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platformsenv.PLATFORM=macosxenv.PLIST_FILE_OUTPUT_FORMAT=same-as-inputenv.PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR=YESenv.PRECOMP_DESTINATION_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/PrefixHeadersenv.PRESERVE_DEAD_CODE_INITS_AND_TERMS=NOenv.PREVIOUS_JDK_VERSION=1.6.0env.PREVIOUS_MAJOR_VERSION=1env.PREVIOUS_MICRO_VERSION=0env.PREVIOUS_MINOR_VERSION=6env.PRODUCT_NAME=build-coreenv.PROFILING_CODE=NOenv.PROJECT=JObjCenv.PROJECT_DERIVED_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/JObjC.build/DerivedSourcesenv.PROJECT_DIR=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjcenv.PROJECT_FILE_PATH=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/JObjC.xcodeprojenv.PROJECT_NAME=JObjCenv.PROJECT_TEMP_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dstenv.PWD=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjcenv.RELEASE=1.7.0-internalenv.REMOVE_CVS_FROM_RESOURCES=YESenv.REMOVE_GIT_FROM_RESOURCES=YESenv.REMOVE_HG_FROM_RESOURCES=YESenv.REMOVE_SVN_FROM_RESOURCES=YESenv.RUN_CLANG_STATIC_ANALYZER=NOenv.SCAN_ALL_SOURCE_FILES_FOR_INCLUDES=NOenv.SDKROOT=env.SEPARATE_STRIP=NOenv.SEPARATE_SYMBOL_EDIT=NOenv.SHARED_DERIVED_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/DerivedSourcesenv.SHARED_PRECOMPS_DIR=/var/folders/ff/drb1fgks39z7k1y31dm8yjv00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeadersenv.SHELL=/bin/bashenv.SHLVL=5env.SKIP_DEBUG_BUILD=trueenv.SKIP_FASTDEBUG_BUILD=trueenv.SKIP_INSTALL=YESenv.SOURCE_LANGUAGE_VERSION=7env.SOURCE_ROOT=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/.env.SRCROOT=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/.env.SSH_AUTH_SOCK=/tmp/launch-Lk1TSx/Listenersenv.STABLE_GEN_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/stable_bridge_metadataenv.STRINGS_FILE_OUTPUT_ENCODING=UTF-16env.STRIP_INSTALLED_PRODUCT=YESenv.STRIP_STYLE=allenv.SUPPORTED_PLATFORMS=macosxenv.SYMROOT=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/buildenv.SYSTEM_ADMIN_APPS_DIR=/Applications/Utilitiesenv.SYSTEM_APPS_DIR=/Applicationsenv.SYSTEM_CORE_SERVICES_DIR=/System/Library/CoreServicesenv.SYSTEM_DEMOS_DIR=/Applications/Extrasenv.SYSTEM_DEVELOPER_APPS_DIR=/Applications/Xcode.app/Contents/Developer/Applicationsenv.SYSTEM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/binenv.SYSTEM_DEVELOPER_DEMOS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examplesenv.SYSTEM_DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developerenv.SYSTEM_DEVELOPER_DOC_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Libraryenv.SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Graphics Toolsenv.SYSTEM_DEVELOPER_JAVA_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Java Toolsenv.SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Performance Toolsenv.SYSTEM_DEVELOPER_RELEASENOTES_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotesenv.SYSTEM_DEVELOPER_TOOLS=/Applications/Xcode.app/Contents/Developer/Toolsenv.SYSTEM_DEVELOPER_TOOLS_DOC_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperToolsenv.SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperToolsenv.SYSTEM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usrenv.SYSTEM_DEVELOPER_UTILITIES_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilitiesenv.SYSTEM_DOCUMENTATION_DIR=/Library/Documentationenv.SYSTEM_LIBRARY_DIR=/System/Libraryenv.SYSTEM_UNAME=Darwinenv.TARGETNAME=build-core-javaenv.TARGET_BUILD_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debugenv.TARGET_CLASS_VERSION=7env.TARGET_NAME=build-core-javaenv.TARGET_TEMP_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dstenv.TEMP_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dstenv.TEMP_FILES_DIR=env.TEMP_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dstenv.TEMP_ROOT=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.buildenv.TERM=xterm-256colorenv.TERM_PROGRAM=Apple_Terminalenv.TERM_PROGRAM_VERSION=309env.TERM_SESSION_ID=7389D380-3952-4925-A339-AA9C3EE6AF55env.TEST_AFTER_BUILD=NOenv.TMPDIR=/var/folders/ff/drb1fgks39z7k1y31dm8yjv00000gn/T/env.UID=501env.USER=shannahenv.USER_APPS_DIR=/Users/shannah/Applicationsenv.USER_LIBRARY_DIR=/Users/shannah/Libraryenv.USER_RELEASE_SUFFIX=shannah_2012_11_22_20_32env.WARNING_FILE=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/sanityCheckWarnings.txtenv.XCODE_APP_SUPPORT_DIR=/Applications/Xcode.app/Contents/Developer/Library/Xcodeenv.XCODE_PRODUCT_BUILD_VERSION=4G1004env.XCODE_VERSION_ACTUAL=0451env.XCODE_VERSION_MAJOR=0400env.XCODE_VERSION_MINOR=0450env.__CF_USER_TEXT_ENCODING=0x1F5\:0\:0file.encoding=US-ASCIIfile.encoding.pkg=sun.iofile.separator=/gopherProxySet=falsejava.awt.graphicsenv=sun.awt.CGraphicsEnvironmentjava.awt.printerjob=sun.lwawt.macosx.CPrinterJobjava.class.path=/usr/share/ant/lib/ant-launcher.jar\:/usr/share/ant/lib/ant-antlr.jar\:/usr/share/ant/lib/ant-jmf.jar\:/usr/share/ant/lib/ant-junit.jar\:/usr/share/ant/lib/ant-junit4.jar\:/usr/share/ant/lib/ant-launcher.jar\:/usr/share/ant/lib/ant-swing.jar\:/usr/share/ant/lib/ant-testutil.jar\:/usr/share/ant/lib/ant.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/lib/tools.jarjava.class.version=51.0java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/endorsedjava.ext.dirs=/Users/shannah/Library/Java/Extensions\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext\:/Library/Java/Extensions\:/Network/Library/Java/Extensions\:/System/Library/Java/Extensions\:/usr/lib/javajava.home=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jrejava.io.tmpdir=/var/folders/ff/drb1fgks39z7k1y31dm8yjv00000gn/T/java.library.path=/Users/shannah/Library/Java/Extensions\:/Library/Java/Extensions\:/Network/Library/Java/Extensions\:/System/Library/Java/Extensions\:/usr/lib/java\:.java.runtime.name=Java(TM) SE Runtime Environmentjava.runtime.version=1.7.0_06-b24java.specification.name=Java Platform API Specificationjava.specification.vendor=Oracle Corporationjava.specification.version=1.7java.vendor=Oracle Corporationjava.vendor.url=http\://java.oracle.com/java.vendor.url.bug=http\://bugreport.sun.com/bugreport/java.version=1.7.0_06java.vm.info=mixed modejava.vm.name=Java HotSpot(TM) 64-Bit Server VMjava.vm.specification.name=Java Virtual Machine Specificationjava.vm.specification.vendor=Oracle Corporationjava.vm.specification.version=1.7java.vm.vendor=Oracle Corporationjava.vm.version=23.2-b09line.separator=\nos.arch=x86_64os.name=Mac OS Xos.version=10.8.2path.separator=\:sun.arch.data.model=64sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/resources.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/rt.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/sunrsasign.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jsse.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jce.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/charsets.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jfr.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/JObjC.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/classessun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/libsun.cpu.endian=littlesun.cpu.isalist=sun.io.unicode.encoding=UnicodeBigsun.java.command=org.apache.tools.ant.launch.Launcher -cp  -verbose -emacssun.java.launcher=SUN_STANDARDsun.jnu.encoding=US-ASCIIsun.management.compiler=HotSpot 64-Bit Tiered Compilerssun.os.patch.level=unknownuser.country=USuser.country.format=CAuser.dir=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjcuser.home=/Users/shannahuser.language=enuser.name=shannahuser.timezone=Property "env.RC_ARCHS" has not been setProperty "env.INSTALL_PATH" has not been set(Settings :src '/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/.' :cfg 'Debug' :obj '/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build' :dst '/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/Debug')Property "env.BENCH_MATCH" has not been setBuild sequence for target(s) `install' is [install]Complete build sequence is [install, clean, gen-pcoder, build-core, build-core-native, build-generator, run-generator, build-generated, build-additions, build-additions-native, assemble-product, clean-all, build-test-installed, build-test-native-installed, bench-installed, all, test-installed, all-but-gen, run-generator-old, all-test, build-test, build-test-native, installsrc, installhdrs, test, bench, clean-all-test, doc-core, ]install:--- Redirecting to target "build-core"Project base dir set to: /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjccalling target(s) [build-core] in build file /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xmlparsing buildfile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xml with URI = file:/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xmlProject base dir set to: /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjcLoading Environment env.Override ignored for property "env.LOCAL_DEVELOPER_DIR"Override ignored for property "env.BUILD_STYLE"Override ignored for property "env.BUILD_HOTSPOT"Override ignored for property "env.SYSTEM_DEVELOPER_TOOLS"Override ignored for property "env.LEGACY_DEVELOPER_DIR"Override ignored for property "env.WARNING_FILE"Override ignored for property "env.ARCH_DATA_MODEL"Override ignored for property "env.PLATFORM"Override ignored for property "env.USER_RELEASE_SUFFIX"Override ignored for property "env.PREVIOUS_MINOR_VERSION"Override ignored for property "env.SYSTEM_ADMIN_APPS_DIR"Override ignored for property "env.FRAMEWORK_VERSION"Override ignored for property "env.CONFIGURATION"Override ignored for property "env.INFOPLIST_EXPAND_BUILD_SETTINGS"Override ignored for property "env.JAVA_HOME"Override ignored for property "env.BUILD_VARIANTS"Override ignored for property "env.SHARED_PRECOMPS_DIR"Override ignored for property "env.DEVELOPER_APPLICATIONS_DIR"Override ignored for property "env.OPTIMIZATION_LEVEL"Override ignored for property "env.KEEP_PRIVATE_EXTERNS"Override ignored for property "env.STABLE_GEN_DIR"Override ignored for property "env.INSTALL_OWNER"Override ignored for property "env.PREVIOUS_MAJOR_VERSION"Override ignored for property "env.SYSTEM_DEVELOPER_JAVA_TOOLS_DIR"Override ignored for property "env.SOURCE_ROOT"Override ignored for property "env.SYSTEM_DOCUMENTATION_DIR"Override ignored for property "env.MB_OF_MEMORY"Override ignored for property "env.CPATH"Override ignored for property "env.PROJECT"Override ignored for property "env.TEST_AFTER_BUILD"Override ignored for property "env.DEPLOYMENT_LOCATION"Override ignored for property "env.JAVA_APP_STUB"Override ignored for property "env.SEPARATE_STRIP"Override ignored for property "env.JAVA_MAIN_CLASS_21709"Override ignored for property "env.__CF_USER_TEXT_ENCODING"Override ignored for property "env.LOGNAME"Override ignored for property "env.PROJECT_NAME"Override ignored for property "env.JDK_TOPDIR"Override ignored for property "env.DEVELOPER_LIBRARY_DIR"Override ignored for property "env.RUN_CLANG_STATIC_ANALYZER"Override ignored for property "env.ALTERNATE_MODE"Override ignored for property "env.PROJECT_DIR"Override ignored for property "env.COOKED_BUILD_NUMBER"Override ignored for property "env.MESSAGE_FILE"Override ignored for property "env.SKIP_FASTDEBUG_BUILD"Override ignored for property "env.ALT_JAXP_DIST"Override ignored for property "env.XCODE_VERSION_ACTUAL"Override ignored for property "env.SYSTEM_DEVELOPER_DEMOS_DIR"Override ignored for property "env.TEMP_ROOT"Override ignored for property "env.DO_HEADER_SCANNING_IN_JAM"Override ignored for property "env.XCODE_APP_SUPPORT_DIR"Override ignored for property "env.SYSTEM_DEVELOPER_TOOLS_DOC_DIR"Override ignored for property "env.FULL_VERSION"Override ignored for property "env.MAC_OS_X_VERSION_MAJOR"Override ignored for property "env.DEVELOPER_USR_DIR"Override ignored for property "env.ALT_LANGTOOLS_DIST"Override ignored for property "env.JDK_MAJOR_VERSION"Override ignored for property "env.FILE_LIST"Override ignored for property "env.SHARED_DERIVED_FILE_DIR"Override ignored for property "env.DT_TOOLCHAIN_DIR"Override ignored for property "env.DEVELOPER_SDK_DIR"Override ignored for property "env.PRESERVE_DEAD_CODE_INITS_AND_TERMS"Override ignored for property "env.DSTROOT"Override ignored for property "env.SSH_AUTH_SOCK"Override ignored for property "env.INSTALL_MODE_FLAG"Override ignored for property "env.MAC_OS_X_PRODUCT_BUILD_VERSION"Override ignored for property "env.SRCROOT"Override ignored for property "env.TERM_PROGRAM_VERSION"Override ignored for property "env.JAVA_SOURCE_SUBDIR"Override ignored for property "env.UID"Override ignored for property "env.MIN_VM_MEMORY"Override ignored for property "env.PWD"Override ignored for property "env.GCC_ENABLE_OBJC_GC"Override ignored for property "env.HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES"Override ignored for property "env.ARCHS"Override ignored for property "env.SYSTEM_APPS_DIR"Override ignored for property "env.STRIP_INSTALLED_PRODUCT"Override ignored for property "env.DEVELOPMENT_LANGUAGE"Override ignored for property "env.SHLVL"Override ignored for property "env.CONFIGURATION_TEMP_DIR"Override ignored for property "env.JDK_BUILD_NUMBER"Override ignored for property "env.ALTERNATE_GROUP"Override ignored for property "env.SHELL"Override ignored for property "env.CACHE_ROOT"Override ignored for property "env.TERM_SESSION_ID"Override ignored for property "env.DEAD_CODE_STRIPPING"Override ignored for property "env.OBJECT_FILE_DIR"Override ignored for property "env.CONFIGURATION_BUILD_DIR"Override ignored for property "env.SYSTEM_DEVELOPER_DOC_DIR"Override ignored for property "env.COMMAND_MODE"Override ignored for property "env.TARGETNAME"Override ignored for property "env.ALLOW_DOWNLOADS"Override ignored for property "env.INFOPLIST_OUTPUT_FORMAT"Override ignored for property "env.GENERATE_PKGINFO_FILE"Override ignored for property "env.COPY_PHASE_STRIP"Override ignored for property "env.OBJROOT"Override ignored for property "env.DEV_NULL"Override ignored for property "env.MAKEFLAGS"Override ignored for property "env.TEMP_FILE_DIR"Override ignored for property "env.BUILD_ROOT"Override ignored for property "env.EXTERNALSANITYCONTROL"Override ignored for property "env.STRINGS_FILE_OUTPUT_ENCODING"Override ignored for property "env.PATH"Override ignored for property "env.SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR"Override ignored for property "env.JDK_VERSION"Override ignored for property "env.PRECOMP_DESTINATION_DIR"Override ignored for property "env.GCC_DYNAMIC_NO_PIC"Override ignored for property "env.PRODUCT_NAME"Override ignored for property "env.ALT_CORBA_DIST"Override ignored for property "env.DEBUGGING_SYMBOLS"Override ignored for property "env.HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS"Override ignored for property "env.USER_LIBRARY_DIR"Override ignored for property "env.PREVIOUS_JDK_VERSION"Override ignored for property "env.SYSTEM_UNAME"Override ignored for property "env.CC"Override ignored for property "env.ALWAYS_SEARCH_USER_PATHS"Override ignored for property "env.SYSTEM_DEVELOPER_RELEASENOTES_DIR"Override ignored for property "env.DEVELOPER_FRAMEWORKS_DIR"Override ignored for property "env.SYSTEM_DEVELOPER_BIN_DIR"Override ignored for property "env.ACTION"Override ignored for property "env.REMOVE_GIT_FROM_RESOURCES"Override ignored for property "env.PROJECT_TEMP_DIR"Override ignored for property "env.DEVELOPER_FRAMEWORKS_DIR_QUOTED"Override ignored for property "env.JAVA_ARCHIVE_TYPE"Override ignored for property "env.LOCAL_LIBRARY_DIR"Override ignored for property "env.PLIST_FILE_OUTPUT_FORMAT"Override ignored for property "env.SYSTEM_CORE_SERVICES_DIR"Override ignored for property "env.GCC3_VERSION"Override ignored for property "env.APPLE_INTERNAL_DEVELOPER_DIR"Override ignored for property "env.DEPLOYMENT_POSTPROCESSING"Override ignored for property "env.DERIVED_FILES_DIR"Override ignored for property "env.PROFILING_CODE"Override ignored for property "env.HOME"Override ignored for property "env.SYMROOT"Override ignored for property "env.DWARF_DSYM_FILE_NAME"Override ignored for property "env.XCODE_VERSION_MAJOR"Override ignored for property "env.JAVA_JAR_FLAGS"Override ignored for property "env.HEADERMAP_INCLUDES_PROJECT_HEADERS"Override ignored for property "env.ENABLE_HEADER_DEPENDENCIES"Override ignored for property "env.XCODE_VERSION_MINOR"Override ignored for property "env.INSTALL_DIR"Override ignored for property "env.LOCAL_APPS_DIR"Override ignored for property "env.SCAN_ALL_SOURCE_FILES_FOR_INCLUDES"Override ignored for property "env.APPLE_INTERNAL_LIBRARY_DIR"Override ignored for property "env.ERROR_FILE"Override ignored for property "env.USER_APPS_DIR"Override ignored for property "env.TERM_PROGRAM"Override ignored for property "env.SOURCE_LANGUAGE_VERSION"Override ignored for property "env.SYSTEM_DEVELOPER_APPS_DIR"Override ignored for property "env.MAC_OS_X_VERSION_MINOR"Override ignored for property "env.ALT_OUTPUTDIR"Override ignored for property "env.LD_GENERATE_MAP_FILE"Override ignored for property "env.MAKELEVEL"Override ignored for property "env.REMOVE_CVS_FROM_RESOURCES"Override ignored for property "env.TEMP_FILES_DIR"Override ignored for property "env.LANG"Override ignored for property "env.GCC_OPTIMIZATION_LEVEL"Override ignored for property "env.DEVELOPER_TOOLS_DIR"Override ignored for property "env.DWARF_DSYM_FOLDER_PATH"Override ignored for property "env.BUILT_PRODUCTS_DIR"Override ignored for property "env.SDKROOT"Override ignored for property "env.DEVELOPER_BIN_DIR"Override ignored for property "env.Apple_Ubiquity_Message"Override ignored for property "env.STRIP_STYLE"Override ignored for property "env.REMOVE_HG_FROM_RESOURCES"Override ignored for property "env.ALTERNATE_OWNER"Override ignored for property "env.ALT_BOOTDIR"Override ignored for property "env.USER"Override ignored for property "env.BUILD_NUMBER"Override ignored for property "env.COPYING_PRESERVES_HFS_DATA"Override ignored for property "env.JDK_MINOR_VERSION"Override ignored for property "env.JAVA_ARCHIVE_CLASSES"Override ignored for property "env.LOW_MEMORY_MACHINE"Override ignored for property "env.OS"Override ignored for property "env.LD_NO_PIE"Override ignored for property "env.PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES"Override ignored for property "env.TARGET_TEMP_DIR"Override ignored for property "env.CLONE_HEADERS"Override ignored for property "env.TMPDIR"Override ignored for property "env.SYSTEM_DEVELOPER_DIR"Override ignored for property "env.JDK_MKTG_VERSION"Override ignored for property "env.TERM"Override ignored for property "env.LOCAL_ADMIN_APPS_DIR"Override ignored for property "env.AVAILABLE_PLATFORMS"Override ignored for property "env.TEMP_DIR"Override ignored for property "env.DERIVED_FILE_DIR"Override ignored for property "env.Apple_PubSub_Socket_Render"Override ignored for property "env.XCODE_PRODUCT_BUILD_VERSION"Override ignored for property "env.INFOPLIST_PREPROCESS"Override ignored for property "env.MAC_OS_X_VERSION_ACTUAL"Override ignored for property "env.HOTSPOT_BUILD_JOBS"Override ignored for property "env.SYSTEM_DEVELOPER_UTILITIES_DIR"Override ignored for property "env.GCC_GENERATE_DEBUGGING_SYMBOLS"Override ignored for property "env.INSTALL_ROOT"Override ignored for property "env.JDK_HAS_MEM_INFO"Override ignored for property "env.RELEASE"Override ignored for property "env.GROUP"Override ignored for property "env.APPLE_INTERNAL_DOCUMENTATION_DIR"Override ignored for property "env.MFLAGS"Override ignored for property "env.PROJECT_DERIVED_FILE_DIR"Override ignored for property "env.ORIG_OUTPUTDIR_BASENAME"Override ignored for property "env.JDK_MICRO_VERSION"Override ignored for property "env.ALT_JAXWS_DIST"Override ignored for property "env.ALT_HOTSPOT_IMPORT_PATH"Override ignored for property "env.BUILD_DIR"Override ignored for property "env.PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR"Override ignored for property "env.SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR"Override ignored for property "env.BUILD_COMPONENTS"Override ignored for property "env.GID"Override ignored for property "env.APPLE_INTERNAL_DIR"Override ignored for property "env.EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS"Override ignored for property "env.DERIVED_SOURCES_DIR"Override ignored for property "env.DEVELOPER_DIR"Override ignored for property "env.MAX_VM_MEMORY"Override ignored for property "env.SKIP_INSTALL"Override ignored for property "env.MAKEOVERRIDES"Override ignored for property "env.SKIP_DEBUG_BUILD"Override ignored for property "env.DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT"Override ignored for property "env.CXX"Override ignored for property "env.JDK_MAKE_SHARED_DIR"Override ignored for property "env.LD_MAP_FILE_PATH"Override ignored for property "env.JAVA_COMPILER"Override ignored for property "env.LINK_WITH_STANDARD_LIBRARIES"Override ignored for property "env.REMOVE_SVN_FROM_RESOURCES"Override ignored for property "env.SUPPORTED_PLATFORMS"Override ignored for property "env.SYSTEM_DEVELOPER_USR_DIR"Override ignored for property "env.SYSTEM_DEMOS_DIR"Override ignored for property "env.TARGET_BUILD_DIR"Override ignored for property "env.SYSTEM_LIBRARY_DIR"Override ignored for property "env.LINKER_DISPLAYS_MANGLED_NAMES"Override ignored for property "env.ONLY_ACTIVE_ARCH"Override ignored for property "env.INSTALL_GROUP"Override ignored for property "env.JAVA_FRAMEWORK_RESOURCES_DIRS"Override ignored for property "env.EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES"Override ignored for property "env.SEPARATE_SYMBOL_EDIT"Override ignored for property "env.PROJECT_FILE_PATH"Override ignored for property "env.TARGET_NAME"Override ignored for property "env.APPLE_INTERNAL_TOOLS"Override ignored for property "env.PREVIOUS_MICRO_VERSION"Override ignored for property "env.JAVA_USE_DEPENDENCIES"Override ignored for property "env.GENERATE_MASTER_OBJECT_FILE"Override ignored for property "env.CLASS_FILE_DIR"Override ignored for property "env.JAVA_MAIN_CLASS_21730"Override ignored for property "env.JAVA_ZIP_FLAGS"Override ignored for property "env.HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT"Override ignored for property "env.HEADER_SEARCH_PATHS"Override ignored for property "env.SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR"Override ignored for property "env.MILESTONE"Override ignored for property "env.BOOTDIR"Override ignored for property "env.TARGET_CLASS_VERSION"Override ignored for property "env.APPLY_RULES_IN_COPY_FILES"#Ant properties#Thu Nov 22 20:41:02 PST 2012ARCHS=ppc i386 x86_64additions.bin=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/additionsadditions.jniheaders=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/additionsadditions.nativelib.dir=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debugadditions.src=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additionsant.core.lib=/usr/share/ant/lib/ant.jarant.file=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xmlant.file.JObjC=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xmlant.file.type=fileant.file.type.JObjC=fileant.home=/usr/share/antant.java.version=1.7ant.library.dir=/usr/share/ant/libant.project.default-target=installant.project.invoked-targets=installant.project.name=JObjCant.version=Apache Ant(TM) version 1.8.2 compiled on May 16 2012awt.toolkit=sun.lwawt.macosx.LWCToolkitbasedir=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjcbench_match=*bin=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bincfg=Debugcompile.debug=truecore.bin=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/corecore.jniheaders=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/corecore.nativelib.dir=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debugcore.src=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/core/javadst=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/Debugenv.ACTION=env.ALLOW_DOWNLOADS=trueenv.ALTERNATE_GROUP=staffenv.ALTERNATE_MODE=u+w,go-w,a+rXenv.ALTERNATE_OWNER=shannahenv.ALT_BOOTDIR=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Homeenv.ALT_CORBA_DIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/corba/distenv.ALT_HOTSPOT_IMPORT_PATH=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/hotspot/importenv.ALT_JAXP_DIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/jaxp/distenv.ALT_JAXWS_DIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/jaxws/distenv.ALT_LANGTOOLS_DIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/langtools/distenv.ALT_OUTPUTDIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64env.ALWAYS_SEARCH_USER_PATHS=YESenv.APPLE_INTERNAL_DEVELOPER_DIR=/AppleInternal/Developerenv.APPLE_INTERNAL_DIR=/AppleInternalenv.APPLE_INTERNAL_DOCUMENTATION_DIR=/AppleInternal/Documentationenv.APPLE_INTERNAL_LIBRARY_DIR=/AppleInternal/Libraryenv.APPLE_INTERNAL_TOOLS=/AppleInternal/Developer/Toolsenv.APPLY_RULES_IN_COPY_FILES=NOenv.ARCHS=i386 x86_64env.ARCH_DATA_MODEL=64env.AVAILABLE_PLATFORMS=iphonesimulator macosx iphoneosenv.Apple_PubSub_Socket_Render=/tmp/launch-7Vo6Mc/Renderenv.Apple_Ubiquity_Message=/tmp/launch-RjNzNy/Apple_Ubiquity_Messageenv.BOOTDIR=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Homeenv.BUILD_COMPONENTS=headers buildenv.BUILD_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dstenv.BUILD_HOTSPOT=trueenv.BUILD_NUMBER=b00env.BUILD_ROOT=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/buildenv.BUILD_STYLE=env.BUILD_VARIANTS=normalenv.BUILT_PRODUCTS_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debugenv.CACHE_ROOT=/var/folders/ff/drb1fgks39z7k1y31dm8yjv00000gn/C/com.apple.Xcode.501env.CC=env.CLASS_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JavaClassesenv.CLONE_HEADERS=NOenv.COMMAND_MODE=unix2003env.CONFIGURATION=Debugenv.CONFIGURATION_BUILD_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debugenv.CONFIGURATION_TEMP_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debugenv.COOKED_BUILD_NUMBER=0env.COPYING_PRESERVES_HFS_DATA=NOenv.COPY_PHASE_STRIP=NOenv.CPATH=/usr/X11/includeenv.CXX=env.DEAD_CODE_STRIPPING=NOenv.DEBUGGING_SYMBOLS=YESenv.DEPLOYMENT_LOCATION=NOenv.DEPLOYMENT_POSTPROCESSING=NOenv.DERIVED_FILES_DIR=env.DERIVED_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSourcesenv.DERIVED_SOURCES_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSourcesenv.DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applicationsenv.DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/binenv.DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developerenv.DEVELOPER_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Library/Frameworksenv.DEVELOPER_FRAMEWORKS_DIR_QUOTED="/Applications/Xcode.app/Contents/Developer/Library/Frameworks"env.DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/Libraryenv.DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKsenv.DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Toolsenv.DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usrenv.DEVELOPMENT_LANGUAGE=Englishenv.DEV_NULL=/dev/nullenv.DO_HEADER_SCANNING_IN_JAM=NOenv.DSTROOT=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debugenv.DT_TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchainenv.DWARF_DSYM_FILE_NAME=.dSYMenv.DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NOenv.DWARF_DSYM_FOLDER_PATH=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debugenv.ENABLE_HEADER_DEPENDENCIES=YESenv.ERROR_FILE=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/sanityCheckErrors.txtenv.EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS=.DS_Store .svn .git .hg CVSenv.EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES=*.nib *.lproj *.framework *.gch *.xcode* (*) .DS_Store CVS .svn .git .hgenv.EXTERNALSANITYCONTROL=trueenv.FILE_LIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects/LinkFileListenv.FRAMEWORK_VERSION=Aenv.FULL_VERSION=1.7.0-internal-shannah_2012_11_22_20_32-b00env.GCC3_VERSION=3.3env.GCC_DYNAMIC_NO_PIC=NOenv.GCC_ENABLE_OBJC_GC=supportedenv.GCC_GENERATE_DEBUGGING_SYMBOLS=YESenv.GCC_OPTIMIZATION_LEVEL=0env.GENERATE_MASTER_OBJECT_FILE=NOenv.GENERATE_PKGINFO_FILE=NOenv.GID=20env.GROUP=staffenv.HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT=YESenv.HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES=YESenv.HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS=YESenv.HEADERMAP_INCLUDES_PROJECT_HEADERS=YESenv.HEADER_SEARCH_PATHS=\ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/includeenv.HOME=/Users/shannahenv.HOTSPOT_BUILD_JOBS=4env.INFOPLIST_EXPAND_BUILD_SETTINGS=YESenv.INFOPLIST_OUTPUT_FORMAT=same-as-inputenv.INFOPLIST_PREPROCESS=NOenv.INSTALL_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debugenv.INSTALL_GROUP=staffenv.INSTALL_MODE_FLAG=u+w,go-w,a+rXenv.INSTALL_OWNER=shannahenv.INSTALL_ROOT=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debugenv.JAVA_APP_STUB=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStubenv.JAVA_ARCHIVE_CLASSES=YESenv.JAVA_ARCHIVE_TYPE=JARenv.JAVA_COMPILER=/usr/bin/javacenv.JAVA_FRAMEWORK_RESOURCES_DIRS=Resourcesenv.JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Homeenv.JAVA_JAR_FLAGS=cvenv.JAVA_MAIN_CLASS_21709=org.apache.tools.ant.launch.Launcherenv.JAVA_MAIN_CLASS_21730=org.apache.tools.ant.launch.Launcherenv.JAVA_SOURCE_SUBDIR=.env.JAVA_USE_DEPENDENCIES=YESenv.JAVA_ZIP_FLAGS=-urgenv.JDK_BUILD_NUMBER=b00env.JDK_HAS_MEM_INFO=trueenv.JDK_MAJOR_VERSION=1env.JDK_MAKE_SHARED_DIR=/Users/shannah/src/jdk7u-dev/jdk/make/common/sharedenv.JDK_MICRO_VERSION=0env.JDK_MINOR_VERSION=7env.JDK_MKTG_VERSION=7env.JDK_TOPDIR=/Users/shannah/src/jdk7u-dev/jdkenv.JDK_VERSION=1.7.0env.KEEP_PRIVATE_EXTERNS=NOenv.LANG=Cenv.LD_GENERATE_MAP_FILE=NOenv.LD_MAP_FILE_PATH=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/build-core-LinkMap--.txtenv.LD_NO_PIE=NOenv.LEGACY_DEVELOPER_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developerenv.LINKER_DISPLAYS_MANGLED_NAMES=NOenv.LINK_WITH_STANDARD_LIBRARIES=YESenv.LOCAL_ADMIN_APPS_DIR=/Applications/Utilitiesenv.LOCAL_APPS_DIR=/Applicationsenv.LOCAL_DEVELOPER_DIR=/Library/Developerenv.LOCAL_LIBRARY_DIR=/Libraryenv.LOGNAME=shannahenv.LOW_MEMORY_MACHINE=falseenv.MAC_OS_X_PRODUCT_BUILD_VERSION=12C60env.MAC_OS_X_VERSION_ACTUAL=1082env.MAC_OS_X_VERSION_MAJOR=1080env.MAC_OS_X_VERSION_MINOR=0802env.MAKEFLAGS=BUILD_HOTSPOT\=true ALT_HOTSPOT_IMPORT_PATH\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/hotspot/import ALT_JAXWS_DIST\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/jaxws/dist ALT_JAXP_DIST\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/jaxp/dist ALT_CORBA_DIST\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/corba/dist ALT_LANGTOOLS_DIST\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/langtools/dist ALT_OUTPUTDIR\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64 COOKED_BUILD_NUMBER\=0 ARCH_DATA_MODEL\=64 PREVIOUS_MICRO_VERSION\=0 PREVIOUS_MINOR_VERSION\=6 PREVIOUS_MAJOR_VERSION\=1 JDK_MICRO_VERSION\=0 JDK_MINOR_VERSION\=7 JDK_MAJOR_VERSION\=1 JDK_MKTG_VERSION\=7 JDK_VERSION\=1.7.0 PREVIOUS_JDK_VERSION\=1.6.0 FULL_VERSION\=1.7.0-internal-shannah_2012_11_22_20_32-b00 JDK_BUILD_NUMBER\=b00 BUILD_NUMBER\=b00 MILESTONE\=internal TARGET_CLASS_VERSION\=7 SOURCE_LANGUAGE_VERSION\=7 EXTERNALSANITYCONTROL\=true JDK_MAKE_SHARED_DIR\=/Users/shannah/src/jdk7u-dev/jdk/make/common/shared JDK_TOPDIR\=/Users/shannah/src/jdk7u-dev/jdk HOTSPOT_BUILD_JOBS\=4 ALT_BOOTDIR\=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home ALLOW_DOWNLOADS\=true SKIP_FASTDEBUG_BUILD\=true SKIP_DEBUG_BUILD\=true RELEASE\=1.7.0-internalenv.MAKELEVEL=5env.MAKEOVERRIDES=${-*-command-variables-*-}env.MAX_VM_MEMORY=512env.MB_OF_MEMORY=8192env.MESSAGE_FILE=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/sanityCheckMessages.txtenv.MFLAGS=env.MILESTONE=internalenv.MIN_VM_MEMORY=512env.OBJECT_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objectsenv.OBJROOT=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.buildenv.ONLY_ACTIVE_ARCH=NOenv.OPTIMIZATION_LEVEL=0env.ORIG_OUTPUTDIR_BASENAME=macosx-x86_64env.OS=MACOSenv.PATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec\:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin\:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/local/bin\:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/bin\:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/local/bin\:/Applications/Xcode.app/Contents/Developer/usr/bin\:/Applications/Xcode.app/Contents/Developer/usr/local/bin\:/Applications/Xcode.app/Contents/Developer/Tools\:/usr/bin\:/bin\:/usr/sbin\:/sbin\:/usr/local/bin\:/Users/shannah/Documents/Shared/binenv.PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES=/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platformsenv.PLATFORM=macosxenv.PLIST_FILE_OUTPUT_FORMAT=same-as-inputenv.PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR=YESenv.PRECOMP_DESTINATION_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/PrefixHeadersenv.PRESERVE_DEAD_CODE_INITS_AND_TERMS=NOenv.PREVIOUS_JDK_VERSION=1.6.0env.PREVIOUS_MAJOR_VERSION=1env.PREVIOUS_MICRO_VERSION=0env.PREVIOUS_MINOR_VERSION=6env.PRODUCT_NAME=build-coreenv.PROFILING_CODE=NOenv.PROJECT=JObjCenv.PROJECT_DERIVED_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/JObjC.build/DerivedSourcesenv.PROJECT_DIR=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjcenv.PROJECT_FILE_PATH=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/JObjC.xcodeprojenv.PROJECT_NAME=JObjCenv.PROJECT_TEMP_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dstenv.PWD=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjcenv.RELEASE=1.7.0-internalenv.REMOVE_CVS_FROM_RESOURCES=YESenv.REMOVE_GIT_FROM_RESOURCES=YESenv.REMOVE_HG_FROM_RESOURCES=YESenv.REMOVE_SVN_FROM_RESOURCES=YESenv.RUN_CLANG_STATIC_ANALYZER=NOenv.SCAN_ALL_SOURCE_FILES_FOR_INCLUDES=NOenv.SDKROOT=env.SEPARATE_STRIP=NOenv.SEPARATE_SYMBOL_EDIT=NOenv.SHARED_DERIVED_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/DerivedSourcesenv.SHARED_PRECOMPS_DIR=/var/folders/ff/drb1fgks39z7k1y31dm8yjv00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeadersenv.SHELL=/bin/bashenv.SHLVL=5env.SKIP_DEBUG_BUILD=trueenv.SKIP_FASTDEBUG_BUILD=trueenv.SKIP_INSTALL=YESenv.SOURCE_LANGUAGE_VERSION=7env.SOURCE_ROOT=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/.env.SRCROOT=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/.env.SSH_AUTH_SOCK=/tmp/launch-Lk1TSx/Listenersenv.STABLE_GEN_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/stable_bridge_metadataenv.STRINGS_FILE_OUTPUT_ENCODING=UTF-16env.STRIP_INSTALLED_PRODUCT=YESenv.STRIP_STYLE=allenv.SUPPORTED_PLATFORMS=macosxenv.SYMROOT=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/buildenv.SYSTEM_ADMIN_APPS_DIR=/Applications/Utilitiesenv.SYSTEM_APPS_DIR=/Applicationsenv.SYSTEM_CORE_SERVICES_DIR=/System/Library/CoreServicesenv.SYSTEM_DEMOS_DIR=/Applications/Extrasenv.SYSTEM_DEVELOPER_APPS_DIR=/Applications/Xcode.app/Contents/Developer/Applicationsenv.SYSTEM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/binenv.SYSTEM_DEVELOPER_DEMOS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examplesenv.SYSTEM_DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developerenv.SYSTEM_DEVELOPER_DOC_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Libraryenv.SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Graphics Toolsenv.SYSTEM_DEVELOPER_JAVA_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Java Toolsenv.SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Performance Toolsenv.SYSTEM_DEVELOPER_RELEASENOTES_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotesenv.SYSTEM_DEVELOPER_TOOLS=/Applications/Xcode.app/Contents/Developer/Toolsenv.SYSTEM_DEVELOPER_TOOLS_DOC_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperToolsenv.SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperToolsenv.SYSTEM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usrenv.SYSTEM_DEVELOPER_UTILITIES_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilitiesenv.SYSTEM_DOCUMENTATION_DIR=/Library/Documentationenv.SYSTEM_LIBRARY_DIR=/System/Libraryenv.SYSTEM_UNAME=Darwinenv.TARGETNAME=build-core-javaenv.TARGET_BUILD_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debugenv.TARGET_CLASS_VERSION=7env.TARGET_NAME=build-core-javaenv.TARGET_TEMP_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dstenv.TEMP_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dstenv.TEMP_FILES_DIR=env.TEMP_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dstenv.TEMP_ROOT=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.buildenv.TERM=xterm-256colorenv.TERM_PROGRAM=Apple_Terminalenv.TERM_PROGRAM_VERSION=309env.TERM_SESSION_ID=7389D380-3952-4925-A339-AA9C3EE6AF55env.TEST_AFTER_BUILD=NOenv.TMPDIR=/var/folders/ff/drb1fgks39z7k1y31dm8yjv00000gn/T/env.UID=501env.USER=shannahenv.USER_APPS_DIR=/Users/shannah/Applicationsenv.USER_LIBRARY_DIR=/Users/shannah/Libraryenv.USER_RELEASE_SUFFIX=shannah_2012_11_22_20_32env.WARNING_FILE=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/sanityCheckWarnings.txtenv.XCODE_APP_SUPPORT_DIR=/Applications/Xcode.app/Contents/Developer/Library/Xcodeenv.XCODE_PRODUCT_BUILD_VERSION=4G1004env.XCODE_VERSION_ACTUAL=0451env.XCODE_VERSION_MAJOR=0400env.XCODE_VERSION_MINOR=0450env.__CF_USER_TEXT_ENCODING=0x1F5\:0\:0file.encoding=US-ASCIIfile.encoding.pkg=sun.iofile.separator=/gendoc=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/docgenerated.bin=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/generatedgenerated.src=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jobjcgenerator.bin=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/generatorgenerator.src=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/generator/javagopherProxySet=falsejava.awt.graphicsenv=sun.awt.CGraphicsEnvironmentjava.awt.printerjob=sun.lwawt.macosx.CPrinterJobjava.class.path=/usr/share/ant/lib/ant-launcher.jar\:/usr/share/ant/lib/ant-antlr.jar\:/usr/share/ant/lib/ant-jmf.jar\:/usr/share/ant/lib/ant-junit.jar\:/usr/share/ant/lib/ant-junit4.jar\:/usr/share/ant/lib/ant-launcher.jar\:/usr/share/ant/lib/ant-swing.jar\:/usr/share/ant/lib/ant-testutil.jar\:/usr/share/ant/lib/ant.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/lib/tools.jarjava.class.version=51.0java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/endorsedjava.ext.dirs=/Users/shannah/Library/Java/Extensions\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext\:/Library/Java/Extensions\:/Network/Library/Java/Extensions\:/System/Library/Java/Extensions\:/usr/lib/javajava.home=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jrejava.io.tmpdir=/var/folders/ff/drb1fgks39z7k1y31dm8yjv00000gn/T/java.library.path=/Users/shannah/Library/Java/Extensions\:/Library/Java/Extensions\:/Network/Library/Java/Extensions\:/System/Library/Java/Extensions\:/usr/lib/java\:.java.runtime.name=Java(TM) SE Runtime Environmentjava.runtime.version=1.7.0_06-b24java.specification.name=Java Platform API Specificationjava.specification.vendor=Oracle Corporationjava.specification.version=1.7java.vendor=Oracle Corporationjava.vendor.url=http\://java.oracle.com/java.vendor.url.bug=http\://bugreport.sun.com/bugreport/java.version=1.7.0_06java.vm.info=mixed modejava.vm.name=Java HotSpot(TM) 64-Bit Server VMjava.vm.specification.name=Java Virtual Machine Specificationjava.vm.specification.vendor=Oracle Corporationjava.vm.specification.version=1.7java.vm.vendor=Oracle Corporationjava.vm.version=23.2-b09jniheaders=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headersline.separator=\nnativelib.dir=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debugnativelib.file=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/libJObjC.dylibobj=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.buildos.arch=x86_64os.name=Mac OS Xos.version=10.8.2path.separator=\:product.jarfile=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/JObjC.jarproduct.jarfile.dir=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.buildproduct.jarfile.name=JObjC.jarproduct.target_path=/System/Library/Java/Extensionsredirection-target-defined=build-coresrc=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/.sun.arch.data.model=64sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/resources.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/rt.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/sunrsasign.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jsse.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jce.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/charsets.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jfr.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/JObjC.jar\:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/classessun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/libsun.cpu.endian=littlesun.cpu.isalist=sun.io.unicode.encoding=UnicodeBigsun.java.command=org.apache.tools.ant.launch.Launcher -cp  -verbose -emacssun.java.launcher=SUN_STANDARDsun.jnu.encoding=US-ASCIIsun.management.compiler=HotSpot 64-Bit Tiered Compilerssun.os.patch.level=unknowntest.bin=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/testtest.jniheaders=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/testtest.reports=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/test-reportstest.src=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/tests/javauser.country=USuser.country.format=CAuser.dir=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjcuser.home=/Users/shannahuser.language=enuser.name=shannahuser.timezone=Override ignored for property "redirection-target-defined"Override ignored for property "compile.debug"Override ignored for property "src"Override ignored for property "cfg"Override ignored for property "obj"Override ignored for property "dst"Property "env.RC_ARCHS" has not been setOverride ignored for property "ARCHS"Override ignored for property "bin"Override ignored for property "gendoc"Override ignored for property "nativelib.dir"Override ignored for property "nativelib.file"Override ignored for property "jniheaders"Override ignored for property "core.src"Override ignored for property "core.bin"Override ignored for property "core.jniheaders"Override ignored for property "core.nativelib.dir"Override ignored for property "generator.src"Override ignored for property "generator.bin"Override ignored for property "generated.src"Override ignored for property "generated.bin"Override ignored for property "additions.src"Override ignored for property "additions.bin"Override ignored for property "additions.jniheaders"Override ignored for property "additions.nativelib.dir"Override ignored for property "test.src"Override ignored for property "test.bin"Override ignored for property "test.jniheaders"Override ignored for property "test.reports"Property "env.INSTALL_PATH" has not been setOverride ignored for property "product.target_path"(Settings :src '/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/.' :cfg 'Debug' :obj '/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build' :dst '/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/Debug')Override ignored for property "product.jarfile.dir"Override ignored for property "product.jarfile.name"Override ignored for property "product.jarfile"Property "env.BENCH_MATCH" has not been setOverride ignored for property "bench_match"Build sequence for target(s) `build-core' is [gen-pcoder, build-core]Complete build sequence is [gen-pcoder, build-core, clean, build-core-native, build-generator, run-generator, build-generated, build-additions, build-additions-native, assemble-product, clean-all, build-test-installed, build-test-native-installed, bench-installed, all, test-installed, all-but-gen, run-generator-old, all-test, build-test, build-test-native, install, installsrc, installhdrs, test, bench, clean-all-test, doc-core, ]Entering /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xml...Build sequence for target(s) `build-core' is [gen-pcoder, build-core]Complete build sequence is [gen-pcoder, build-core, clean, build-core-native, build-generator, run-generator, build-generated, build-additions, build-additions-native, assemble-product, clean-all, build-test-installed, build-test-native-installed, bench-installed, all, test-installed, all-but-gen, run-generator-old, all-test, build-test, build-test-native, install, installsrc, installhdrs, test, bench, clean-all-test, doc-core, ]gen-pcoder:Current OS is Mac OS XExecuting 'ruby' with arguments:'/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/./run-and-write-if-okay''/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/./src/core/PrimitiveCoder.hs''/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/./src/core/java/com/apple/jobjc/PrimitiveCoder.java'The ' characters around the executable and arguments arenot part of the command./Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/./src/core/PrimitiveCoder.hs failed to run trial. Ignoring./Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/./run-and-write-if-okay:48: command not found: /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/./src/core/PrimitiveCoder.hsbuild-core:Skipping /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core because it already exists.com/apple/jobjc/PrimitiveCoder.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/PrimitiveCoder.class is up to date.com/apple/jobjc/CFType.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/CFType.class is up to date.com/apple/jobjc/CIF.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/CIF.class is up to date.com/apple/jobjc/Coder.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/Coder.class is up to date.com/apple/jobjc/FFIType.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/FFIType.class is up to date.com/apple/jobjc/Function.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/Function.class is up to date.com/apple/jobjc/ID.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/ID.class is up to date.com/apple/jobjc/Invoke.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/Invoke.class is up to date.com/apple/jobjc/JObjCRuntime.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/JObjCRuntime.class is up to date.com/apple/jobjc/MacOSXFramework.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/MacOSXFramework.class is up to date.com/apple/jobjc/NSClass.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/NSClass.class is up to date.com/apple/jobjc/NativeArgumentBuffer.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/NativeArgumentBuffer.class is up to date.com/apple/jobjc/NativeBuffer.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/NativeBuffer.class is up to date.com/apple/jobjc/NativeObjectLifecycleManager.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/NativeObjectLifecycleManager.class is up to date.com/apple/jobjc/Opaque.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/Opaque.class is up to date.com/apple/jobjc/Pointer.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/Pointer.class is up to date.com/apple/jobjc/PrimitiveCoder.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/PrimitiveCoder.class is up to date.com/apple/jobjc/SEL.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/SEL.class is up to date.com/apple/jobjc/Struct.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/Struct.class is up to date.com/apple/jobjc/Subclassing.java omitted as /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core/com/apple/jobjc/Subclassing.class is up to date.Current OS is Mac OS XOutput redirected to property: core.classesExecuting '/usr/bin/perl' with arguments:'/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/./extract_classes.pl''/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core'The ' characters around the executable and arguments arenot part of the command.Skipping /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core because it already exists.Compilation arguments:'-d''/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/core''-classpath''/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/bin/core'The ' characters around the executable and arguments arenot part of the command.Classes to be compiled:    com.apple.jobjc.CFType    com.apple.jobjc.CIF    com.apple.jobjc.Coder$IDCoder    com.apple.jobjc.Coder$NSClassCoder    com.apple.jobjc.Coder$PointerCoder    com.apple.jobjc.Coder$PrimitivePointerCoder    com.apple.jobjc.Coder$SELCoder    com.apple.jobjc.Coder$StructCoder    com.apple.jobjc.Coder$UnknownCoder    com.apple.jobjc.Coder$VoidCoder    com.apple.jobjc.Coder    com.apple.jobjc.FFIType    com.apple.jobjc.Function    com.apple.jobjc.ID    com.apple.jobjc.Invoke$FunCall    com.apple.jobjc.Invoke$MsgSend    com.apple.jobjc.Invoke$MsgSendSuper    com.apple.jobjc.Invoke    com.apple.jobjc.JObjCRuntime$Arch    com.apple.jobjc.JObjCRuntime$Width    com.apple.jobjc.JObjCRuntime    com.apple.jobjc.MacOSXFramework    com.apple.jobjc.NativeArgumentBuffer    com.apple.jobjc.NativeBuffer    com.apple.jobjc.NativeObjectLifecycleManager$CFRetainRelease    com.apple.jobjc.NativeObjectLifecycleManager$Free    com.apple.jobjc.NativeObjectLifecycleManager$Nothing    com.apple.jobjc.NativeObjectLifecycleManager    com.apple.jobjc.NSClass$NSClassNotFoundException    com.apple.jobjc.NSClass    com.apple.jobjc.Opaque    com.apple.jobjc.Pointer    com.apple.jobjc.PrimitiveCoder$BoolCoder    com.apple.jobjc.PrimitiveCoder$DoubleCoder    com.apple.jobjc.PrimitiveCoder$FloatCoder    com.apple.jobjc.PrimitiveCoder$SCharCoder    com.apple.jobjc.PrimitiveCoder$SIntCoder    com.apple.jobjc.PrimitiveCoder$SLongCoder    com.apple.jobjc.PrimitiveCoder$SLongLongCoder    com.apple.jobjc.PrimitiveCoder$SShortCoder    com.apple.jobjc.PrimitiveCoder$UCharCoder    com.apple.jobjc.PrimitiveCoder$UIntCoder    com.apple.jobjc.PrimitiveCoder$ULongCoder    com.apple.jobjc.PrimitiveCoder$ULongLongCoder    com.apple.jobjc.PrimitiveCoder$UShortCoder    com.apple.jobjc.PrimitiveCoder    com.apple.jobjc.SEL    com.apple.jobjc.Struct    com.apple.jobjc.SubclassingExiting /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xml.BUILD SUCCESSFULTotal time: 2 secondsShowing first 200 notices onlyCommand /usr/bin/ant emitted errors but did not return a nonzero exit code to indicate failure203(21%IDEActivityLogMessage2@53"Apache Ant(TM) version 1.8.2 compiled on May 16 2012-375338461#0#53#-0#-----2@41"Trying the default build file: build.xml-375338461#53#41#-0#-----2@78"Buildfile: /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xml-375338461#94#78#-0#-----2@99"Detected Java version: 1.7 in: /Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre-375338461#172#99#-0#-----2@22"Detected OS: Mac OS X-375338461#271#22#-0#-----2@168"parsing buildfile /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xml with URI = file:/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xml-375338461#293#168#-0#-----2@82"Project base dir set to: /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc-375338461#461#82#-0#-----2@183"parsing buildfile jar:file:/usr/share/ant/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/usr/share/ant/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip file-375338461#543#183#-0#-----2@25"Loading Environment env.-375338461#726#25#-0#-----2@52"Property "-*-command-variables-*-" has not been set-375338462#751#52#-0#-----2@16"#Ant properties-375338462#803#16#-0#-----2@30"#Thu Nov 22 20:41:02 PST 2012-375338462#819#30#-0#-----2@40"ant.core.lib=/usr/share/ant/lib/ant.jar-375338462#849#40#-0#-----2@76"ant.file=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xml-375338462#889#76#-0#-----2@82"ant.file.JObjC=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build.xml-375338462#965#82#-0#-----2@19"ant.file.type=file-375338462#1047#19#-0#-----2@25"ant.file.type.JObjC=file-375338462#1066#25#-0#-----2@24"ant.home=/usr/share/ant-375338462#1091#24#-0#-----2@21"ant.java.version=1.7-375338462#1115#21#-0#-----2@35"ant.library.dir=/usr/share/ant/lib-375338462#1136#35#-0#-----2@35"ant.project.default-target=install-375338462#1171#35#-0#-----2@23"ant.project.name=JObjC-375338462#1206#23#-0#-----2@65"ant.version=Apache Ant(TM) version 1.8.2 compiled on May 16 2012-375338462#1229#65#-0#-----2@40"awt.toolkit=sun.lwawt.macosx.LWCToolkit-375338462#1294#40#-0#-----2@65"basedir=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc-375338462#1334#65#-0#-----2@12"env.ACTION=-375338462#1399#12#-0#-----2@25"env.ALLOW_DOWNLOADS=true-375338462#1411#25#-0#-----2@26"env.ALTERNATE_GROUP=staff-375338462#1436#26#-0#-----2@33"env.ALTERNATE_MODE=u+w,go-w,a+rX-375338462#1462#33#-0#-----2@28"env.ALTERNATE_OWNER=shannah-375338462#1495#28#-0#-----2@80"env.ALT_BOOTDIR=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home-375338462#1523#80#-0#-----2@79"env.ALT_CORBA_DIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/corba/dist-375338462#1603#79#-0#-----2@92"env.ALT_HOTSPOT_IMPORT_PATH=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/hotspot/import-375338462#1682#92#-0#-----2@77"env.ALT_JAXP_DIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/jaxp/dist-375338462#1774#77#-0#-----2@79"env.ALT_JAXWS_DIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/jaxws/dist-375338462#1851#79#-0#-----2@87"env.ALT_LANGTOOLS_DIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/langtools/dist-375338462#1930#87#-0#-----2@67"env.ALT_OUTPUTDIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64-375338462#2017#67#-0#-----2@33"env.ALWAYS_SEARCH_USER_PATHS=YES-375338462#2084#33#-0#-----2@58"env.APPLE_INTERNAL_DEVELOPER_DIR=/AppleInternal/Developer-375338462#2117#58#-0#-----2@38"env.APPLE_INTERNAL_DIR=/AppleInternal-375338462#2175#38#-0#-----2@66"env.APPLE_INTERNAL_DOCUMENTATION_DIR=/AppleInternal/Documentation-375338462#2213#66#-0#-----2@54"env.APPLE_INTERNAL_LIBRARY_DIR=/AppleInternal/Library-375338462#2279#54#-0#-----2@56"env.APPLE_INTERNAL_TOOLS=/AppleInternal/Developer/Tools-375338462#2333#56#-0#-----2@33"env.APPLY_RULES_IN_COPY_FILES=NO-375338462#2389#33#-0#-----2@22"env.ARCHS=i386 x86_64-375338462#2422#22#-0#-----2@23"env.ARCH_DATA_MODEL=64-375338462#2444#23#-0#-----2@56"env.AVAILABLE_PLATFORMS=iphonesimulator macosx iphoneos-375338462#2467#56#-0#-----2@57"env.Apple_PubSub_Socket_Render=/tmp/launch-7Vo6Mc/Render-375338462#2523#57#-0#-----2@69"env.Apple_Ubiquity_Message=/tmp/launch-RjNzNy/Apple_Ubiquity_Message-375338462#2580#69#-0#-----2@76"env.BOOTDIR=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home-375338462#2649#76#-0#-----2@35"env.BUILD_COMPONENTS=headers build-375338462#2725#35#-0#-----2@73"env.BUILD_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst-375338462#2760#73#-0#-----2@23"env.BUILD_HOTSPOT=true-375338462#2833#23#-0#-----2@21"env.BUILD_NUMBER=b00-375338462#2856#21#-0#-----2@78"env.BUILD_ROOT=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build-375338462#2877#78#-0#-----2@17"env.BUILD_STYLE=-375338462#2955#17#-0#-----2@26"env.BUILD_VARIANTS=normal-375338462#2972#26#-0#-----2@88"env.BUILT_PRODUCTS_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug-375338462#2998#88#-0#-----2@84"env.CACHE_ROOT=/var/folders/ff/drb1fgks39z7k1y31dm8yjv00000gn/C/com.apple.Xcode.501-375338462#3086#84#-0#-----2@8"env.CC=-375338462#3170#8#-0#-----2@90"env.CLASS_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JavaClasses-375338462#3178#90#-0#-----2@21"env.CLONE_HEADERS=NO-375338462#3268#21#-0#-----2@26"env.COMMAND_MODE=unix2003-375338462#3289#26#-0#-----2@24"env.CONFIGURATION=Debug-375338462#3315#24#-0#-----2@93"env.CONFIGURATION_BUILD_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug-375338462#3339#93#-0#-----2@92"env.CONFIGURATION_TEMP_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug-375338462#3432#92#-0#-----2@26"env.COOKED_BUILD_NUMBER=0-375338462#3524#26#-0#-----2@34"env.COPYING_PRESERVES_HFS_DATA=NO-375338462#3550#34#-0#-----2@24"env.COPY_PHASE_STRIP=NO-375338462#3584#24#-0#-----2@27"env.CPATH=/usr/X11/include-375338462#3608#27#-0#-----2@9"env.CXX=-375338462#3635#9#-0#-----2@27"env.DEAD_CODE_STRIPPING=NO-375338462#3644#27#-0#-----2@26"env.DEBUGGING_SYMBOLS=YES-375338462#3671#26#-0#-----2@27"env.DEPLOYMENT_LOCATION=NO-375338462#3697#27#-0#-----2@33"env.DEPLOYMENT_POSTPROCESSING=NO-375338462#3724#33#-0#-----2@23"env.DERIVED_FILES_DIR=-375338462#3757#23#-0#-----2@95"env.DERIVED_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources-375338462#3780#95#-0#-----2@98"env.DERIVED_SOURCES_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources-375338462#3875#98#-0#-----2@87"env.DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applications-375338462#3973#87#-0#-----2@73"env.DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin-375338462#4060#73#-0#-----2@61"env.DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer-375338462#4133#61#-0#-----2@91"env.DEVELOPER_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Library/Frameworks-375338462#4194#91#-0#-----2@100"env.DEVELOPER_FRAMEWORKS_DIR_QUOTED="/Applications/Xcode.app/Contents/Developer/Library/Frameworks"-375338462#4285#100#-0#-----2@77"env.DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/Library-375338462#4385#77#-0#-----2@106"env.DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs-375338462#4462#106#-0#-----2@73"env.DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Tools-375338462#4568#73#-0#-----2@69"env.DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr-375338462#4641#69#-0#-----2@33"env.DEVELOPMENT_LANGUAGE=English-375338462#4710#33#-0#-----2@23"env.DEV_NULL=/dev/null-375338462#4743#23#-0#-----2@33"env.DO_HEADER_SCANNING_IN_JAM=NO-375338462#4766#33#-0#-----2@77"env.DSTROOT=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug-375338462#4799#77#-0#-----2@100"env.DT_TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain-375338462#4876#100#-0#-----2@31"env.DWARF_DSYM_FILE_NAME=.dSYM-375338462#4976#31#-0#-----2@48"env.DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NO-375338462#5007#48#-0#-----2@92"env.DWARF_DSYM_FOLDER_PATH=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug-375338462#5055#92#-0#-----2@35"env.ENABLE_HEADER_DEPENDENCIES=YES-375338462#5147#35#-0#-----2@86"env.ERROR_FILE=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/sanityCheckErrors.txt-375338462#5182#86#-0#-----2@74"env.EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS=.DS_Store .svn .git .hg CVS-375338462#5268#74#-0#-----2@123"env.EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES=*.nib *.lproj *.framework *.gch *.xcode* (*) .DS_Store CVS .svn .git .hg-375338462#5342#123#-0#-----2@31"env.EXTERNALSANITYCONTROL=true-375338462#5465#31#-0#-----2@94"env.FILE_LIST=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects/LinkFileList-375338462#5496#94#-0#-----2@24"env.FRAMEWORK_VERSION=A-375338462#5590#24#-0#-----2@61"env.FULL_VERSION=1.7.0-internal-shannah_2012_11_22_20_32-b00-375338462#5614#61#-0#-----2@21"env.GCC3_VERSION=3.3-375338462#5675#21#-0#-----2@26"env.GCC_DYNAMIC_NO_PIC=NO-375338462#5696#26#-0#-----2@33"env.GCC_ENABLE_OBJC_GC=supported-375338462#5722#33#-0#-----2@39"env.GCC_GENERATE_DEBUGGING_SYMBOLS=YES-375338462#5755#39#-0#-----2@29"env.GCC_OPTIMIZATION_LEVEL=0-375338462#5794#29#-0#-----2@35"env.GENERATE_MASTER_OBJECT_FILE=NO-375338462#5823#35#-0#-----2@29"env.GENERATE_PKGINFO_FILE=NO-375338462#5858#29#-0#-----2@11"env.GID=20-375338462#5887#11#-0#-----2@16"env.GROUP=staff-375338462#5898#16#-0#-----2@63"env.HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT=YES-375338462#5914#63#-0#-----2@67"env.HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES=YES-375338462#5977#67#-0#-----2@56"env.HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS=YES-375338462#6044#56#-0#-----2@43"env.HEADERMAP_INCLUDES_PROJECT_HEADERS=YES-375338462#6100#43#-0#-----2@299"env.HEADER_SEARCH_PATHS=\ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include-375338462#6143#299#-0#-----2@24"env.HOME=/Users/shannah-375338462#6442#24#-0#-----2@25"env.HOTSPOT_BUILD_JOBS=4-375338462#6466#25#-0#-----2@40"env.INFOPLIST_EXPAND_BUILD_SETTINGS=YES-375338462#6491#40#-0#-----2@42"env.INFOPLIST_OUTPUT_FORMAT=same-as-input-375338462#6531#42#-0#-----2@28"env.INFOPLIST_PREPROCESS=NO-375338462#6573#28#-0#-----2@81"env.INSTALL_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug-375338462#6601#81#-0#-----2@24"env.INSTALL_GROUP=staff-375338462#6682#24#-0#-----2@36"env.INSTALL_MODE_FLAG=u+w,go-w,a+rX-375338462#6706#36#-0#-----2@26"env.INSTALL_OWNER=shannah-375338462#6742#26#-0#-----2@82"env.INSTALL_ROOT=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug-375338462#6768#82#-0#-----2@98"env.JAVA_APP_STUB=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub-375338462#6850#98#-0#-----2@29"env.JAVA_ARCHIVE_CLASSES=YES-375338462#6948#29#-0#-----2@26"env.JAVA_ARCHIVE_TYPE=JAR-375338462#6977#26#-0#-----2@33"env.JAVA_COMPILER=/usr/bin/javac-375338462#7003#33#-0#-----2@44"env.JAVA_FRAMEWORK_RESOURCES_DIRS=Resources-375338462#7036#44#-0#-----2@78"env.JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home-375338462#7080#78#-0#-----2@22"env.JAVA_JAR_FLAGS=cv-375338462#7158#22#-0#-----2@63"env.JAVA_MAIN_CLASS_21709=org.apache.tools.ant.launch.Launcher-375338462#7180#63#-0#-----2@63"env.JAVA_MAIN_CLASS_21730=org.apache.tools.ant.launch.Launcher-375338462#7243#63#-0#-----2@25"env.JAVA_SOURCE_SUBDIR=.-375338462#7306#25#-0#-----2@30"env.JAVA_USE_DEPENDENCIES=YES-375338462#7331#30#-0#-----2@24"env.JAVA_ZIP_FLAGS=-urg-375338462#7361#24#-0#-----2@25"env.JDK_BUILD_NUMBER=b00-375338462#7385#25#-0#-----2@26"env.JDK_HAS_MEM_INFO=true-375338462#7410#26#-0#-----2@24"env.JDK_MAJOR_VERSION=1-375338462#7436#24#-0#-----2@76"env.JDK_MAKE_SHARED_DIR=/Users/shannah/src/jdk7u-dev/jdk/make/common/shared-375338462#7460#76#-0#-----2@24"env.JDK_MICRO_VERSION=0-375338462#7536#24#-0#-----2@24"env.JDK_MINOR_VERSION=7-375338462#7560#24#-0#-----2@23"env.JDK_MKTG_VERSION=7-375338462#7584#23#-0#-----2@48"env.JDK_TOPDIR=/Users/shannah/src/jdk7u-dev/jdk-375338462#7607#48#-0#-----2@22"env.JDK_VERSION=1.7.0-375338462#7655#22#-0#-----2@28"env.KEEP_PRIVATE_EXTERNS=NO-375338462#7677#28#-0#-----2@11"env.LANG=C-375338462#7705#11#-0#-----2@28"env.LD_GENERATE_MAP_FILE=NO-375338462#7716#28#-0#-----2@105"env.LD_MAP_FILE_PATH=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/build-core-LinkMap--.txt-375338462#7744#105#-0#-----2@17"env.LD_NO_PIE=NO-375338462#7849#17#-0#-----2@120"env.LEGACY_DEVELOPER_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer-375338462#7866#120#-0#-----2@37"env.LINKER_DISPLAYS_MANGLED_NAMES=NO-375338462#7986#37#-0#-----2@37"env.LINK_WITH_STANDARD_LIBRARIES=YES-375338462#8023#37#-0#-----2@49"env.LOCAL_ADMIN_APPS_DIR=/Applications/Utilities-375338462#8060#49#-0#-----2@33"env.LOCAL_APPS_DIR=/Applications-375338462#8109#33#-0#-----2@43"env.LOCAL_DEVELOPER_DIR=/Library/Developer-375338462#8142#43#-0#-----2@31"env.LOCAL_LIBRARY_DIR=/Library-375338462#8185#31#-0#-----2@20"env.LOGNAME=shannah-375338462#8216#20#-0#-----2@29"env.LOW_MEMORY_MACHINE=false-375338462#8236#29#-0#-----2@41"env.MAC_OS_X_PRODUCT_BUILD_VERSION=12C60-375338462#8265#41#-0#-----2@33"env.MAC_OS_X_VERSION_ACTUAL=1082-375338462#8306#33#-0#-----2@32"env.MAC_OS_X_VERSION_MAJOR=1080-375338462#8339#32#-0#-----2@32"env.MAC_OS_X_VERSION_MINOR=0802-375338462#8371#32#-0#-----2@1258"env.MAKEFLAGS=BUILD_HOTSPOT\=true ALT_HOTSPOT_IMPORT_PATH\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/hotspot/import ALT_JAXWS_DIST\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/jaxws/dist ALT_JAXP_DIST\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/jaxp/dist ALT_CORBA_DIST\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/corba/dist ALT_LANGTOOLS_DIST\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/langtools/dist ALT_OUTPUTDIR\=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64 COOKED_BUILD_NUMBER\=0 ARCH_DATA_MODEL\=64 PREVIOUS_MICRO_VERSION\=0 PREVIOUS_MINOR_VERSION\=6 PREVIOUS_MAJOR_VERSION\=1 JDK_MICRO_VERSION\=0 JDK_MINOR_VERSION\=7 JDK_MAJOR_VERSION\=1 JDK_MKTG_VERSION\=7 JDK_VERSION\=1.7.0 PREVIOUS_JDK_VERSION\=1.6.0 FULL_VERSION\=1.7.0-internal-shannah_2012_11_22_20_32-b00 JDK_BUILD_NUMBER\=b00 BUILD_NUMBER\=b00 MILESTONE\=internal TARGET_CLASS_VERSION\=7 SOURCE_LANGUAGE_VERSION\=7 EXTERNALSANITYCONTROL\=true JDK_MAKE_SHARED_DIR\=/Users/shannah/src/jdk7u-dev/jdk/make/common/shared JDK_TOPDIR\=/Users/shannah/src/jdk7u-dev/jdk HOTSPOT_BUILD_JOBS\=4 ALT_BOOTDIR\=/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home ALLOW_DOWNLOADS\=true SKIP_FASTDEBUG_BUILD\=true SKIP_DEBUG_BUILD\=true RELEASE\=1.7.0-internal-375338462#8403#1258#-0#-----2@16"env.MAKELEVEL=5-375338462#9661#16#-0#-----2@45"env.MAKEOVERRIDES=${-*-command-variables-*-}-375338462#9677#45#-0#-----2@22"env.MAX_VM_MEMORY=512-375338462#9722#22#-0#-----2@22"env.MB_OF_MEMORY=8192-375338462#9744#22#-0#-----2@90"env.MESSAGE_FILE=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/sanityCheckMessages.txt-375338462#9766#90#-0#-----2@12"env.MFLAGS=-375338462#9856#12#-0#-----2@23"env.MILESTONE=internal-375338462#9868#23#-0#-----2@22"env.MIN_VM_MEMORY=512-375338462#9891#22#-0#-----2@87"env.OBJECT_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects-375338462#9913#87#-0#-----2@73"env.OBJROOT=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build-375338462#10000#73#-0#-----2@24"env.ONLY_ACTIVE_ARCH=NO-375338462#10073#24#-0#-----2@25"env.OPTIMIZATION_LEVEL=0-375338462#10097#25#-0#-----2@42"env.ORIG_OUTPUTDIR_BASENAME=macosx-x86_64-375338462#10122#42#-0#-----2@13"env.OS=MACOS-375338462#10164#13#-0#-----2@779"env.PATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec\:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin\:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/local/bin\:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/bin\:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/local/bin\:/Applications/Xcode.app/Contents/Developer/usr/bin\:/Applications/Xcode.app/Contents/Developer/usr/local/bin\:/Applications/Xcode.app/Contents/Developer/Tools\:/usr/bin\:/bin\:/usr/sbin\:/sbin\:/usr/local/bin\:/Users/shannah/Documents/Shared/bin-375338462#10177#779#-0#-----2@297"env.PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES=/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms-375338462#10956#297#-0#-----2@20"env.PLATFORM=macosx-375338462#11253#20#-0#-----2@43"env.PLIST_FILE_OUTPUT_FORMAT=same-as-input-375338462#11273#43#-0#-----2@57"env.PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR=YES-375338462#11316#57#-0#-----2@101"env.PRECOMP_DESTINATION_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/PrefixHeaders-375338462#11373#101#-0#-----2@42"env.PRESERVE_DEAD_CODE_INITS_AND_TERMS=NO-375338462#11474#42#-0#-----2@31"env.PREVIOUS_JDK_VERSION=1.6.0-375338462#11516#31#-0#-----2@29"env.PREVIOUS_MAJOR_VERSION=1-375338462#11547#29#-0#-----2@29"env.PREVIOUS_MICRO_VERSION=0-375338462#11576#29#-0#-----2@29"env.PREVIOUS_MINOR_VERSION=6-375338462#11605#29#-0#-----2@28"env.PRODUCT_NAME=build-core-375338462#11634#28#-0#-----2@22"env.PROFILING_CODE=NO-375338462#11662#22#-0#-----2@18"env.PROJECT=JObjC-375338462#11684#18#-0#-----2@117"env.PROJECT_DERIVED_FILE_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/JObjC.build/DerivedSources-375338462#11702#117#-0#-----2@73"env.PROJECT_DIR=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc-375338462#11819#73#-0#-----2@95"env.PROJECT_FILE_PATH=/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/JObjC.xcodeproj-375338462#11892#95#-0#-----2@23"env.PROJECT_NAME=JObjC-375338462#11987#23#-0#-----2@80"env.PROJECT_TEMP_DIR=/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst-375338462#12010#80#-0#-----2@104"Command not found: /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/./src/core/PrimitiveCoder.hs-375338462#59454#190#-2#-23%DVTTextDocumentLocation3@94"file://localhost/Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/run-and-write-if-okay0000000000000000^47#18446744073709551615#47#18446744073709551615#18446744073709551615#0#29"Shell Script Invocation Error--2@30"Showing first 200 notices only-375338464#18446744073709551615#0#-0#--21"Notice limit exceeded--2@94"Command /usr/bin/ant emitted errors but did not return a nonzero exit code to indicate failure-375338464#18446744073709551615#0#-2#--29"Shell Script Invocation Error--0#0#0#--11240"ExternalBuildToolExecution build-core-java    cd /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv ACTION     setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER shannah    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS "i386 x86_64"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst    setenv BUILD_ROOT /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug    setenv CACHE_ROOT /var/folders/ff/drb1fgks39z7k1y31dm8yjv00000gn/C/com.apple.Xcode.501    setenv CLASS_FILE_DIR /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/JavaClasses    setenv CLONE_HEADERS NO    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug    setenv CONFIGURATION_TEMP_DIR /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR     setenv DERIVED_FILE_DIR /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME .dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch *.xcode* (*) .DS_Store CVS .svn .git .hg"    setenv FILE_LIST /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects/LinkFileList    setenv FRAMEWORK_VERSION A    setenv GCC3_VERSION 3.3    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_OBJC_GC supported    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS " /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PREPROCESS NO    setenv INSTALL_DIR /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER shannah    setenv INSTALL_ROOT /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/build-core-LinkMap--.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12C60    setenv MAC_OS_X_VERSION_ACTUAL 1082    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0802    setenv OBJECT_FILE_DIR /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Objects    setenv OBJROOT /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRODUCT_NAME build-core    setenv PROFILING_CODE NO    setenv PROJECT JObjC    setenv PROJECT_DERIVED_FILE_DIR /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/JObjC.build/DerivedSources    setenv PROJECT_DIR /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc    setenv PROJECT_FILE_PATH /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/JObjC.xcodeproj    setenv PROJECT_NAME JObjC    setenv PROJECT_TEMP_DIR /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SDKROOT     setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SHARED_DERIVED_FILE_DIR /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug/DerivedSources    setenv SHARED_PRECOMPS_DIR /var/folders/ff/drb1fgks39z7k1y31dm8yjv00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/.    setenv SRCROOT /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/.    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_PLATFORMS macosx    setenv SYMROOT /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME build-core-java    setenv TARGET_BUILD_DIR /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst/Debug    setenv TARGET_NAME build-core-java    setenv TARGET_TEMP_DIR /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst    setenv TEMP_DIR /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst    setenv TEMP_FILES_DIR     setenv TEMP_FILE_DIR /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.dst    setenv TEMP_ROOT /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build    setenv TEST_AFTER_BUILD NO    setenv UID 501    setenv USER shannah    setenv USER_APPS_DIR /Users/shannah/Applications    setenv USER_LIBRARY_DIR /Users/shannah/Library    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4G1004    setenv XCODE_VERSION_ACTUAL 0451    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0450    /usr/bin/ant -verbose -emacs36"B53D849B-649A-40DE-8140-324BA29C65BE-
+

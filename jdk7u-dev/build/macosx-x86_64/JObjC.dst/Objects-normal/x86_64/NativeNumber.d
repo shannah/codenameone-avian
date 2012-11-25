@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/shannah/src/jdk7u-dev/jdk/src/macosx/native/jobjc/src/runtime-additions/native/NativeNumber.m \
+  /Users/shannah/src/jdk7u-dev/build/macosx-x86_64/JObjC.build/src/jni_headers/additions/com_apple_jobjc_Utils_Numbers.h \
+  /System/Library/Frameworks/JavaVM.framework/Versions/A/Headers/jni.h \
+  /System/Library/Frameworks/JavaVM.framework/Versions/A/Headers/jni_md.h \
+  /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JavaNativeFoundation.h \
+  /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFJNI.h \
+  /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFException.h \
+  /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFAutoreleasePool.h \
+  /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFObject.h \
+  /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFJObjectWrapper.h \
+  /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFString.h \
+  /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFNumber.h \
+  /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFDate.h \
+  /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFPath.h \
+  /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFTypeCoercion.h \
+  /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFThread.h \
+  /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFRunnable.h \
+  /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFRunLoop.h \
+  /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFAssert.h

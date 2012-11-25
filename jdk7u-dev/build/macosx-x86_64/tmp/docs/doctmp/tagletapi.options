@@ -1,0 +1,7 @@
+-XDignore.symbol.file=true -quiet -use -keywords -Xdocrootparent http://docs.oracle.com/javase/7/docs
+-sourcepath '../../src/share/classes:/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/impsrc:/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/gensrc:../../src/share/../solaris/classes:../../src/share/../windows/classes:../../src/share/doc/stub'
+-encoding 'ascii'
+-nonavbar
+-noindex
+-bottom '<font size="-1"> <a href="http://bugreport.sun.com/bugreport/">Submit a bug or feature</a><br>Java is a trademark or registered trademark of Oracle and/or its affiliates in the US and other countries.<br> Copyright &#x00a9; 1993, 2012, Oracle and/or its affiliates. 500 Oracle Parkway<br>Redwood Shores, CA 94065 USA. All rights reserved. </font><br><strong>DRAFT&nbsp;internal-b00</strong>'
+-linkoffline '../../../../api' '/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/docs/api/'

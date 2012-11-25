@@ -1,0 +1,7 @@
+compile.on.save=true
+do.depend=false
+do.jar=true
+javac.debug=true
+javadoc.preview=true
+project.CodenameOne=/Users/shannah/src/codenameone-read-only/CodenameOne
+user.properties.file=/Users/shannah/Library/Application Support/NetBeans/7.2/build.properties

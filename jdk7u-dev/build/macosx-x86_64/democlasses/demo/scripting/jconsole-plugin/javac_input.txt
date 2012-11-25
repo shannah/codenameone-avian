@@ -1,0 +1,3 @@
+/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/democlasses/demo/scripting/jconsole-plugin/src/com/sun/demo/scripting/jconsole/EditableAtEndDocument.java
+/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/democlasses/demo/scripting/jconsole-plugin/src/com/sun/demo/scripting/jconsole/ScriptJConsolePlugin.java
+/Users/shannah/src/jdk7u-dev/build/macosx-x86_64/democlasses/demo/scripting/jconsole-plugin/src/com/sun/demo/scripting/jconsole/ScriptShellPanel.java

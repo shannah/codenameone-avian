@@ -1,0 +1,8 @@
+echo '# Loading bsd_amd64_compiler2/fastdebug/.dbxrc'
+if [ -f "${HOTSPOT_DBXWARE}" ]
+then
+	source "${HOTSPOT_DBXWARE}"
+elif [ -f "$HOME/.dbxrc" ]
+then
+	source "$HOME/.dbxrc"
+fi
