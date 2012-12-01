@@ -38,8 +38,8 @@ flags = -isysroot $(sdk-dir)/$(target)$(ios-version).sdk \
 
 cflags = $(flags) -D__IPHONE_OS_VERSION_MIN_REQUIRED=30202 -DRESOURCES \
 	-fobjc-abi-version=2 -fobjc-legacy-dispatch \
-	-I/Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home/include \
-	-I/Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home/include/darwin
+	-I$(JAVA_HOME)/include \
+	-I$(JAVA_HOME)/include/darwin
 
 ifeq ($(mode),debug)
 	cflags += -O0 -g3
