@@ -12,7 +12,7 @@ Disclaimer: This Project is Experimental
 This software is currently just an experiment to see if it is possible to create an Avian port for CodeNameOne.  Currently it builds successfully and appears to work for many things, but there are consistent crashes occurring because of a problem with Avian's garbage collection.  I have posted a question in the Avian forums to try to solve this issue, but haven't received a response.  The question can be seen at
 https://groups.google.com/d/msg/avian/o62nZ-wjerY/sXdiYgJU5Z8J
 
-For more information about this project and its motivation, see my blog post at ...
+For more information about this project and its motivation, see my blog post at http://sjhannah.com/blog/?p=223
 
 Contents
 --------
