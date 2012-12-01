@@ -6,6 +6,14 @@ This project is an attempt at producing an iOS Port for CodeNameOne that runs on
 1. It is possible to produce a working port that runs on Avian.
 2. Performance is better than the default iOS Port that runs on XMLVM.
 
+Disclaimer: This Project is Experimental
+----------
+
+This software is currently just an experiment to see if it is possible to create an Avian port for CodeNameOne.  Currently it builds successfully and appears to work for many things, but there are consistent crashes occurring because of a problem with Avian's garbage collection.  I have posted a question in the Avian forums to try to solve this issue, but haven't received a response.  The question can be seen at
+https://groups.google.com/d/msg/avian/o62nZ-wjerY/sXdiYgJU5Z8J
+
+For more information about this project and its motivation, see my blog post at ...
+
 Contents
 --------
 
@@ -40,29 +48,58 @@ One variable that you will need to adjust is the `ios-version` variable which re
 
 You can adjust the SDK by modifying the following line in the `xcodeproj/makefile` file:
 
-<verbatim>
-ios-version := 6.0
-</verbatim>
+	ios-version := 6.0
+
 
 #### Setting the `JAVA_HOME` Environment Variable
 
 Before running ANT, you'll need to set the `JAVA_HOME` environment variable.  
 e.g.
-<verbatim>
-$ export JAVA_HOME=/Libary/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home
-</verbatim>
 
+	$ export JAVA_HOME=/Libary/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home
 
 
 ###Running the ANT build script:
 
-<verbatim>
-$ ant -Dapp=/path/to/app/project \
-	-Dmainclass=com.mycompany.myapp.MyApplication
-</verbatim>
 
-Where The `-Dapp` parameter should be set to the path to your Application's Netbeans project directory, and the `-Dmainclass` parameter is the fully qualified class name of your main application. class.
+	$ ant -Dapp=/path/to/app/project \
+		-Dmainclass=com.mycompany.myapp.MyApplication \
+		-Dcn1=/path/to/codenameone-read-only
+
+Where The `-Dapp` parameter should be set to the path to your Application's Netbeans project directory, and the `-Dmainclass` parameter is the fully qualified class name of your main application. class.  The `Dcn1` parameter should be the path to the root of the CodeNameOne repository (i.e. the result of checking out the http://codenameone.googlecode.com/svn/trunk SVN repository.
 
 Running this command should build the application into a binary using Avian, and copy the necessary files to the Xcode project located in the `xcodeproj` directory.  After running 
-the build (if it is successful), you should be able to open the xcodeproj in Xcode, and then build the project to run directly in the simulator.
+the build (if it is successful), you should be able to open the `xcodeproj` project in Xcode, and then build the project to run directly in the simulator.
+
+###Example: Building Kitchen Sink Demo Application
+
+1. Create a new directory for building the application.  For this example, we'll call it `src`:
+	$ mkdir src
+	
+2. Checkout the CodeNameOne Trunk into the src directory:
+	$ cd src
+	$ svn co http://codenameone.googlecode.com/svn/trunk codenameone-read-only
+	
+3. Clone the CodeNameOne-Avian port into the directory:
+	$ git clone https://github.com/shannah/codenameone-avian.git
+	
+4. Change current working directory to codenameone-avian folder:
+	$ cd codenameone-avian
+	
+5. Run the clean script just in case there are residual files that need to cleaned out first:
+	$ ant clean
+	
+6. Set the JAVA_HOME environment variable to the location of your JDK7 installation:
+	$ export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.7.0jdk/Contents/Home
+	
+7. Run the ANT build script:
+	$ ant -Dapp=../codenameone-read-only/Demos/KitchenSink \
+		-Dmainclass=com.codename1.demos.kitchen.KitchenSink \
+		-Dcn1=../codenameone-read-only
+		
+8. There will be lots of warnings (especially from Proguard), but it should build correct.  Assuming that is does build correctly, you can proceed to open the xcodeproj project in Xcode:
+	$ open xcodeproj/hello/hello.xcodeproj
+	
+9. Build the project in Xcode and run on the simulator.
+	
 
